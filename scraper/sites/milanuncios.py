@@ -25,18 +25,37 @@ def check_listing(session, url, delay):
     return {"active": active, "price": price, "title": title}
 
 
-def run_search(session, query: str, max_price, delay: float):
-    url = "https://www.milanuncios.com/segunda-mano-de-coches/"
-    params = {"s": query, "pma": max_price}
+def run_search(session, query: str, max_price, delay: float, min_price=None):
+    # URL y parámetros confirmados observando una búsqueda real:
+    # https://www.milanuncios.com/motor/?s=...&desde=...&hasta=...&orden=relevance
+    url = "https://www.milanuncios.com/motor/"
+    params = {"s": query, "orden": "relevance"}
+    if max_price:
+        params["hasta"] = max_price
+    if min_price:
+        params["desde"] = min_price
 
     results = []
     try:
         resp = fetch(session, url, delay=delay, params=params)
-    except Exception:
+    except Exception as e:
+        print(f"[milanuncios] ERROR en la petición: {e}")
         return results
+
+    print(f"[milanuncios] status={resp.status_code} url_final={resp.url} bytes={len(resp.text)}")
+
+    # DIAGNÓSTICO TEMPORAL: guardamos el HTML para poder inspeccionarlo si hace falta.
+    try:
+        import os
+        os.makedirs("debug", exist_ok=True)
+        with open("debug/milanuncios_response.html", "w", encoding="utf-8") as f:
+            f.write(resp.text)
+    except Exception:
+        pass
 
     soup = BeautifulSoup(resp.text, "lxml")
     cards = soup.select("article, [class*='item'], [class*='Item']")
+    print(f"[milanuncios] tarjetas encontradas en el HTML: {len(cards)}")
     for card in cards:
         link_el = card.select_one("a[href]")
         if not link_el:
