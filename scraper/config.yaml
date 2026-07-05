@@ -1,46 +1,38 @@
 # =========================================================
-# CONFIGURACIÓN — edita este archivo con tus anuncios y búsquedas
+# CONFIGURACIÓN — anuncios y búsquedas
 # =========================================================
 
-# 1) ANUNCIOS CONCRETOS que quieres vigilar (precio / si se vende)
-tracked_urls:
-  - url: "https://www.coches.net/EJEMPLO-anuncio-12345/"
-    label: "Golf 2019 particular Madrid"
-  - url: "https://es.wallapop.com/item/EJEMPLO-67890"
-    label: "Ibiza 2018 Barcelona"
+# 1) ANUNCIOS CONCRETOS que quieres vigilar (déjalo vacío si no tienes ninguno todavía)
+tracked_urls: []
 
 # 2) BÚSQUEDAS por criterios (para encontrar anuncios NUEVOS)
 searches:
   - site: coches_net
-    label: "Volkswagen Passat <25000€"
+    label: "Passat <35000€"
     params:
       marca: volkswagen
       modelo: passat
-      precio_max: 25000
-      provincia: madrid
-      combustible: gasolina
+      precio_max: 35000
 
   - site: wallapop
-    label: "Volkswagen Passat <25000€"
-    query: "Volkswagen Passat"
-    max_price: 25000
+    label: "Passat <35000€"
+    query: "volkswagen passat"
+    max_price: 35000
     location: "Madrid"
 
   - site: milanuncios
-    label: "Volkswagen Passat <25000€"
-    query: "Volkswagen Passat"
-    max_price: 25000
+    label: "Passat <35000€"
+    query: "volkswagen passat"
+    max_price: 35000
 
   - site: autocasion
-    label: "Volkswagen Passat <25000€"
+    label: "Passat <35000€"
     params:
       marca: volkswagen
       modelo: passat
-      precio_max: 25000
+      precio_max: 35000
 
 # Ajustes generales
 settings:
-  # Segundos de espera entre peticiones (para no saturar los sitios)
   request_delay_seconds: 3
-  # Cabecera User-Agent a usar en las peticiones
   user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"
