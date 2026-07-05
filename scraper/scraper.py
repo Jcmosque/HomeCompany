@@ -118,7 +118,11 @@ def main():
         module = SITE_MODULES.get(site)
         if not module:
             continue
-        result = module.check_listing(session, url, delay)
+        try:
+            result = module.check_listing(session, url, delay)
+        except Exception as e:
+            print(f"AVISO: fallo comprobando '{label}' ({site}): {e}")
+            continue
         record, change = update_listing_record(data, url, label, site, result)
         if change:
             events.append({"id": record["id"], "url": url, "label": label, "change": change,
@@ -131,17 +135,25 @@ def main():
         if not module:
             continue
 
-        if site == "coches_net":
-            results = module.run_search(session, search.get("params", {}), delay)
-        elif site == "wallapop":
-            results = module.run_search(session, search.get("query", ""), search.get("max_price"),
-                                          search.get("location", "Madrid"), delay)
-        elif site == "milanuncios":
-            results = module.run_search(session, search.get("query", ""), search.get("max_price"), delay)
-        elif site == "autocasion":
-            results = module.run_search(session, search.get("params", {}), delay)
-        else:
+        try:
+            if site == "coches_net":
+                results = module.run_search(session, search.get("params") or {}, delay)
+            elif site == "wallapop":
+                results = module.run_search(session, search.get("query", ""), search.get("max_price"),
+                                              search.get("location", "Madrid"), delay)
+            elif site == "milanuncios":
+                results = module.run_search(session, search.get("query", ""), search.get("max_price"), delay)
+            elif site == "autocasion":
+                results = module.run_search(session, search.get("params") or {}, delay)
+            else:
+                results = []
+        except Exception as e:
+            print(f"AVISO: fallo en la búsqueda '{search.get('label')}' ({site}): {e}")
             results = []
+
+        # Blindaje: si algo devuelve None o algo no iterable, no debe tumbar todo el proceso
+        if not results:
+            continue
 
         for r in results:
             if not r.get("url"):
