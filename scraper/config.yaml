@@ -1,19 +1,10 @@
 tracked_urls: []
 
 searches:
-  - site: coches_net
-    label: "BMW <30000€ Madrid"
-    params:
-      marca_id: 7        # BMW (confirmado con tu URL)
-      modelo_id: 0        # 0 = cualquier modelo
-      precio_max: 30000
-      provincia_id: 28    # Madrid (confirmado con tu URL)
-
-  - site: wallapop
-    label: "BMW <30000€"
-    query: "BMW"
+  - site: milanuncios
+    label: "Passat 10000-30000€"
+    query: "Volkswagen Passat"
     max_price: 30000
-    location: "Madrid"
 
 settings:
   request_delay_seconds: 3
