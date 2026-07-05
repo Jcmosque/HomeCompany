@@ -1,38 +1,6 @@
-# =========================================================
-# CONFIGURACIÓN — anuncios y búsquedas
-# =========================================================
-
-# 1) ANUNCIOS CONCRETOS que quieres vigilar (déjalo vacío si no tienes ninguno todavía)
-tracked_urls: []
-
-# 2) BÚSQUEDAS por criterios (para encontrar anuncios NUEVOS)
-searches:
-  - site: coches_net
-    label: "Passat <35000€"
-    params:
-      marca: volkswagen
-      modelo: passat
-      precio_max: 35000
-
-  - site: wallapop
-    label: "Passat <35000€"
-    query: "volkswagen passat"
-    max_price: 35000
-    location: "Madrid"
-
-  - site: milanuncios
-    label: "Passat <35000€"
-    query: "volkswagen passat"
-    max_price: 35000
-
-  - site: autocasion
-    label: "Passat <35000€"
-    params:
-      marca: volkswagen
-      modelo: passat
-      precio_max: 35000
-
-# Ajustes generales
-settings:
-  request_delay_seconds: 3
-  user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"
+{
+  "listings": {},
+  "new_this_run": [],
+  "last_run": null,
+  "run_history": []
+}
