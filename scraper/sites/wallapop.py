@@ -44,9 +44,17 @@ def run_search(session, query: str, max_price, location: str, delay: float):
         "max_sale_price": max_price,
         "order_by": "most_relevance",
     }
+    # Wallapop devuelve 403 si la petición no parece venir de su propia web/app.
+    # Añadimos las cabeceras que sí manda su web para que la acepte.
+    extra_headers = {
+        "X-DeviceOS": "0",
+        "Referer": "https://es.wallapop.com/",
+        "Origin": "https://es.wallapop.com",
+        "Accept": "application/json, text/plain, */*",
+    }
     results = []
     try:
-        resp = fetch(session, SEARCH_API, delay=delay, params=params)
+        resp = fetch(session, SEARCH_API, delay=delay, params=params, headers=extra_headers)
         data = resp.json()
     except Exception as e:
         print(f"[wallapop] ERROR en la petición: {e}")
