@@ -58,6 +58,15 @@ def run_search(session, params: dict, delay: float):
 
     print(f"[coches_net] status={resp.status_code} url_final={resp.url} bytes={len(resp.text)}")
 
+    # DIAGNÓSTICO TEMPORAL: guardamos el HTML recibido para poder inspeccionarlo.
+    try:
+        import os
+        os.makedirs("debug", exist_ok=True)
+        with open("debug/coches_net_response.html", "w", encoding="utf-8") as f:
+            f.write(resp.text)
+    except Exception:
+        pass
+
     soup = BeautifulSoup(resp.text, "lxml")
 
     cards = soup.select("article, [class*='CardListing'], [data-ad-id]")
