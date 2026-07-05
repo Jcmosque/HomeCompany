@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Panel de seguimiento — coches de segunda mano</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg: #12151a;
+    --panel: #1a1f27;
+    --panel-line: #262d38;
+    --ink: #e7ebf1;
+    --ink-dim: #8b95a5;
+    --amber: #ffb020;
+    --green: #35d68a;
+    --red: #ff5c66;
+    --blue: #4da3ff;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    background:
+      radial-gradient(1200px 600px at 80% -10%, #1c2330 0%, transparent 60%),
+      var(--bg);
+    color:var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    min-height:100vh;
+  }
+  .wrap{max-width:1080px; margin:0 auto; padding:28px 20px 80px;}
+
+  header.top{
+    display:flex; justify-content:space-between; align-items:flex-end;
+    border-bottom:1px solid var(--panel-line); padding-bottom:18px; margin-bottom:22px;
+    flex-wrap:wrap; gap:12px;
+  }
+  .brand{display:flex; align-items:baseline; gap:10px;}
+  .brand .dot{width:10px;height:10px;border-radius:50%;background:var(--green); box-shadow:0 0 10px var(--green); display:inline-block;}
+  h1{
+    font-family:"Rajdhani", sans-serif; font-weight:700; letter-spacing:.03em;
+    font-size:26px; margin:0; text-transform:uppercase;
+  }
+  .last-run{font-family:"JetBrains Mono", monospace; color:var(--ink-dim); font-size:12.5px;}
+
+  .gauges{
+    display:grid; grid-template-columns:repeat(4,1fr); gap:14px; margin-bottom:26px;
+  }
+  @media (max-width:700px){.gauges{grid-template-columns:repeat(2,1fr);}}
+  .gauge{
+    background:var(--panel); border:1px solid var(--panel-line); border-radius:10px;
+    padding:16px 16px 14px; position:relative; overflow:hidden;
+  }
+  .gauge::before{
+    content:""; position:absolute; left:0; top:0; bottom:0; width:3px;
+  }
+  .gauge.g-amber::before{background:var(--amber);}
+  .gauge.g-green::before{background:var(--green);}
+  .gauge.g-red::before{background:var(--red);}
+  .gauge.g-blue::before{background:var(--blue);}
+  .gauge .label{color:var(--ink-dim); font-size:11.5px; text-transform:uppercase; letter-spacing:.08em;}
+  .gauge .value{font-family:"JetBrains Mono", monospace; font-size:32px; font-weight:700; margin-top:4px;}
+
+  .tabs{display:flex; gap:4px; margin-bottom:18px; border-bottom:1px solid var(--panel-line);}
+  .tab{
+    font-family:"Rajdhani", sans-serif; font-weight:600; text-transform:uppercase; letter-spacing:.04em;
+    font-size:14.5px; color:var(--ink-dim); background:none; border:none; cursor:pointer;
+    padding:10px 16px; border-bottom:2px solid transparent;
+  }
+  .tab.active{color:var(--ink); border-bottom-color:var(--amber);}
+  .panel-view{display:none;}
+  .panel-view.active{display:block;}
+
+  .card{
+    background:var(--panel); border:1px solid var(--panel-line); border-radius:10px;
+    padding:16px 18px; margin-bottom:12px; display:flex; gap:16px; align-items:center;
+  }
+  @media (max-width:640px){.card{flex-wrap:wrap;}}
+  .card .info{flex:1; min-width:0;}
+  .card .title{font-weight:600; font-size:15px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;}
+  .card .meta{color:var(--ink-dim); font-size:12.5px; margin-top:3px;}
+  .card a{color:var(--blue); text-decoration:none;}
+  .card a:hover{text-decoration:underline;}
+
+  .badge{
+    font-family:"JetBrains Mono", monospace; font-size:11px; padding:3px 8px; border-radius:20px;
+    text-transform:uppercase; letter-spacing:.03em; white-space:nowrap;
+  }
+  .badge.active{background:rgba(53,214,138,.12); color:var(--green); border:1px solid rgba(53,214,138,.3);}
+  .badge.sold{background:rgba(255,92,102,.12); color:var(--red); border:1px solid rgba(255,92,102,.3);}
+
+  .price{font-family:"JetBrains Mono", monospace; font-weight:700; font-size:19px; min-width:96px; text-align:right;}
+  .price.down{color:var(--green);}
+  .price.up{color:var(--red);}
+
+  .spark{width:110px; height:34px; flex-shrink:0;}
+
+  .empty{
+    text-align:center; color:var(--ink-dim); padding:50px 20px; border:1px dashed var(--panel-line);
+    border-radius:10px; font-size:14px; line-height:1.6;
+  }
+  .empty b{color:var(--ink);}
+  code{background:#0e1116; padding:2px 6px; border-radius:4px; font-family:"JetBrains Mono", monospace; font-size:12.5px;}
+
+  .site-tag{
+    font-family:"JetBrains Mono", monospace; font-size:10.5px; color:var(--ink-dim);
+    border:1px solid var(--panel-line); padding:2px 6px; border-radius:4px; text-transform:uppercase;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="top">
+    <div class="brand">
+      <span class="dot" id="statusDot"></span>
+      <h1>Panel de seguimiento</h1>
+    </div>
+    <div class="last-run" id="lastRun">Cargando…</div>
+  </header>
+
+  <section class="gauges">
+    <div class="gauge g-blue"><div class="label">Anuncios seguidos</div><div class="value" id="statTotal">–</div></div>
+    <div class="gauge g-green"><div class="label">Bajadas de precio</div><div class="value" id="statDown">–</div></div>
+    <div class="gauge g-red"><div class="label">Vendidos / retirados</div><div class="value" id="statSold">–</div></div>
+    <div class="gauge g-amber"><div class="label">Nuevos (última pasada)</div><div class="value" id="statNew">–</div></div>
+  </section>
+
+  <div class="tabs">
+    <button class="tab active" data-view="tracking">Seguimiento</button>
+    <button class="tab" data-view="new">Nuevas ofertas</button>
+  </div>
+
+  <div class="panel-view active" id="view-tracking"></div>
+  <div class="panel-view" id="view-new"></div>
+
+</div>
+
+<script>
+const fmtPrice = p => p == null ? "—" : p.toLocaleString("es-ES", {maximumFractionDigits:0}) + " €";
+const fmtDate = d => d ? new Date(d).toLocaleString("es-ES", {day:"2-digit",month:"2-digit",year:"2-digit",hour:"2-digit",minute:"2-digit"}) : "—";
+
+function sparkline(history){
+  if(!history || history.length < 2){
+    return `<svg class="spark" viewBox="0 0 110 34"><line x1="0" y1="17" x2="110" y2="17" stroke="#333c48" stroke-width="1"/></svg>`;
+  }
+  const prices = history.map(h=>h.price).filter(p=>p!=null);
+  const min = Math.min(...prices), max = Math.max(...prices);
+  const range = (max - min) || 1;
+  const w = 110, h = 34, pad = 3;
+  const pts = prices.map((p,i)=>{
+    const x = pad + (i/(prices.length-1)) * (w-2*pad);
+    const y = h - pad - ((p-min)/range) * (h-2*pad);
+    return `${x.toFixed(1)},${y.toFixed(1)}`;
+  }).join(" ");
+  const trendDown = prices[prices.length-1] < prices[0];
+  const color = trendDown ? "#35d68a" : (prices[prices.length-1] > prices[0] ? "#ff5c66" : "#8b95a5");
+  return `<svg class="spark" viewBox="0 0 ${w} ${h}"><polyline points="${pts}" fill="none" stroke="${color}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
+}
+
+function renderTracking(listings){
+  const el = document.getElementById("view-tracking");
+  const items = Object.values(listings).sort((a,b)=> new Date(b.last_checked) - new Date(a.last_checked));
+  if(items.length === 0){
+    el.innerHTML = emptyState("tracking");
+    return;
+  }
+  el.innerHTML = items.map(it=>{
+    const hist = it.price_history || [];
+    let trendClass = "";
+    if(hist.length >= 2){
+      const last = hist[hist.length-1].price, prev = hist[hist.length-2].price;
+      if(last < prev) trendClass = "down"; else if(last > prev) trendClass = "up";
+    }
+    return `
+    <div class="card">
+      ${sparkline(hist)}
+      <div class="info">
+        <div class="title">${escapeHtml(it.title || it.label || it.url)}</div>
+        <div class="meta">
+          <span class="site-tag">${it.site}</span>
+          &nbsp;·&nbsp; ${it.label ? escapeHtml(it.label) + " · " : ""}visto por última vez: ${fmtDate(it.last_checked)}
+          &nbsp;·&nbsp; <a href="${it.url}" target="_blank" rel="noopener">ver anuncio ↗</a>
+        </div>
+      </div>
+      <span class="badge ${it.status === 'active' ? 'active' : 'sold'}">${it.status === 'active' ? 'Activo' : 'Vendido / retirado'}</span>
+      <div class="price ${trendClass}">${fmtPrice(it.current_price)}</div>
+    </div>`;
+  }).join("");
+}
+
+function renderNew(newItems){
+  const el = document.getElementById("view-new");
+  if(!newItems || newItems.length === 0){
+    el.innerHTML = emptyState("new");
+    return;
+  }
+  el.innerHTML = newItems.map(it=>`
+    <div class="card">
+      <div class="info">
+        <div class="title">${escapeHtml(it.title || it.url)}</div>
+        <div class="meta">
+          <span class="site-tag">${it.site}</span>
+          &nbsp;·&nbsp; búsqueda: ${escapeHtml(it.search_label || "—")}
+          &nbsp;·&nbsp; encontrado: ${fmtDate(it.date)}
+          &nbsp;·&nbsp; <a href="${it.url}" target="_blank" rel="noopener">ver anuncio ↗</a>
+        </div>
+      </div>
+      <div class="price">${fmtPrice(it.price)}</div>
+    </div>`).join("");
+}
+
+function emptyState(kind){
+  if(kind === "tracking"){
+    return `<div class="empty">Todavía no hay datos de seguimiento.<br>
+      Esto se rellena automáticamente en cuanto se ejecute el flujo de GitHub Actions
+      (o puedes lanzarlo tú a mano desde la pestaña <b>Actions</b> del repositorio).</div>`;
+  }
+  return `<div class="empty">No se han encontrado anuncios nuevos en la última pasada.<br>
+    Revisa que tus búsquedas en <code>scraper/config.yaml</code> tengan criterios amplios si esperabas resultados.</div>`;
+}
+
+function escapeHtml(s){
+  return (s||"").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+}
+
+document.querySelectorAll(".tab").forEach(tab=>{
+  tab.addEventListener("click", ()=>{
+    document.querySelectorAll(".tab").forEach(t=>t.classList.remove("active"));
+    document.querySelectorAll(".panel-view").forEach(v=>v.classList.remove("active"));
+    tab.classList.add("active");
+    document.getElementById("view-" + tab.dataset.view).classList.add("active");
+  });
+});
+
+async function load(){
+  try{
+    const res = await fetch("./data/listings.json?_=" + Date.now());
+    const data = await res.json();
+
+    document.getElementById("lastRun").textContent = data.last_run
+      ? "Última comprobación: " + fmtDate(data.last_run)
+      : "Aún no se ha ejecutado ninguna comprobación";
+    document.getElementById("statusDot").style.background = data.last_run ? "#35d68a" : "#8b95a5";
+
+    const listings = data.listings || {};
+    const items = Object.values(listings);
+    document.getElementById("statTotal").textContent = items.length;
+    document.getElementById("statSold").textContent = items.filter(i=>i.status !== "active").length;
+
+    const lastEvents = (data.run_history && data.run_history.length)
+      ? data.run_history[data.run_history.length-1].events || [] : [];
+    document.getElementById("statDown").textContent = lastEvents.filter(e=>e.change === "price_changed").length;
+    document.getElementById("statNew").textContent = (data.new_this_run || []).length;
+
+    renderTracking(listings);
+    renderNew(data.new_this_run || []);
+  }catch(e){
+    document.getElementById("lastRun").textContent = "No se ha podido cargar data/listings.json";
+    console.error(e);
+  }
+}
+load();
+</script>
+</body>
+</html>
