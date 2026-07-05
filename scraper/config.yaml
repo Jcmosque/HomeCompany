@@ -1,10 +1,18 @@
 tracked_urls: []
 
 searches:
-  - site: milanuncios
-    label: "Passat 10000-30000€"
-    query: "Volkswagen Passat"
-    max_price: 30000
+  - site: apify_coches_net
+    label: "VW T-Roc 2022-2026, 5000-33000€"
+    params:
+      make: "Volkswagen"
+      model: "T-Roc"
+      fuel: "gasolina"
+      min_price: 5000
+      max_price: 33000
+      min_year: 2022
+      max_year: 2026
+      max_items: 50
+      max_pages: 3
 
 settings:
   request_delay_seconds: 3
