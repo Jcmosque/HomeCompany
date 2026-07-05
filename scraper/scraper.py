@@ -19,17 +19,20 @@ from datetime import datetime, timezone
 import yaml
 
 from .utils import get_session
-from .sites import coches_net, wallapop, milanuncios, autocasion
+from .sites import wallapop, milanuncios, autocasion
+from .sites import apify_coches_net
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CONFIG_PATH = os.path.join(BASE_DIR, "scraper", "config.yaml")
 DATA_PATH = os.path.join(BASE_DIR, "docs", "data", "listings.json")
 
+APIFY_TOKEN = os.environ.get("APIFY_API_TOKEN")
+
 SITE_MODULES = {
-    "coches_net": coches_net,
     "wallapop": wallapop,
     "milanuncios": milanuncios,
     "autocasion": autocasion,
+    "apify_coches_net": apify_coches_net,
 }
 
 
@@ -136,8 +139,8 @@ def main():
             continue
 
         try:
-            if site == "coches_net":
-                results = module.run_search(session, search.get("params") or {}, delay)
+            if site == "apify_coches_net":
+                results = module.run_search(session, search.get("params") or {}, delay, APIFY_TOKEN)
             elif site == "wallapop":
                 results = module.run_search(session, search.get("query", ""), search.get("max_price"),
                                               search.get("location", "Madrid"), delay)
