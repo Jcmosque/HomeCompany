@@ -52,12 +52,16 @@ def run_search(session, params: dict, delay: float):
     results = []
     try:
         resp = fetch(session, base, delay=delay, params=query)
-    except Exception:
+    except Exception as e:
+        print(f"[coches_net] ERROR en la petición: {e}")
         return results
+
+    print(f"[coches_net] status={resp.status_code} url_final={resp.url} bytes={len(resp.text)}")
 
     soup = BeautifulSoup(resp.text, "lxml")
 
     cards = soup.select("article, [class*='CardListing'], [data-ad-id]")
+    print(f"[coches_net] tarjetas encontradas en el HTML: {len(cards)}")
     for card in cards:
         link_el = card.select_one("a[href]")
         if not link_el:
