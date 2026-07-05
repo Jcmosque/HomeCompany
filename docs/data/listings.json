@@ -37,32 +37,18 @@
       "from_search": "Passat <35000€"
     }
   },
-  "new_this_run": [
-    {
-      "id": "f87213d8cb88c872",
-      "url": "https://www.coches.net/opel-corsa-12t-xhl-74kw-100cv-elegance-5p-gasolina-2021-en-asturias-70962004-covo.aspx",
-      "title": "OPEL Corsa 1.2T XHL Elegance",
-      "price": 10000.0,
-      "site": "coches_net",
-      "search_label": "Passat <35000€",
-      "date": "2026-07-05T10:51:12.441778+00:00"
-    },
-    {
-      "id": "f6039d65ffc2c79c",
-      "url": "https://www.coches.net/peugeot-308-5p-access-16-hdi-92-fap-5p-diesel-2012-en-madrid-70847372-covo.aspx",
-      "title": "PEUGEOT 308 Access 1.6 HDI 92 FAP",
-      "price": 36901.0,
-      "site": "coches_net",
-      "search_label": "Passat <35000€",
-      "date": "2026-07-05T10:51:12.441791+00:00"
-    }
-  ],
-  "last_run": "2026-07-05T10:51:21.647876+00:00",
+  "new_this_run": [],
+  "last_run": "2026-07-05T11:14:01.070479+00:00",
   "run_history": [
     {
       "date": "2026-07-05T10:51:21.647876+00:00",
       "events": [],
       "new_count": 2
+    },
+    {
+      "date": "2026-07-05T11:14:01.070479+00:00",
+      "events": [],
+      "new_count": 0
     }
   ]
 }
