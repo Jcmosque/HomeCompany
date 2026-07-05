@@ -17,41 +17,37 @@ def check_listing(session, url, delay):
     try:
         resp = fetch(session, url, delay=delay)
     except Exception:
-        # 404 / redirección a portada suele indicar que el anuncio se ha retirado (vendido)
         return {"active": False, "price": None, "title": None}
 
     soup = BeautifulSoup(resp.text, "lxml")
 
-    # AJUSTAR SI CAMBIA LA WEB: título del anuncio
     title_el = soup.select_one("h1")
     title = title_el.get_text(strip=True) if title_el else None
 
-    # AJUSTAR SI CAMBIA LA WEB: precio — probamos varias posibles ubicaciones
     price = None
     price_el = soup.select_one("[class*='Price'], [data-testid*='price'], .mt-PriceRow-price")
     if price_el:
         price = parse_price(price_el.get_text())
 
-    # Si la página ya no tiene título de anuncio, asumimos que fue retirado/vendido
     active = title is not None
     return {"active": active, "price": price, "title": title}
 
 
 def run_search(session, params: dict, delay: float):
     """Ejecuta una búsqueda por criterios y devuelve lista de anuncios encontrados."""
-    base = "https://www.coches.net/segunda-mano/"
+    # URL y parámetros confirmados observando una búsqueda real en coches.net:
+    # https://www.coches.net/search/?OfferType=0&MaxPrice=30000&arrProvince=28&MakeIds[0]=7&ModelIds[0]=0
+    base = "https://www.coches.net/search/"
 
-    query = {}
-    if params.get("marca"):
-        query["MakeIds"] = params["marca"]
-    if params.get("modelo"):
-        query["ModelIds"] = params["modelo"]
+    query = {"OfferType": 0}
+    if params.get("marca_id") is not None:
+        query["MakeIds[0]"] = params["marca_id"]
+    if params.get("modelo_id") is not None:
+        query["ModelIds[0]"] = params["modelo_id"]
     if params.get("precio_max"):
         query["MaxPrice"] = params["precio_max"]
-    if params.get("provincia"):
-        query["Provincies"] = params["provincia"]
-    if params.get("combustible"):
-        query["FuelTypeIds"] = params["combustible"]
+    if params.get("provincia_id") is not None:
+        query["arrProvince"] = params["provincia_id"]
 
     results = []
     try:
@@ -61,7 +57,6 @@ def run_search(session, params: dict, delay: float):
 
     soup = BeautifulSoup(resp.text, "lxml")
 
-    # AJUSTAR SI CAMBIA LA WEB: tarjetas de resultados de búsqueda
     cards = soup.select("article, [class*='CardListing'], [data-ad-id]")
     for card in cards:
         link_el = card.select_one("a[href]")
