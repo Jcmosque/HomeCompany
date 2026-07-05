@@ -1,109 +1,38 @@
-{
-  "listings": {
-    "88068ddedd36ee0f": {
-      "id": "88068ddedd36ee0f",
-      "url": "https://www.coches.net/EJEMPLO-anuncio-12345/",
-      "label": "Golf 2019 particular Madrid",
-      "site": "coches_net",
-      "title": null,
-      "first_seen": "2026-07-05T10:32:31.781209+00:00",
-      "last_checked": "2026-07-05T10:32:31.781209+00:00",
-      "status": "sold_or_removed",
-      "current_price": null,
-      "price_history": []
-    },
-    "c31e298c566a6b12": {
-      "id": "c31e298c566a6b12",
-      "url": "https://es.wallapop.com/item/EJEMPLO-67890",
-      "label": "Ibiza 2018 Barcelona",
-      "site": "wallapop",
-      "title": null,
-      "first_seen": "2026-07-05T10:32:34.972729+00:00",
-      "last_checked": "2026-07-05T10:32:34.972729+00:00",
-      "status": "sold_or_removed",
-      "current_price": null,
-      "price_history": []
-    },
-    "9a90d89abeeed666": {
-      "id": "9a90d89abeeed666",
-      "url": "https://www.coches.net/fiat-500c-pop-12-8v-51kw-69-cv-2p-gasolina-2018-en-las_palmas-70968489-covo.aspx",
-      "label": "[Búsqueda: Volkswagen Passat <25000€]",
-      "site": "coches_net",
-      "title": "FIAT 500C Pop 1.2 8v 69 CV",
-      "first_seen": "2026-07-05T10:32:39.376609+00:00",
-      "last_checked": "2026-07-05T10:32:39.376609+00:00",
-      "status": "active",
-      "current_price": 9900.0,
-      "price_history": [
-        {
-          "date": "2026-07-05T10:32:39.376609+00:00",
-          "price": 9900.0
-        }
-      ],
-      "from_search": "Volkswagen Passat <25000€"
-    },
-    "1512c3644b22da04": {
-      "id": "1512c3644b22da04",
-      "url": "https://www.coches.net/renault-scenic-bose-edition-energy-tce-130-5p-gasolina-2014-en-baleares-70729447-covo.aspx",
-      "label": "[Búsqueda: Volkswagen Passat <25000€]",
-      "site": "coches_net",
-      "title": "RENAULT Scenic Bose Edition Energy TCe 130",
-      "first_seen": "2026-07-05T10:32:39.376635+00:00",
-      "last_checked": "2026-07-05T10:32:39.376635+00:00",
-      "status": "active",
-      "current_price": 870049100.0,
-      "price_history": [
-        {
-          "date": "2026-07-05T10:32:39.376635+00:00",
-          "price": 870049100.0
-        }
-      ],
-      "from_search": "Volkswagen Passat <25000€"
-    }
-  },
-  "new_this_run": [
-    {
-      "id": "9a90d89abeeed666",
-      "url": "https://www.coches.net/fiat-500c-pop-12-8v-51kw-69-cv-2p-gasolina-2018-en-las_palmas-70968489-covo.aspx",
-      "title": "FIAT 500C Pop 1.2 8v 69 CV",
-      "price": 9900.0,
-      "site": "coches_net",
-      "search_label": "Volkswagen Passat <25000€",
-      "date": "2026-07-05T10:32:39.376627+00:00"
-    },
-    {
-      "id": "1512c3644b22da04",
-      "url": "https://www.coches.net/renault-scenic-bose-edition-energy-tce-130-5p-gasolina-2014-en-baleares-70729447-covo.aspx",
-      "title": "RENAULT Scenic Bose Edition Energy TCe 130",
-      "price": 870049100.0,
-      "site": "coches_net",
-      "search_label": "Volkswagen Passat <25000€",
-      "date": "2026-07-05T10:32:39.376640+00:00"
-    }
-  ],
-  "last_run": "2026-07-05T10:32:48.585698+00:00",
-  "run_history": [
-    {
-      "date": "2026-07-05T10:32:48.585698+00:00",
-      "events": [
-        {
-          "id": "88068ddedd36ee0f",
-          "url": "https://www.coches.net/EJEMPLO-anuncio-12345/",
-          "label": "Golf 2019 particular Madrid",
-          "change": "new",
-          "price": null,
-          "date": "2026-07-05T10:32:31.781227+00:00"
-        },
-        {
-          "id": "c31e298c566a6b12",
-          "url": "https://es.wallapop.com/item/EJEMPLO-67890",
-          "label": "Ibiza 2018 Barcelona",
-          "change": "new",
-          "price": null,
-          "date": "2026-07-05T10:32:34.972749+00:00"
-        }
-      ],
-      "new_count": 2
-    }
-  ]
-}
+# =========================================================
+# CONFIGURACIÓN — anuncios y búsquedas
+# =========================================================
+
+# 1) ANUNCIOS CONCRETOS que quieres vigilar (déjalo vacío si no tienes ninguno todavía)
+tracked_urls: []
+
+# 2) BÚSQUEDAS por criterios (para encontrar anuncios NUEVOS)
+searches:
+  - site: coches_net
+    label: "Passat <35000€"
+    params:
+      marca: volkswagen
+      modelo: passat
+      precio_max: 35000
+
+  - site: wallapop
+    label: "Passat <35000€"
+    query: "volkswagen passat"
+    max_price: 35000
+    location: "Madrid"
+
+  - site: milanuncios
+    label: "Passat <35000€"
+    query: "volkswagen passat"
+    max_price: 35000
+
+  - site: autocasion
+    label: "Passat <35000€"
+    params:
+      marca: volkswagen
+      modelo: passat
+      precio_max: 35000
+
+# Ajustes generales
+settings:
+  request_delay_seconds: 3
+  user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"
