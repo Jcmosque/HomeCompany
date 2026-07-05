@@ -12,31 +12,31 @@ tracked_urls:
 # 2) BÚSQUEDAS por criterios (para encontrar anuncios NUEVOS)
 searches:
   - site: coches_net
-    label: "Golf gasolina Madrid <15000€"
+    label: "Volkswagen Passat <25000€"
     params:
       marca: volkswagen
-      modelo: golf
-      precio_max: 15000
+      modelo: passat
+      precio_max: 25000
       provincia: madrid
       combustible: gasolina
 
   - site: wallapop
-    label: "Golf Madrid <15000€"
-    query: "volkswagen golf"
-    max_price: 15000
+    label: "Volkswagen Passat <25000€"
+    query: "Volkswagen Passat"
+    max_price: 25000
     location: "Madrid"
 
   - site: milanuncios
-    label: "Golf Madrid <15000€"
-    query: "volkswagen golf"
-    max_price: 15000
+    label: "Volkswagen Passat <25000€"
+    query: "Volkswagen Passat"
+    max_price: 25000
 
   - site: autocasion
-    label: "Golf Madrid <15000€"
+    label: "Volkswagen Passat <25000€"
     params:
       marca: volkswagen
-      modelo: golf
-      precio_max: 15000
+      modelo: passat
+      precio_max: 25000
 
 # Ajustes generales
 settings:
