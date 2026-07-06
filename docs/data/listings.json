@@ -35,10 +35,1334 @@
         }
       ],
       "from_search": "Passat <35000€"
+    },
+    "72e4599840978b46": {
+      "id": "72e4599840978b46",
+      "url": "https://www.coches.net/volkswagen-t-roc-rline-15-tsi-110kw-150cv-dsg-5p-gasolina-2024-en-barcelona-70984228-covo.aspx",
+      "label": "[Búsqueda: VW T-Roc 2022-2026, 5000-33000€]",
+      "site": "apify_coches_net",
+      "title": "VOLKSWAGEN T-Roc RLine 1.5 TSI DSG",
+      "first_seen": "2026-07-06T12:07:00.728208+00:00",
+      "last_checked": "2026-07-06T12:07:00.728208+00:00",
+      "status": "active",
+      "current_price": 29950,
+      "price_history": [
+        {
+          "date": "2026-07-06T12:07:00.728208+00:00",
+          "price": 29950
+        }
+      ],
+      "from_search": "VW T-Roc 2022-2026, 5000-33000€"
+    },
+    "60b31e7061e5782b": {
+      "id": "60b31e7061e5782b",
+      "url": "https://www.coches.net/volkswagen-t-roc-cabrio-style-10-tsi-81kw-110cv-2p-gasolina-2023-en-sta-c-tenerife-70912561-covo.aspx",
+      "label": "[Búsqueda: VW T-Roc 2022-2026, 5000-33000€]",
+      "site": "apify_coches_net",
+      "title": "VOLKSWAGEN T-Roc Cabrio Style 1.0 TSI",
+      "first_seen": "2026-07-06T12:07:00.728243+00:00",
+      "last_checked": "2026-07-06T12:07:00.728383+00:00",
+      "status": "active",
+      "current_price": 16985,
+      "price_history": [
+        {
+          "date": "2026-07-06T12:07:00.728243+00:00",
+          "price": 16985
+        }
+      ],
+      "from_search": "VW T-Roc 2022-2026, 5000-33000€"
+    },
+    "8b4dc41618052dbf": {
+      "id": "8b4dc41618052dbf",
+      "url": "https://www.coches.net/volkswagen-t-roc-sport-15-tsi-110kw-150cv-dsg-5p-gasolina-2022-en-malaga-70913855-covo.aspx",
+      "label": "[Búsqueda: VW T-Roc 2022-2026, 5000-33000€]",
+      "site": "apify_coches_net",
+      "title": "VOLKSWAGEN T-Roc Sport 1.5 TSI DSG",
+      "first_seen": "2026-07-06T12:07:00.728256+00:00",
+      "last_checked": "2026-07-06T12:07:00.728256+00:00",
+      "status": "active",
+      "current_price": 25500,
+      "price_history": [
+        {
+          "date": "2026-07-06T12:07:00.728256+00:00",
+          "price": 25500
+        }
+      ],
+      "from_search": "VW T-Roc 2022-2026, 5000-33000€"
+    },
+    "db0b26b673fc577a": {
+      "id": "db0b26b673fc577a",
+      "url": "https://www.coches.net/volkswagen-troc-rline-15-tsi-110kw-150cv-dsg-5p-gasolina-2022-en-malaga-70984820-covo.aspx",
+      "label": "[Búsqueda: VW T-Roc 2022-2026, 5000-33000€]",
+      "site": "apify_coches_net",
+      "title": "VOLKSWAGEN TRoc RLine 1.5 TSI DSG",
+      "first_seen": "2026-07-06T12:07:00.728266+00:00",
+      "last_checked": "2026-07-06T12:07:00.728266+00:00",
+      "status": "active",
+      "current_price": 26500,
+      "price_history": [
+        {
+          "date": "2026-07-06T12:07:00.728266+00:00",
+          "price": 26500
+        }
+      ],
+      "from_search": "VW T-Roc 2022-2026, 5000-33000€"
+    },
+    "3e7f177ec891e9cd": {
+      "id": "3e7f177ec891e9cd",
+      "url": "https://www.coches.net/volkswagen-t-roc-life-10-tsi-81kw-110cv-5p-gasolina-2024-en-murcia-70749181-covo.aspx",
+      "label": "[Búsqueda: VW T-Roc 2022-2026, 5000-33000€]",
+      "site": "apify_coches_net",
+      "title": "VOLKSWAGEN T-Roc Life 1.0 TSI",
+      "first_seen": "2026-07-06T12:07:00.728281+00:00",
+      "last_checked": "2026-07-06T12:07:00.728281+00:00",
+      "status": "active",
+      "current_price": 24499,
+      "price_history": [
+        {
+          "date": "2026-07-06T12:07:00.728281+00:00",
+          "price": 24499
+        }
+      ],
+      "from_search": "VW T-Roc 2022-2026, 5000-33000€"
+    },
+    "e244ba0a3baed3ad": {
+      "id": "e244ba0a3baed3ad",
+      "url": "https://www.coches.net/volkswagen-t-roc-advance-rline-10-tsi-81kw-110cv-5p-gasolina-2022-en-tarragona-70975799-covo.aspx",
+      "label": "[Búsqueda: VW T-Roc 2022-2026, 5000-33000€]",
+      "site": "apify_coches_net",
+      "title": "VOLKSWAGEN T-Roc Advance RLine 1.0 TSI",
+      "first_seen": "2026-07-06T12:07:00.728291+00:00",
+      "last_checked": "2026-07-06T12:07:00.728291+00:00",
+      "status": "active",
+      "current_price": 19700,
+      "price_history": [
+        {
+          "date": "2026-07-06T12:07:00.728291+00:00",
+          "price": 19700
+        }
+      ],
+      "from_search": "VW T-Roc 2022-2026, 5000-33000€"
+    },
+    "65b046199259f017": {
+      "id": "65b046199259f017",
+      "url": "https://www.coches.net/volkswagen-t-roc-cabrio-style-10-tsi-81kw-110cv-2p-gasolina-2023-en-las-palmas-70497363-covo.aspx",
+      "label": "[Búsqueda: VW T-Roc 2022-2026, 5000-33000€]",
+      "site": "apify_coches_net",
+      "title": "VOLKSWAGEN T-Roc Cabrio Style 1.0 TSI",
+      "first_seen": "2026-07-06T12:07:00.728301+00:00",
+      "last_checked": "2026-07-06T12:07:00.728301+00:00",
+      "status": "active",
+      "current_price": 16985,
+      "price_history": [
+        {
+          "date": "2026-07-06T12:07:00.728301+00:00",
+          "price": 16985
+        }
+      ],
+      "from_search": "VW T-Roc 2022-2026, 5000-33000€"
+    },
+    "bc1aa16396a24778": {
+      "id": "bc1aa16396a24778",
+      "url": "https://www.coches.net/volkswagen-t-roc-troc-10-tsi-81kw-110cv-5p-gasolina-2022-en-las-palmas-70968429-covo.aspx",
+      "label": "[Búsqueda: VW T-Roc 2022-2026, 5000-33000€]",
+      "site": "apify_coches_net",
+      "title": "VOLKSWAGEN T-Roc TRoc 1.0 TSI",
+      "first_seen": "2026-07-06T12:07:00.728310+00:00",
+      "last_checked": "2026-07-06T12:07:00.728310+00:00",
+      "status": "active",
+      "current_price": 16985,
+      "price_history": [
+        {
+          "date": "2026-07-06T12:07:00.728310+00:00",
+          "price": 16985
+        }
+      ],
+      "from_search": "VW T-Roc 2022-2026, 5000-33000€"
+    },
+    "c3fe510bb74fb831": {
+      "id": "c3fe510bb74fb831",
+      "url": "https://www.coches.net/volkswagen-t-roc-edition-10-tsi-81kw-110cv-5p-gasolina-2022-en-las-palmas-70738170-covo.aspx",
+      "label": "[Búsqueda: VW T-Roc 2022-2026, 5000-33000€]",
+      "site": "apify_coches_net",
+      "title": "VOLKSWAGEN T-Roc Edition 1.0 TSI",
+      "first_seen": "2026-07-06T12:07:00.728318+00:00",
+      "last_checked": "2026-07-06T12:07:00.728318+00:00",
+      "status": "active",
+      "current_price": 17950,
+      "price_history": [
+        {
+          "date": "2026-07-06T12:07:00.728318+00:00",
+          "price": 17950
+        }
+      ],
+      "from_search": "VW T-Roc 2022-2026, 5000-33000€"
+    },
+    "fbeefcaf01a7f72d": {
+      "id": "fbeefcaf01a7f72d",
+      "url": "https://www.coches.net/volkswagen-t-roc-mas-15-tsi-110kw-150cv-dsg-5p-gasolina-2025-en-valencia-70951716-covo.aspx",
+      "label": "[Búsqueda: VW T-Roc 2022-2026, 5000-33000€]",
+      "site": "apify_coches_net",
+      "title": "VOLKSWAGEN T-Roc Mas 1.5 TSI DSG",
+      "first_seen": "2026-07-06T12:07:00.728327+00:00",
+      "last_checked": "2026-07-06T12:07:00.728327+00:00",
+      "status": "active",
+      "current_price": 26990,
+      "price_history": [
+        {
+          "date": "2026-07-06T12:07:00.728327+00:00",
+          "price": 26990
+        }
+      ],
+      "from_search": "VW T-Roc 2022-2026, 5000-33000€"
+    },
+    "3aa74d4ff1b92e30": {
+      "id": "3aa74d4ff1b92e30",
+      "url": "https://www.coches.net/volkswagen-t-roc-cabrio-style-15-tsi-110kw-150cv-dsg-2p-gasolina-2025-en-alicante-70908961-covo.aspx",
+      "label": "[Búsqueda: VW T-Roc 2022-2026, 5000-33000€]",
+      "site": "apify_coches_net",
+      "title": "VOLKSWAGEN T-Roc Cabrio Style 1.5 TSI DSG",
+      "first_seen": "2026-07-06T12:07:00.728335+00:00",
+      "last_checked": "2026-07-06T12:07:00.728335+00:00",
+      "status": "active",
+      "current_price": 32500,
+      "price_history": [
+        {
+          "date": "2026-07-06T12:07:00.728335+00:00",
+          "price": 32500
+        }
+      ],
+      "from_search": "VW T-Roc 2022-2026, 5000-33000€"
+    },
+    "19526bb92bcb06da": {
+      "id": "19526bb92bcb06da",
+      "url": "https://www.coches.net/volkswagen-t-roc-cabrio-style-10-tsi-81kw-110cv-2p-gasolina-2023-en-las-palmas-70859400-covo.aspx",
+      "label": "[Búsqueda: VW T-Roc 2022-2026, 5000-33000€]",
+      "site": "apify_coches_net",
+      "title": "VOLKSWAGEN T-Roc Cabrio Style 1.0 TSI",
+      "first_seen": "2026-07-06T12:07:00.728343+00:00",
+      "last_checked": "2026-07-06T12:07:00.728343+00:00",
+      "status": "active",
+      "current_price": 16985,
+      "price_history": [
+        {
+          "date": "2026-07-06T12:07:00.728343+00:00",
+          "price": 16985
+        }
+      ],
+      "from_search": "VW T-Roc 2022-2026, 5000-33000€"
+    },
+    "896760bc384d8627": {
+      "id": "896760bc384d8627",
+      "url": "https://www.coches.net/volkswagen-t-roc-dark-line-15-tsi-110kw-150cv-dsg-5p-gasolina-2026-en-sevilla-70673149-covo.aspx",
+      "label": "[Búsqueda: VW T-Roc 2022-2026, 5000-33000€]",
+      "site": "apify_coches_net",
+      "title": "VOLKSWAGEN T-Roc Dark Line 1.5 TSI DSG",
+      "first_seen": "2026-07-06T12:07:00.728350+00:00",
+      "last_checked": "2026-07-06T12:07:00.728350+00:00",
+      "status": "active",
+      "current_price": 26990,
+      "price_history": [
+        {
+          "date": "2026-07-06T12:07:00.728350+00:00",
+          "price": 26990
+        }
+      ],
+      "from_search": "VW T-Roc 2022-2026, 5000-33000€"
+    },
+    "410b77db0247b2aa": {
+      "id": "410b77db0247b2aa",
+      "url": "https://www.coches.net/volkswagen-t-roc-life-10-tsi-81kw-110cv-5p-gasolina-2024-en-sta-c-tenerife-70926661-covo.aspx",
+      "label": "[Búsqueda: VW T-Roc 2022-2026, 5000-33000€]",
+      "site": "apify_coches_net",
+      "title": "VOLKSWAGEN T-Roc Life 1.0 TSI",
+      "first_seen": "2026-07-06T12:07:00.728356+00:00",
+      "last_checked": "2026-07-06T12:07:00.728356+00:00",
+      "status": "active",
+      "current_price": 16985,
+      "price_history": [
+        {
+          "date": "2026-07-06T12:07:00.728356+00:00",
+          "price": 16985
+        }
+      ],
+      "from_search": "VW T-Roc 2022-2026, 5000-33000€"
+    },
+    "a48e568194f52b4b": {
+      "id": "a48e568194f52b4b",
+      "url": "https://www.coches.net/volkswagen-t-roc-rline-15-tsi-110kw-150cv-5p-gasolina-2023-en-granada-70817032-covo.aspx",
+      "label": "[Búsqueda: VW T-Roc 2022-2026, 5000-33000€]",
+      "site": "apify_coches_net",
+      "title": "VOLKSWAGEN T-Roc RLine 1.5 TSI",
+      "first_seen": "2026-07-06T12:07:00.728363+00:00",
+      "last_checked": "2026-07-06T12:07:00.728363+00:00",
+      "status": "active",
+      "current_price": 25990,
+      "price_history": [
+        {
+          "date": "2026-07-06T12:07:00.728363+00:00",
+          "price": 25990
+        }
+      ],
+      "from_search": "VW T-Roc 2022-2026, 5000-33000€"
+    },
+    "7d5038b986e07028": {
+      "id": "7d5038b986e07028",
+      "url": "https://www.coches.net/volkswagen-t-roc-advance-10-tsi-81kw-110cv-5p-gasolina-2022-en-las-palmas-62103104-covo.aspx",
+      "label": "[Búsqueda: VW T-Roc 2022-2026, 5000-33000€]",
+      "site": "apify_coches_net",
+      "title": "VOLKSWAGEN T-Roc Advance 1.0 TSI",
+      "first_seen": "2026-07-06T12:07:00.728369+00:00",
+      "last_checked": "2026-07-06T12:07:00.728369+00:00",
+      "status": "active",
+      "current_price": 18990,
+      "price_history": [
+        {
+          "date": "2026-07-06T12:07:00.728369+00:00",
+          "price": 18990
+        }
+      ],
+      "from_search": "VW T-Roc 2022-2026, 5000-33000€"
+    },
+    "d48ce94ed5a49573": {
+      "id": "d48ce94ed5a49573",
+      "url": "https://www.coches.net/volkswagen-t-roc-mas-15-tsi-110kw-150cv-dsg-5p-gasolina-2025-en-barcelona-70928758-covo.aspx",
+      "label": "[Búsqueda: VW T-Roc 2022-2026, 5000-33000€]",
+      "site": "apify_coches_net",
+      "title": "VOLKSWAGEN T-Roc Mas 1.5 TSI DSG",
+      "first_seen": "2026-07-06T12:07:00.728376+00:00",
+      "last_checked": "2026-07-06T12:07:00.728376+00:00",
+      "status": "active",
+      "current_price": 28490,
+      "price_history": [
+        {
+          "date": "2026-07-06T12:07:00.728376+00:00",
+          "price": 28490
+        }
+      ],
+      "from_search": "VW T-Roc 2022-2026, 5000-33000€"
+    },
+    "edb177fb73e0885d": {
+      "id": "edb177fb73e0885d",
+      "url": "https://www.coches.net/volkswagen-t-roc-life-10-tsi-81kw-110cv-5p-gasolina-2024-en-las-palmas-70926614-covo.aspx",
+      "label": "[Búsqueda: VW T-Roc 2022-2026, 5000-33000€]",
+      "site": "apify_coches_net",
+      "title": "VOLKSWAGEN T-Roc Life 1.0 TSI",
+      "first_seen": "2026-07-06T12:07:00.728389+00:00",
+      "last_checked": "2026-07-06T12:07:00.728389+00:00",
+      "status": "active",
+      "current_price": 16985,
+      "price_history": [
+        {
+          "date": "2026-07-06T12:07:00.728389+00:00",
+          "price": 16985
+        }
+      ],
+      "from_search": "VW T-Roc 2022-2026, 5000-33000€"
+    },
+    "158579c0299dd0ba": {
+      "id": "158579c0299dd0ba",
+      "url": "https://www.coches.net/volkswagen-t-roc-cabrio-rline-15-tsi-110kw-150cv-2p-gasolina-2023-en-murcia-70739955-covo.aspx",
+      "label": "[Búsqueda: VW T-Roc 2022-2026, 5000-33000€]",
+      "site": "apify_coches_net",
+      "title": "VOLKSWAGEN T-Roc Cabrio RLine 1.5 TSI",
+      "first_seen": "2026-07-06T12:07:00.728395+00:00",
+      "last_checked": "2026-07-06T12:07:00.728395+00:00",
+      "status": "active",
+      "current_price": 28490,
+      "price_history": [
+        {
+          "date": "2026-07-06T12:07:00.728395+00:00",
+          "price": 28490
+        }
+      ],
+      "from_search": "VW T-Roc 2022-2026, 5000-33000€"
+    },
+    "ccd2a0068dcc479e": {
+      "id": "ccd2a0068dcc479e",
+      "url": "https://www.coches.net/volkswagen-t-roc-advance-10-tsi-81kw-110cv-5p-gasolina-2022-en-cadiz-70922801-covo.aspx",
+      "label": "[Búsqueda: VW T-Roc 2022-2026, 5000-33000€]",
+      "site": "apify_coches_net",
+      "title": "VOLKSWAGEN T-Roc Advance 1.0 TSI",
+      "first_seen": "2026-07-06T12:07:00.728402+00:00",
+      "last_checked": "2026-07-06T12:07:00.728402+00:00",
+      "status": "active",
+      "current_price": 20490,
+      "price_history": [
+        {
+          "date": "2026-07-06T12:07:00.728402+00:00",
+          "price": 20490
+        }
+      ],
+      "from_search": "VW T-Roc 2022-2026, 5000-33000€"
+    },
+    "6aa955edda96b02c": {
+      "id": "6aa955edda96b02c",
+      "url": "https://www.coches.net/volkswagen-t-roc-advance-10-tsi-81kw-110cv-5p-gasolina-2022-en-cadiz-62625676-covo.aspx",
+      "label": "[Búsqueda: VW T-Roc 2022-2026, 5000-33000€]",
+      "site": "apify_coches_net",
+      "title": "VOLKSWAGEN T-Roc Advance 1.0 TSI",
+      "first_seen": "2026-07-06T12:07:00.728409+00:00",
+      "last_checked": "2026-07-06T12:07:00.728409+00:00",
+      "status": "active",
+      "current_price": 18990,
+      "price_history": [
+        {
+          "date": "2026-07-06T12:07:00.728409+00:00",
+          "price": 18990
+        }
+      ],
+      "from_search": "VW T-Roc 2022-2026, 5000-33000€"
+    },
+    "92d26cf8e680197a": {
+      "id": "92d26cf8e680197a",
+      "url": "https://www.coches.net/volkswagen-t-roc-advance-style-15-tsi-110kw-dsg-5p-gasolina-2022-en-ciudad-real-70924693-covo.aspx",
+      "label": "[Búsqueda: VW T-Roc 2022-2026, 5000-33000€]",
+      "site": "apify_coches_net",
+      "title": "VOLKSWAGEN T-Roc Advance Style 1.5 TSI DSG",
+      "first_seen": "2026-07-06T12:07:00.728415+00:00",
+      "last_checked": "2026-07-06T12:07:00.728415+00:00",
+      "status": "active",
+      "current_price": 20250,
+      "price_history": [
+        {
+          "date": "2026-07-06T12:07:00.728415+00:00",
+          "price": 20250
+        }
+      ],
+      "from_search": "VW T-Roc 2022-2026, 5000-33000€"
+    },
+    "d128d39a86eb2c69": {
+      "id": "d128d39a86eb2c69",
+      "url": "https://www.coches.net/volkswagen-t-roc-life-15-tsi-110kw-150cv-dsg-5p-gasolina-2024-en-almeria-70793196-covo.aspx",
+      "label": "[Búsqueda: VW T-Roc 2022-2026, 5000-33000€]",
+      "site": "apify_coches_net",
+      "title": "VOLKSWAGEN T-Roc Life 1.5 TSI DSG",
+      "first_seen": "2026-07-06T12:07:00.728422+00:00",
+      "last_checked": "2026-07-06T12:07:00.728422+00:00",
+      "status": "active",
+      "current_price": 26900,
+      "price_history": [
+        {
+          "date": "2026-07-06T12:07:00.728422+00:00",
+          "price": 26900
+        }
+      ],
+      "from_search": "VW T-Roc 2022-2026, 5000-33000€"
+    },
+    "4d9172a06679bc42": {
+      "id": "4d9172a06679bc42",
+      "url": "https://www.coches.net/volkswagen-t-roc-cabrio-style-10-tsi-81kw-110cv-2p-gasolina-2023-en-las-palmas-70998373-covo.aspx",
+      "label": "[Búsqueda: VW T-Roc 2022-2026, 5000-33000€]",
+      "site": "apify_coches_net",
+      "title": "VOLKSWAGEN T-Roc Cabrio Style 1.0 TSI",
+      "first_seen": "2026-07-06T12:07:00.728428+00:00",
+      "last_checked": "2026-07-06T12:07:00.728428+00:00",
+      "status": "active",
+      "current_price": 14990,
+      "price_history": [
+        {
+          "date": "2026-07-06T12:07:00.728428+00:00",
+          "price": 14990
+        }
+      ],
+      "from_search": "VW T-Roc 2022-2026, 5000-33000€"
+    },
+    "4667d3848ada8724": {
+      "id": "4667d3848ada8724",
+      "url": "https://www.coches.net/volkswagen-t-roc-cabrio-style-10-tsi-81kw-110cv-2p-gasolina-2023-en-las-palmas-71004163-covo.aspx",
+      "label": "[Búsqueda: VW T-Roc 2022-2026, 5000-33000€]",
+      "site": "apify_coches_net",
+      "title": "VOLKSWAGEN T-Roc Cabrio Style 1.0 TSI",
+      "first_seen": "2026-07-06T12:07:00.728435+00:00",
+      "last_checked": "2026-07-06T12:07:00.728435+00:00",
+      "status": "active",
+      "current_price": 16890,
+      "price_history": [
+        {
+          "date": "2026-07-06T12:07:00.728435+00:00",
+          "price": 16890
+        }
+      ],
+      "from_search": "VW T-Roc 2022-2026, 5000-33000€"
+    },
+    "49168c2697fd3b17": {
+      "id": "49168c2697fd3b17",
+      "url": "https://www.coches.net/volkswagen-t-roc-life-10-tsi-85kw-115cv-5p-gasolina-2024-en-sevilla-71003836-covo.aspx",
+      "label": "[Búsqueda: VW T-Roc 2022-2026, 5000-33000€]",
+      "site": "apify_coches_net",
+      "title": "VOLKSWAGEN T-Roc Life 1.0 TSI",
+      "first_seen": "2026-07-06T12:07:00.728441+00:00",
+      "last_checked": "2026-07-06T12:07:00.728441+00:00",
+      "status": "active",
+      "current_price": 20450,
+      "price_history": [
+        {
+          "date": "2026-07-06T12:07:00.728441+00:00",
+          "price": 20450
+        }
+      ],
+      "from_search": "VW T-Roc 2022-2026, 5000-33000€"
+    },
+    "f86be2707d0b1815": {
+      "id": "f86be2707d0b1815",
+      "url": "https://www.coches.net/volkswagen-t-roc-rline-15-tsi-110kw-150cv-dsg-5p-gasolina-2025-en-avila-70437203-covo.aspx",
+      "label": "[Búsqueda: VW T-Roc 2022-2026, 5000-33000€]",
+      "site": "apify_coches_net",
+      "title": "VOLKSWAGEN T-Roc RLine 1.5 TSI DSG",
+      "first_seen": "2026-07-06T12:07:00.728448+00:00",
+      "last_checked": "2026-07-06T12:07:00.728448+00:00",
+      "status": "active",
+      "current_price": 29990,
+      "price_history": [
+        {
+          "date": "2026-07-06T12:07:00.728448+00:00",
+          "price": 29990
+        }
+      ],
+      "from_search": "VW T-Roc 2022-2026, 5000-33000€"
+    },
+    "5c59ee123f1fe724": {
+      "id": "5c59ee123f1fe724",
+      "url": "https://www.coches.net/volkswagen-t-roc-edition-10-tsi-81kw-110cv-5p-gasolina-2022-en-las-palmas-70134381-covo.aspx",
+      "label": "[Búsqueda: VW T-Roc 2022-2026, 5000-33000€]",
+      "site": "apify_coches_net",
+      "title": "VOLKSWAGEN T-Roc Edition 1.0 TSI",
+      "first_seen": "2026-07-06T12:07:00.728454+00:00",
+      "last_checked": "2026-07-06T12:07:00.728454+00:00",
+      "status": "active",
+      "current_price": 14990,
+      "price_history": [
+        {
+          "date": "2026-07-06T12:07:00.728454+00:00",
+          "price": 14990
+        }
+      ],
+      "from_search": "VW T-Roc 2022-2026, 5000-33000€"
+    },
+    "023834a2dd7bb692": {
+      "id": "023834a2dd7bb692",
+      "url": "https://www.coches.net/volkswagen-t-roc-edition-10-tsi-81kw-110cv-5p-gasolina-2022-en-sta-c-tenerife-70136786-covo.aspx",
+      "label": "[Búsqueda: VW T-Roc 2022-2026, 5000-33000€]",
+      "site": "apify_coches_net",
+      "title": "VOLKSWAGEN T-Roc Edition 1.0 TSI",
+      "first_seen": "2026-07-06T12:07:00.728461+00:00",
+      "last_checked": "2026-07-06T12:07:00.728461+00:00",
+      "status": "active",
+      "current_price": 14990,
+      "price_history": [
+        {
+          "date": "2026-07-06T12:07:00.728461+00:00",
+          "price": 14990
+        }
+      ],
+      "from_search": "VW T-Roc 2022-2026, 5000-33000€"
+    },
+    "125999ada33afbff": {
+      "id": "125999ada33afbff",
+      "url": "https://www.coches.net/volkswagen-t-roc-life-10-tsi-81kw-110cv-5p-gasolina-2023-en-sevilla-70985660-covo.aspx",
+      "label": "[Búsqueda: VW T-Roc 2022-2026, 5000-33000€]",
+      "site": "apify_coches_net",
+      "title": "VOLKSWAGEN T-Roc Life 1.0 TSI",
+      "first_seen": "2026-07-06T12:07:00.728468+00:00",
+      "last_checked": "2026-07-06T12:07:00.728468+00:00",
+      "status": "active",
+      "current_price": 21890,
+      "price_history": [
+        {
+          "date": "2026-07-06T12:07:00.728468+00:00",
+          "price": 21890
+        }
+      ],
+      "from_search": "VW T-Roc 2022-2026, 5000-33000€"
+    },
+    "0f07e91a65d8bdd2": {
+      "id": "0f07e91a65d8bdd2",
+      "url": "https://www.coches.net/volkswagen-t-roc-life-15-tsi-110kw-150cv-5p-gasolina-2023-en-zaragoza-71003977-covo.aspx",
+      "label": "[Búsqueda: VW T-Roc 2022-2026, 5000-33000€]",
+      "site": "apify_coches_net",
+      "title": "VOLKSWAGEN T-Roc Life 1.5 TSI",
+      "first_seen": "2026-07-06T12:07:00.728474+00:00",
+      "last_checked": "2026-07-06T12:07:00.728474+00:00",
+      "status": "active",
+      "current_price": 26990,
+      "price_history": [
+        {
+          "date": "2026-07-06T12:07:00.728474+00:00",
+          "price": 26990
+        }
+      ],
+      "from_search": "VW T-Roc 2022-2026, 5000-33000€"
+    },
+    "a957a4ebb032c96b": {
+      "id": "a957a4ebb032c96b",
+      "url": "https://www.coches.net/volkswagen-t-roc-rline-15-tsi-110kw-150cv-5p-gasolina-2024-en-zaragoza-71002643-covo.aspx",
+      "label": "[Búsqueda: VW T-Roc 2022-2026, 5000-33000€]",
+      "site": "apify_coches_net",
+      "title": "VOLKSWAGEN T-Roc RLine 1.5 TSI",
+      "first_seen": "2026-07-06T12:07:00.728481+00:00",
+      "last_checked": "2026-07-06T12:07:00.728481+00:00",
+      "status": "active",
+      "current_price": 25900,
+      "price_history": [
+        {
+          "date": "2026-07-06T12:07:00.728481+00:00",
+          "price": 25900
+        }
+      ],
+      "from_search": "VW T-Roc 2022-2026, 5000-33000€"
+    },
+    "fc936635aff0cbd1": {
+      "id": "fc936635aff0cbd1",
+      "url": "https://www.coches.net/volkswagen-t-roc-troc-10-tsi-81kw-110cv-5p-gasolina-2024-en-sta-c-tenerife-70978494-covo.aspx",
+      "label": "[Búsqueda: VW T-Roc 2022-2026, 5000-33000€]",
+      "site": "apify_coches_net",
+      "title": "VOLKSWAGEN T-Roc TRoc 1.0 TSI",
+      "first_seen": "2026-07-06T12:07:00.728487+00:00",
+      "last_checked": "2026-07-06T12:07:00.728487+00:00",
+      "status": "active",
+      "current_price": 16985,
+      "price_history": [
+        {
+          "date": "2026-07-06T12:07:00.728487+00:00",
+          "price": 16985
+        }
+      ],
+      "from_search": "VW T-Roc 2022-2026, 5000-33000€"
+    },
+    "5f7a17c057c3e632": {
+      "id": "5f7a17c057c3e632",
+      "url": "https://www.coches.net/volkswagen-t-roc-troc-10-tsi-81kw-110cv-5p-gasolina-2024-en-las-palmas-70978474-covo.aspx",
+      "label": "[Búsqueda: VW T-Roc 2022-2026, 5000-33000€]",
+      "site": "apify_coches_net",
+      "title": "VOLKSWAGEN T-Roc TRoc 1.0 TSI",
+      "first_seen": "2026-07-06T12:07:00.728494+00:00",
+      "last_checked": "2026-07-06T12:07:00.728494+00:00",
+      "status": "active",
+      "current_price": 16985,
+      "price_history": [
+        {
+          "date": "2026-07-06T12:07:00.728494+00:00",
+          "price": 16985
+        }
+      ],
+      "from_search": "VW T-Roc 2022-2026, 5000-33000€"
+    },
+    "fe763b501f281f29": {
+      "id": "fe763b501f281f29",
+      "url": "https://www.coches.net/volkswagen-t-roc-life-15-tsi-110kw-150cv-dsg-5p-gasolina-2023-en-valencia-70985433-covo.aspx",
+      "label": "[Búsqueda: VW T-Roc 2022-2026, 5000-33000€]",
+      "site": "apify_coches_net",
+      "title": "VOLKSWAGEN T-Roc Life 1.5 TSI DSG",
+      "first_seen": "2026-07-06T12:07:00.728500+00:00",
+      "last_checked": "2026-07-06T12:07:00.728500+00:00",
+      "status": "active",
+      "current_price": 24900,
+      "price_history": [
+        {
+          "date": "2026-07-06T12:07:00.728500+00:00",
+          "price": 24900
+        }
+      ],
+      "from_search": "VW T-Roc 2022-2026, 5000-33000€"
+    },
+    "d9c5042af8addb90": {
+      "id": "d9c5042af8addb90",
+      "url": "https://www.coches.net/volkswagen-t-roc-mas-15-tsi-110kw-150cv-5p-gasolina-2024-en-lleida-71001517-covo.aspx",
+      "label": "[Búsqueda: VW T-Roc 2022-2026, 5000-33000€]",
+      "site": "apify_coches_net",
+      "title": "VOLKSWAGEN T-Roc Mas 1.5 TSI",
+      "first_seen": "2026-07-06T12:07:00.728507+00:00",
+      "last_checked": "2026-07-06T12:07:00.728507+00:00",
+      "status": "active",
+      "current_price": 26490,
+      "price_history": [
+        {
+          "date": "2026-07-06T12:07:00.728507+00:00",
+          "price": 26490
+        }
+      ],
+      "from_search": "VW T-Roc 2022-2026, 5000-33000€"
+    },
+    "ff29109a9e6db84b": {
+      "id": "ff29109a9e6db84b",
+      "url": "https://www.coches.net/volkswagen-t-roc-life-10-tsi-81kw-110cv-5p-gasolina-2024-en-barcelona-70983539-covo.aspx",
+      "label": "[Búsqueda: VW T-Roc 2022-2026, 5000-33000€]",
+      "site": "apify_coches_net",
+      "title": "VOLKSWAGEN T-Roc Life 1.0 TSI",
+      "first_seen": "2026-07-06T12:07:00.728514+00:00",
+      "last_checked": "2026-07-06T12:07:00.728514+00:00",
+      "status": "active",
+      "current_price": 23490,
+      "price_history": [
+        {
+          "date": "2026-07-06T12:07:00.728514+00:00",
+          "price": 23490
+        }
+      ],
+      "from_search": "VW T-Roc 2022-2026, 5000-33000€"
+    },
+    "6db486964291f418": {
+      "id": "6db486964291f418",
+      "url": "https://www.coches.net/volkswagen-t-roc-advance-rline-10-tsi-81kw-110cv-5p-gasolina-2022-en-castellon-70975815-covo.aspx",
+      "label": "[Búsqueda: VW T-Roc 2022-2026, 5000-33000€]",
+      "site": "apify_coches_net",
+      "title": "VOLKSWAGEN T-Roc Advance RLine 1.0 TSI",
+      "first_seen": "2026-07-06T12:07:00.728520+00:00",
+      "last_checked": "2026-07-06T12:07:00.728520+00:00",
+      "status": "active",
+      "current_price": 19700,
+      "price_history": [
+        {
+          "date": "2026-07-06T12:07:00.728520+00:00",
+          "price": 19700
+        }
+      ],
+      "from_search": "VW T-Roc 2022-2026, 5000-33000€"
+    },
+    "0debe90abe6d0e83": {
+      "id": "0debe90abe6d0e83",
+      "url": "https://www.coches.net/volkswagen-t-roc-rline-15-tsi-110kw-150cv-dsg-5p-gasolina-2022-en-valencia-70985494-covo.aspx",
+      "label": "[Búsqueda: VW T-Roc 2022-2026, 5000-33000€]",
+      "site": "apify_coches_net",
+      "title": "VOLKSWAGEN T-Roc RLine 1.5 TSI DSG",
+      "first_seen": "2026-07-06T12:07:00.728526+00:00",
+      "last_checked": "2026-07-06T12:07:00.728526+00:00",
+      "status": "active",
+      "current_price": 23990,
+      "price_history": [
+        {
+          "date": "2026-07-06T12:07:00.728526+00:00",
+          "price": 23990
+        }
+      ],
+      "from_search": "VW T-Roc 2022-2026, 5000-33000€"
+    },
+    "b2b019496f6a0a2e": {
+      "id": "b2b019496f6a0a2e",
+      "url": "https://www.coches.net/volkswagen-t-roc-rline-15-tsi-110kw-150cv-dsg-5p-gasolina-2022-en-madrid-70985268-covo.aspx",
+      "label": "[Búsqueda: VW T-Roc 2022-2026, 5000-33000€]",
+      "site": "apify_coches_net",
+      "title": "VOLKSWAGEN T-Roc RLine 1.5 TSI DSG",
+      "first_seen": "2026-07-06T12:07:00.728533+00:00",
+      "last_checked": "2026-07-06T12:07:00.728533+00:00",
+      "status": "active",
+      "current_price": 23990,
+      "price_history": [
+        {
+          "date": "2026-07-06T12:07:00.728533+00:00",
+          "price": 23990
+        }
+      ],
+      "from_search": "VW T-Roc 2022-2026, 5000-33000€"
+    },
+    "268126cb6c85773e": {
+      "id": "268126cb6c85773e",
+      "url": "https://www.coches.net/volkswagen-t-roc-troc-15-tsi-110kw-150cv-dsg-5p-gasolina-2026-en-valladolid-71003511-covo.aspx",
+      "label": "[Búsqueda: VW T-Roc 2022-2026, 5000-33000€]",
+      "site": "apify_coches_net",
+      "title": "VOLKSWAGEN T-Roc TRoc 1.5 TSI DSG",
+      "first_seen": "2026-07-06T12:07:00.728539+00:00",
+      "last_checked": "2026-07-06T12:07:00.728539+00:00",
+      "status": "active",
+      "current_price": 29490,
+      "price_history": [
+        {
+          "date": "2026-07-06T12:07:00.728539+00:00",
+          "price": 29490
+        }
+      ],
+      "from_search": "VW T-Roc 2022-2026, 5000-33000€"
+    },
+    "fc9b56ff4f574b8e": {
+      "id": "fc9b56ff4f574b8e",
+      "url": "https://www.coches.net/volkswagen-t-roc-advance-rline-10-tsi-81kw-110cv-5p-gasolina-2022-en-cadiz-70983794-covo.aspx",
+      "label": "[Búsqueda: VW T-Roc 2022-2026, 5000-33000€]",
+      "site": "apify_coches_net",
+      "title": "VOLKSWAGEN T-Roc Advance RLine 1.0 TSI",
+      "first_seen": "2026-07-06T12:07:00.728547+00:00",
+      "last_checked": "2026-07-06T12:07:00.728547+00:00",
+      "status": "active",
+      "current_price": 20900,
+      "price_history": [
+        {
+          "date": "2026-07-06T12:07:00.728547+00:00",
+          "price": 20900
+        }
+      ],
+      "from_search": "VW T-Roc 2022-2026, 5000-33000€"
+    },
+    "666bb4934aa3727a": {
+      "id": "666bb4934aa3727a",
+      "url": "https://www.coches.net/volkswagen-t-roc-advance-rline-10-tsi-81kw-110cv-5p-gasolina-2022-en-cadiz-70983791-covo.aspx",
+      "label": "[Búsqueda: VW T-Roc 2022-2026, 5000-33000€]",
+      "site": "apify_coches_net",
+      "title": "VOLKSWAGEN T-Roc Advance RLine 1.0 TSI",
+      "first_seen": "2026-07-06T12:07:00.728553+00:00",
+      "last_checked": "2026-07-06T12:07:00.728553+00:00",
+      "status": "active",
+      "current_price": 22400,
+      "price_history": [
+        {
+          "date": "2026-07-06T12:07:00.728553+00:00",
+          "price": 22400
+        }
+      ],
+      "from_search": "VW T-Roc 2022-2026, 5000-33000€"
+    },
+    "6b8d3bffcca48aab": {
+      "id": "6b8d3bffcca48aab",
+      "url": "https://www.coches.net/volkswagen-t-roc-life-15-tsi-110kw-150cv-dsg-5p-gasolina-2023-en-cadiz-70983757-covo.aspx",
+      "label": "[Búsqueda: VW T-Roc 2022-2026, 5000-33000€]",
+      "site": "apify_coches_net",
+      "title": "VOLKSWAGEN T-Roc Life 1.5 TSI DSG",
+      "first_seen": "2026-07-06T12:07:00.728560+00:00",
+      "last_checked": "2026-07-06T12:07:00.728560+00:00",
+      "status": "active",
+      "current_price": 21900,
+      "price_history": [
+        {
+          "date": "2026-07-06T12:07:00.728560+00:00",
+          "price": 21900
+        }
+      ],
+      "from_search": "VW T-Roc 2022-2026, 5000-33000€"
+    },
+    "c2a85934fd150989": {
+      "id": "c2a85934fd150989",
+      "url": "https://www.coches.net/volkswagen-t-roc-dark-line-15-tsi-110kw-150cv-dsg-5p-gasolina-2026-en-sevilla-70983016-covo.aspx",
+      "label": "[Búsqueda: VW T-Roc 2022-2026, 5000-33000€]",
+      "site": "apify_coches_net",
+      "title": "VOLKSWAGEN T-Roc Dark Line 1.5 TSI DSG",
+      "first_seen": "2026-07-06T12:07:00.728567+00:00",
+      "last_checked": "2026-07-06T12:07:00.728567+00:00",
+      "status": "active",
+      "current_price": 26990,
+      "price_history": [
+        {
+          "date": "2026-07-06T12:07:00.728567+00:00",
+          "price": 26990
+        }
+      ],
+      "from_search": "VW T-Roc 2022-2026, 5000-33000€"
+    },
+    "8f5b7f4e77cca916": {
+      "id": "8f5b7f4e77cca916",
+      "url": "https://www.coches.net/volkswagen-t-roc-troc-10-tsi-81kw-110cv-5p-gasolina-2022-en-sta-c-tenerife-70968450-covo.aspx",
+      "label": "[Búsqueda: VW T-Roc 2022-2026, 5000-33000€]",
+      "site": "apify_coches_net",
+      "title": "VOLKSWAGEN T-Roc TRoc 1.0 TSI",
+      "first_seen": "2026-07-06T12:07:00.728573+00:00",
+      "last_checked": "2026-07-06T12:07:00.728573+00:00",
+      "status": "active",
+      "current_price": 16985,
+      "price_history": [
+        {
+          "date": "2026-07-06T12:07:00.728573+00:00",
+          "price": 16985
+        }
+      ],
+      "from_search": "VW T-Roc 2022-2026, 5000-33000€"
+    },
+    "0f9bcbc4bdce84e8": {
+      "id": "0f9bcbc4bdce84e8",
+      "url": "https://www.coches.net/volkswagen-t-roc-dark-line-15-tsi-110kw-150cv-dsg-5p-gasolina-2025-en-barcelona-70983365-covo.aspx",
+      "label": "[Búsqueda: VW T-Roc 2022-2026, 5000-33000€]",
+      "site": "apify_coches_net",
+      "title": "VOLKSWAGEN T-Roc Dark Line 1.5 TSI DSG",
+      "first_seen": "2026-07-06T12:07:00.728580+00:00",
+      "last_checked": "2026-07-06T12:07:00.728580+00:00",
+      "status": "active",
+      "current_price": 30490,
+      "price_history": [
+        {
+          "date": "2026-07-06T12:07:00.728580+00:00",
+          "price": 30490
+        }
+      ],
+      "from_search": "VW T-Roc 2022-2026, 5000-33000€"
+    },
+    "1638baf94bd45e8d": {
+      "id": "1638baf94bd45e8d",
+      "url": "https://www.coches.net/volkswagen-t-roc-life-10-tsi-81kw-110cv-5p-gasolina-2024-en-valencia-70961395-covo.aspx",
+      "label": "[Búsqueda: VW T-Roc 2022-2026, 5000-33000€]",
+      "site": "apify_coches_net",
+      "title": "VOLKSWAGEN T-Roc Life 1.0 TSI",
+      "first_seen": "2026-07-06T12:07:00.728586+00:00",
+      "last_checked": "2026-07-06T12:07:00.728586+00:00",
+      "status": "active",
+      "current_price": 20900,
+      "price_history": [
+        {
+          "date": "2026-07-06T12:07:00.728586+00:00",
+          "price": 20900
+        }
+      ],
+      "from_search": "VW T-Roc 2022-2026, 5000-33000€"
+    },
+    "1acd8506b2294965": {
+      "id": "1acd8506b2294965",
+      "url": "https://www.coches.net/volkswagen-t-roc-mas-15-tsi-110kw-150cv-dsg-5p-gasolina-2025-en-barcelona-70991761-covo.aspx",
+      "label": "[Búsqueda: VW T-Roc 2022-2026, 5000-33000€]",
+      "site": "apify_coches_net",
+      "title": "VOLKSWAGEN T-Roc Mas 1.5 TSI DSG",
+      "first_seen": "2026-07-06T12:07:00.728593+00:00",
+      "last_checked": "2026-07-06T12:07:00.728593+00:00",
+      "status": "active",
+      "current_price": 27990,
+      "price_history": [
+        {
+          "date": "2026-07-06T12:07:00.728593+00:00",
+          "price": 27990
+        }
+      ],
+      "from_search": "VW T-Roc 2022-2026, 5000-33000€"
     }
   },
-  "new_this_run": [],
-  "last_run": "2026-07-06T03:47:09.265740+00:00",
+  "new_this_run": [
+    {
+      "id": "72e4599840978b46",
+      "url": "https://www.coches.net/volkswagen-t-roc-rline-15-tsi-110kw-150cv-dsg-5p-gasolina-2024-en-barcelona-70984228-covo.aspx",
+      "title": "VOLKSWAGEN T-Roc RLine 1.5 TSI DSG",
+      "price": 29950,
+      "site": "apify_coches_net",
+      "search_label": "VW T-Roc 2022-2026, 5000-33000€",
+      "date": "2026-07-06T12:07:00.728234+00:00"
+    },
+    {
+      "id": "60b31e7061e5782b",
+      "url": "https://www.coches.net/volkswagen-t-roc-cabrio-style-10-tsi-81kw-110cv-2p-gasolina-2023-en-sta-c-tenerife-70912561-covo.aspx",
+      "title": "VOLKSWAGEN T-Roc Cabrio Style 1.0 TSI",
+      "price": 16985,
+      "site": "apify_coches_net",
+      "search_label": "VW T-Roc 2022-2026, 5000-33000€",
+      "date": "2026-07-06T12:07:00.728250+00:00"
+    },
+    {
+      "id": "8b4dc41618052dbf",
+      "url": "https://www.coches.net/volkswagen-t-roc-sport-15-tsi-110kw-150cv-dsg-5p-gasolina-2022-en-malaga-70913855-covo.aspx",
+      "title": "VOLKSWAGEN T-Roc Sport 1.5 TSI DSG",
+      "price": 25500,
+      "site": "apify_coches_net",
+      "search_label": "VW T-Roc 2022-2026, 5000-33000€",
+      "date": "2026-07-06T12:07:00.728261+00:00"
+    },
+    {
+      "id": "db0b26b673fc577a",
+      "url": "https://www.coches.net/volkswagen-troc-rline-15-tsi-110kw-150cv-dsg-5p-gasolina-2022-en-malaga-70984820-covo.aspx",
+      "title": "VOLKSWAGEN TRoc RLine 1.5 TSI DSG",
+      "price": 26500,
+      "site": "apify_coches_net",
+      "search_label": "VW T-Roc 2022-2026, 5000-33000€",
+      "date": "2026-07-06T12:07:00.728272+00:00"
+    },
+    {
+      "id": "3e7f177ec891e9cd",
+      "url": "https://www.coches.net/volkswagen-t-roc-life-10-tsi-81kw-110cv-5p-gasolina-2024-en-murcia-70749181-covo.aspx",
+      "title": "VOLKSWAGEN T-Roc Life 1.0 TSI",
+      "price": 24499,
+      "site": "apify_coches_net",
+      "search_label": "VW T-Roc 2022-2026, 5000-33000€",
+      "date": "2026-07-06T12:07:00.728286+00:00"
+    },
+    {
+      "id": "e244ba0a3baed3ad",
+      "url": "https://www.coches.net/volkswagen-t-roc-advance-rline-10-tsi-81kw-110cv-5p-gasolina-2022-en-tarragona-70975799-covo.aspx",
+      "title": "VOLKSWAGEN T-Roc Advance RLine 1.0 TSI",
+      "price": 19700,
+      "site": "apify_coches_net",
+      "search_label": "VW T-Roc 2022-2026, 5000-33000€",
+      "date": "2026-07-06T12:07:00.728295+00:00"
+    },
+    {
+      "id": "65b046199259f017",
+      "url": "https://www.coches.net/volkswagen-t-roc-cabrio-style-10-tsi-81kw-110cv-2p-gasolina-2023-en-las-palmas-70497363-covo.aspx",
+      "title": "VOLKSWAGEN T-Roc Cabrio Style 1.0 TSI",
+      "price": 16985,
+      "site": "apify_coches_net",
+      "search_label": "VW T-Roc 2022-2026, 5000-33000€",
+      "date": "2026-07-06T12:07:00.728304+00:00"
+    },
+    {
+      "id": "bc1aa16396a24778",
+      "url": "https://www.coches.net/volkswagen-t-roc-troc-10-tsi-81kw-110cv-5p-gasolina-2022-en-las-palmas-70968429-covo.aspx",
+      "title": "VOLKSWAGEN T-Roc TRoc 1.0 TSI",
+      "price": 16985,
+      "site": "apify_coches_net",
+      "search_label": "VW T-Roc 2022-2026, 5000-33000€",
+      "date": "2026-07-06T12:07:00.728313+00:00"
+    },
+    {
+      "id": "c3fe510bb74fb831",
+      "url": "https://www.coches.net/volkswagen-t-roc-edition-10-tsi-81kw-110cv-5p-gasolina-2022-en-las-palmas-70738170-covo.aspx",
+      "title": "VOLKSWAGEN T-Roc Edition 1.0 TSI",
+      "price": 17950,
+      "site": "apify_coches_net",
+      "search_label": "VW T-Roc 2022-2026, 5000-33000€",
+      "date": "2026-07-06T12:07:00.728322+00:00"
+    },
+    {
+      "id": "fbeefcaf01a7f72d",
+      "url": "https://www.coches.net/volkswagen-t-roc-mas-15-tsi-110kw-150cv-dsg-5p-gasolina-2025-en-valencia-70951716-covo.aspx",
+      "title": "VOLKSWAGEN T-Roc Mas 1.5 TSI DSG",
+      "price": 26990,
+      "site": "apify_coches_net",
+      "search_label": "VW T-Roc 2022-2026, 5000-33000€",
+      "date": "2026-07-06T12:07:00.728330+00:00"
+    },
+    {
+      "id": "3aa74d4ff1b92e30",
+      "url": "https://www.coches.net/volkswagen-t-roc-cabrio-style-15-tsi-110kw-150cv-dsg-2p-gasolina-2025-en-alicante-70908961-covo.aspx",
+      "title": "VOLKSWAGEN T-Roc Cabrio Style 1.5 TSI DSG",
+      "price": 32500,
+      "site": "apify_coches_net",
+      "search_label": "VW T-Roc 2022-2026, 5000-33000€",
+      "date": "2026-07-06T12:07:00.728339+00:00"
+    },
+    {
+      "id": "19526bb92bcb06da",
+      "url": "https://www.coches.net/volkswagen-t-roc-cabrio-style-10-tsi-81kw-110cv-2p-gasolina-2023-en-las-palmas-70859400-covo.aspx",
+      "title": "VOLKSWAGEN T-Roc Cabrio Style 1.0 TSI",
+      "price": 16985,
+      "site": "apify_coches_net",
+      "search_label": "VW T-Roc 2022-2026, 5000-33000€",
+      "date": "2026-07-06T12:07:00.728346+00:00"
+    },
+    {
+      "id": "896760bc384d8627",
+      "url": "https://www.coches.net/volkswagen-t-roc-dark-line-15-tsi-110kw-150cv-dsg-5p-gasolina-2026-en-sevilla-70673149-covo.aspx",
+      "title": "VOLKSWAGEN T-Roc Dark Line 1.5 TSI DSG",
+      "price": 26990,
+      "site": "apify_coches_net",
+      "search_label": "VW T-Roc 2022-2026, 5000-33000€",
+      "date": "2026-07-06T12:07:00.728352+00:00"
+    },
+    {
+      "id": "410b77db0247b2aa",
+      "url": "https://www.coches.net/volkswagen-t-roc-life-10-tsi-81kw-110cv-5p-gasolina-2024-en-sta-c-tenerife-70926661-covo.aspx",
+      "title": "VOLKSWAGEN T-Roc Life 1.0 TSI",
+      "price": 16985,
+      "site": "apify_coches_net",
+      "search_label": "VW T-Roc 2022-2026, 5000-33000€",
+      "date": "2026-07-06T12:07:00.728359+00:00"
+    },
+    {
+      "id": "a48e568194f52b4b",
+      "url": "https://www.coches.net/volkswagen-t-roc-rline-15-tsi-110kw-150cv-5p-gasolina-2023-en-granada-70817032-covo.aspx",
+      "title": "VOLKSWAGEN T-Roc RLine 1.5 TSI",
+      "price": 25990,
+      "site": "apify_coches_net",
+      "search_label": "VW T-Roc 2022-2026, 5000-33000€",
+      "date": "2026-07-06T12:07:00.728365+00:00"
+    },
+    {
+      "id": "7d5038b986e07028",
+      "url": "https://www.coches.net/volkswagen-t-roc-advance-10-tsi-81kw-110cv-5p-gasolina-2022-en-las-palmas-62103104-covo.aspx",
+      "title": "VOLKSWAGEN T-Roc Advance 1.0 TSI",
+      "price": 18990,
+      "site": "apify_coches_net",
+      "search_label": "VW T-Roc 2022-2026, 5000-33000€",
+      "date": "2026-07-06T12:07:00.728372+00:00"
+    },
+    {
+      "id": "d48ce94ed5a49573",
+      "url": "https://www.coches.net/volkswagen-t-roc-mas-15-tsi-110kw-150cv-dsg-5p-gasolina-2025-en-barcelona-70928758-covo.aspx",
+      "title": "VOLKSWAGEN T-Roc Mas 1.5 TSI DSG",
+      "price": 28490,
+      "site": "apify_coches_net",
+      "search_label": "VW T-Roc 2022-2026, 5000-33000€",
+      "date": "2026-07-06T12:07:00.728379+00:00"
+    },
+    {
+      "id": "edb177fb73e0885d",
+      "url": "https://www.coches.net/volkswagen-t-roc-life-10-tsi-81kw-110cv-5p-gasolina-2024-en-las-palmas-70926614-covo.aspx",
+      "title": "VOLKSWAGEN T-Roc Life 1.0 TSI",
+      "price": 16985,
+      "site": "apify_coches_net",
+      "search_label": "VW T-Roc 2022-2026, 5000-33000€",
+      "date": "2026-07-06T12:07:00.728392+00:00"
+    },
+    {
+      "id": "158579c0299dd0ba",
+      "url": "https://www.coches.net/volkswagen-t-roc-cabrio-rline-15-tsi-110kw-150cv-2p-gasolina-2023-en-murcia-70739955-covo.aspx",
+      "title": "VOLKSWAGEN T-Roc Cabrio RLine 1.5 TSI",
+      "price": 28490,
+      "site": "apify_coches_net",
+      "search_label": "VW T-Roc 2022-2026, 5000-33000€",
+      "date": "2026-07-06T12:07:00.728398+00:00"
+    },
+    {
+      "id": "ccd2a0068dcc479e",
+      "url": "https://www.coches.net/volkswagen-t-roc-advance-10-tsi-81kw-110cv-5p-gasolina-2022-en-cadiz-70922801-covo.aspx",
+      "title": "VOLKSWAGEN T-Roc Advance 1.0 TSI",
+      "price": 20490,
+      "site": "apify_coches_net",
+      "search_label": "VW T-Roc 2022-2026, 5000-33000€",
+      "date": "2026-07-06T12:07:00.728405+00:00"
+    },
+    {
+      "id": "6aa955edda96b02c",
+      "url": "https://www.coches.net/volkswagen-t-roc-advance-10-tsi-81kw-110cv-5p-gasolina-2022-en-cadiz-62625676-covo.aspx",
+      "title": "VOLKSWAGEN T-Roc Advance 1.0 TSI",
+      "price": 18990,
+      "site": "apify_coches_net",
+      "search_label": "VW T-Roc 2022-2026, 5000-33000€",
+      "date": "2026-07-06T12:07:00.728411+00:00"
+    },
+    {
+      "id": "92d26cf8e680197a",
+      "url": "https://www.coches.net/volkswagen-t-roc-advance-style-15-tsi-110kw-dsg-5p-gasolina-2022-en-ciudad-real-70924693-covo.aspx",
+      "title": "VOLKSWAGEN T-Roc Advance Style 1.5 TSI DSG",
+      "price": 20250,
+      "site": "apify_coches_net",
+      "search_label": "VW T-Roc 2022-2026, 5000-33000€",
+      "date": "2026-07-06T12:07:00.728418+00:00"
+    },
+    {
+      "id": "d128d39a86eb2c69",
+      "url": "https://www.coches.net/volkswagen-t-roc-life-15-tsi-110kw-150cv-dsg-5p-gasolina-2024-en-almeria-70793196-covo.aspx",
+      "title": "VOLKSWAGEN T-Roc Life 1.5 TSI DSG",
+      "price": 26900,
+      "site": "apify_coches_net",
+      "search_label": "VW T-Roc 2022-2026, 5000-33000€",
+      "date": "2026-07-06T12:07:00.728424+00:00"
+    },
+    {
+      "id": "4d9172a06679bc42",
+      "url": "https://www.coches.net/volkswagen-t-roc-cabrio-style-10-tsi-81kw-110cv-2p-gasolina-2023-en-las-palmas-70998373-covo.aspx",
+      "title": "VOLKSWAGEN T-Roc Cabrio Style 1.0 TSI",
+      "price": 14990,
+      "site": "apify_coches_net",
+      "search_label": "VW T-Roc 2022-2026, 5000-33000€",
+      "date": "2026-07-06T12:07:00.728431+00:00"
+    },
+    {
+      "id": "4667d3848ada8724",
+      "url": "https://www.coches.net/volkswagen-t-roc-cabrio-style-10-tsi-81kw-110cv-2p-gasolina-2023-en-las-palmas-71004163-covo.aspx",
+      "title": "VOLKSWAGEN T-Roc Cabrio Style 1.0 TSI",
+      "price": 16890,
+      "site": "apify_coches_net",
+      "search_label": "VW T-Roc 2022-2026, 5000-33000€",
+      "date": "2026-07-06T12:07:00.728437+00:00"
+    },
+    {
+      "id": "49168c2697fd3b17",
+      "url": "https://www.coches.net/volkswagen-t-roc-life-10-tsi-85kw-115cv-5p-gasolina-2024-en-sevilla-71003836-covo.aspx",
+      "title": "VOLKSWAGEN T-Roc Life 1.0 TSI",
+      "price": 20450,
+      "site": "apify_coches_net",
+      "search_label": "VW T-Roc 2022-2026, 5000-33000€",
+      "date": "2026-07-06T12:07:00.728444+00:00"
+    },
+    {
+      "id": "f86be2707d0b1815",
+      "url": "https://www.coches.net/volkswagen-t-roc-rline-15-tsi-110kw-150cv-dsg-5p-gasolina-2025-en-avila-70437203-covo.aspx",
+      "title": "VOLKSWAGEN T-Roc RLine 1.5 TSI DSG",
+      "price": 29990,
+      "site": "apify_coches_net",
+      "search_label": "VW T-Roc 2022-2026, 5000-33000€",
+      "date": "2026-07-06T12:07:00.728450+00:00"
+    },
+    {
+      "id": "5c59ee123f1fe724",
+      "url": "https://www.coches.net/volkswagen-t-roc-edition-10-tsi-81kw-110cv-5p-gasolina-2022-en-las-palmas-70134381-covo.aspx",
+      "title": "VOLKSWAGEN T-Roc Edition 1.0 TSI",
+      "price": 14990,
+      "site": "apify_coches_net",
+      "search_label": "VW T-Roc 2022-2026, 5000-33000€",
+      "date": "2026-07-06T12:07:00.728457+00:00"
+    },
+    {
+      "id": "023834a2dd7bb692",
+      "url": "https://www.coches.net/volkswagen-t-roc-edition-10-tsi-81kw-110cv-5p-gasolina-2022-en-sta-c-tenerife-70136786-covo.aspx",
+      "title": "VOLKSWAGEN T-Roc Edition 1.0 TSI",
+      "price": 14990,
+      "site": "apify_coches_net",
+      "search_label": "VW T-Roc 2022-2026, 5000-33000€",
+      "date": "2026-07-06T12:07:00.728464+00:00"
+    },
+    {
+      "id": "125999ada33afbff",
+      "url": "https://www.coches.net/volkswagen-t-roc-life-10-tsi-81kw-110cv-5p-gasolina-2023-en-sevilla-70985660-covo.aspx",
+      "title": "VOLKSWAGEN T-Roc Life 1.0 TSI",
+      "price": 21890,
+      "site": "apify_coches_net",
+      "search_label": "VW T-Roc 2022-2026, 5000-33000€",
+      "date": "2026-07-06T12:07:00.728471+00:00"
+    },
+    {
+      "id": "0f07e91a65d8bdd2",
+      "url": "https://www.coches.net/volkswagen-t-roc-life-15-tsi-110kw-150cv-5p-gasolina-2023-en-zaragoza-71003977-covo.aspx",
+      "title": "VOLKSWAGEN T-Roc Life 1.5 TSI",
+      "price": 26990,
+      "site": "apify_coches_net",
+      "search_label": "VW T-Roc 2022-2026, 5000-33000€",
+      "date": "2026-07-06T12:07:00.728477+00:00"
+    },
+    {
+      "id": "a957a4ebb032c96b",
+      "url": "https://www.coches.net/volkswagen-t-roc-rline-15-tsi-110kw-150cv-5p-gasolina-2024-en-zaragoza-71002643-covo.aspx",
+      "title": "VOLKSWAGEN T-Roc RLine 1.5 TSI",
+      "price": 25900,
+      "site": "apify_coches_net",
+      "search_label": "VW T-Roc 2022-2026, 5000-33000€",
+      "date": "2026-07-06T12:07:00.728484+00:00"
+    },
+    {
+      "id": "fc936635aff0cbd1",
+      "url": "https://www.coches.net/volkswagen-t-roc-troc-10-tsi-81kw-110cv-5p-gasolina-2024-en-sta-c-tenerife-70978494-covo.aspx",
+      "title": "VOLKSWAGEN T-Roc TRoc 1.0 TSI",
+      "price": 16985,
+      "site": "apify_coches_net",
+      "search_label": "VW T-Roc 2022-2026, 5000-33000€",
+      "date": "2026-07-06T12:07:00.728490+00:00"
+    },
+    {
+      "id": "5f7a17c057c3e632",
+      "url": "https://www.coches.net/volkswagen-t-roc-troc-10-tsi-81kw-110cv-5p-gasolina-2024-en-las-palmas-70978474-covo.aspx",
+      "title": "VOLKSWAGEN T-Roc TRoc 1.0 TSI",
+      "price": 16985,
+      "site": "apify_coches_net",
+      "search_label": "VW T-Roc 2022-2026, 5000-33000€",
+      "date": "2026-07-06T12:07:00.728496+00:00"
+    },
+    {
+      "id": "fe763b501f281f29",
+      "url": "https://www.coches.net/volkswagen-t-roc-life-15-tsi-110kw-150cv-dsg-5p-gasolina-2023-en-valencia-70985433-covo.aspx",
+      "title": "VOLKSWAGEN T-Roc Life 1.5 TSI DSG",
+      "price": 24900,
+      "site": "apify_coches_net",
+      "search_label": "VW T-Roc 2022-2026, 5000-33000€",
+      "date": "2026-07-06T12:07:00.728503+00:00"
+    },
+    {
+      "id": "d9c5042af8addb90",
+      "url": "https://www.coches.net/volkswagen-t-roc-mas-15-tsi-110kw-150cv-5p-gasolina-2024-en-lleida-71001517-covo.aspx",
+      "title": "VOLKSWAGEN T-Roc Mas 1.5 TSI",
+      "price": 26490,
+      "site": "apify_coches_net",
+      "search_label": "VW T-Roc 2022-2026, 5000-33000€",
+      "date": "2026-07-06T12:07:00.728510+00:00"
+    },
+    {
+      "id": "ff29109a9e6db84b",
+      "url": "https://www.coches.net/volkswagen-t-roc-life-10-tsi-81kw-110cv-5p-gasolina-2024-en-barcelona-70983539-covo.aspx",
+      "title": "VOLKSWAGEN T-Roc Life 1.0 TSI",
+      "price": 23490,
+      "site": "apify_coches_net",
+      "search_label": "VW T-Roc 2022-2026, 5000-33000€",
+      "date": "2026-07-06T12:07:00.728516+00:00"
+    },
+    {
+      "id": "6db486964291f418",
+      "url": "https://www.coches.net/volkswagen-t-roc-advance-rline-10-tsi-81kw-110cv-5p-gasolina-2022-en-castellon-70975815-covo.aspx",
+      "title": "VOLKSWAGEN T-Roc Advance RLine 1.0 TSI",
+      "price": 19700,
+      "site": "apify_coches_net",
+      "search_label": "VW T-Roc 2022-2026, 5000-33000€",
+      "date": "2026-07-06T12:07:00.728523+00:00"
+    },
+    {
+      "id": "0debe90abe6d0e83",
+      "url": "https://www.coches.net/volkswagen-t-roc-rline-15-tsi-110kw-150cv-dsg-5p-gasolina-2022-en-valencia-70985494-covo.aspx",
+      "title": "VOLKSWAGEN T-Roc RLine 1.5 TSI DSG",
+      "price": 23990,
+      "site": "apify_coches_net",
+      "search_label": "VW T-Roc 2022-2026, 5000-33000€",
+      "date": "2026-07-06T12:07:00.728529+00:00"
+    },
+    {
+      "id": "b2b019496f6a0a2e",
+      "url": "https://www.coches.net/volkswagen-t-roc-rline-15-tsi-110kw-150cv-dsg-5p-gasolina-2022-en-madrid-70985268-covo.aspx",
+      "title": "VOLKSWAGEN T-Roc RLine 1.5 TSI DSG",
+      "price": 23990,
+      "site": "apify_coches_net",
+      "search_label": "VW T-Roc 2022-2026, 5000-33000€",
+      "date": "2026-07-06T12:07:00.728535+00:00"
+    },
+    {
+      "id": "268126cb6c85773e",
+      "url": "https://www.coches.net/volkswagen-t-roc-troc-15-tsi-110kw-150cv-dsg-5p-gasolina-2026-en-valladolid-71003511-covo.aspx",
+      "title": "VOLKSWAGEN T-Roc TRoc 1.5 TSI DSG",
+      "price": 29490,
+      "site": "apify_coches_net",
+      "search_label": "VW T-Roc 2022-2026, 5000-33000€",
+      "date": "2026-07-06T12:07:00.728543+00:00"
+    },
+    {
+      "id": "fc9b56ff4f574b8e",
+      "url": "https://www.coches.net/volkswagen-t-roc-advance-rline-10-tsi-81kw-110cv-5p-gasolina-2022-en-cadiz-70983794-covo.aspx",
+      "title": "VOLKSWAGEN T-Roc Advance RLine 1.0 TSI",
+      "price": 20900,
+      "site": "apify_coches_net",
+      "search_label": "VW T-Roc 2022-2026, 5000-33000€",
+      "date": "2026-07-06T12:07:00.728549+00:00"
+    },
+    {
+      "id": "666bb4934aa3727a",
+      "url": "https://www.coches.net/volkswagen-t-roc-advance-rline-10-tsi-81kw-110cv-5p-gasolina-2022-en-cadiz-70983791-covo.aspx",
+      "title": "VOLKSWAGEN T-Roc Advance RLine 1.0 TSI",
+      "price": 22400,
+      "site": "apify_coches_net",
+      "search_label": "VW T-Roc 2022-2026, 5000-33000€",
+      "date": "2026-07-06T12:07:00.728556+00:00"
+    },
+    {
+      "id": "6b8d3bffcca48aab",
+      "url": "https://www.coches.net/volkswagen-t-roc-life-15-tsi-110kw-150cv-dsg-5p-gasolina-2023-en-cadiz-70983757-covo.aspx",
+      "title": "VOLKSWAGEN T-Roc Life 1.5 TSI DSG",
+      "price": 21900,
+      "site": "apify_coches_net",
+      "search_label": "VW T-Roc 2022-2026, 5000-33000€",
+      "date": "2026-07-06T12:07:00.728563+00:00"
+    },
+    {
+      "id": "c2a85934fd150989",
+      "url": "https://www.coches.net/volkswagen-t-roc-dark-line-15-tsi-110kw-150cv-dsg-5p-gasolina-2026-en-sevilla-70983016-covo.aspx",
+      "title": "VOLKSWAGEN T-Roc Dark Line 1.5 TSI DSG",
+      "price": 26990,
+      "site": "apify_coches_net",
+      "search_label": "VW T-Roc 2022-2026, 5000-33000€",
+      "date": "2026-07-06T12:07:00.728569+00:00"
+    },
+    {
+      "id": "8f5b7f4e77cca916",
+      "url": "https://www.coches.net/volkswagen-t-roc-troc-10-tsi-81kw-110cv-5p-gasolina-2022-en-sta-c-tenerife-70968450-covo.aspx",
+      "title": "VOLKSWAGEN T-Roc TRoc 1.0 TSI",
+      "price": 16985,
+      "site": "apify_coches_net",
+      "search_label": "VW T-Roc 2022-2026, 5000-33000€",
+      "date": "2026-07-06T12:07:00.728576+00:00"
+    },
+    {
+      "id": "0f9bcbc4bdce84e8",
+      "url": "https://www.coches.net/volkswagen-t-roc-dark-line-15-tsi-110kw-150cv-dsg-5p-gasolina-2025-en-barcelona-70983365-covo.aspx",
+      "title": "VOLKSWAGEN T-Roc Dark Line 1.5 TSI DSG",
+      "price": 30490,
+      "site": "apify_coches_net",
+      "search_label": "VW T-Roc 2022-2026, 5000-33000€",
+      "date": "2026-07-06T12:07:00.728583+00:00"
+    },
+    {
+      "id": "1638baf94bd45e8d",
+      "url": "https://www.coches.net/volkswagen-t-roc-life-10-tsi-81kw-110cv-5p-gasolina-2024-en-valencia-70961395-covo.aspx",
+      "title": "VOLKSWAGEN T-Roc Life 1.0 TSI",
+      "price": 20900,
+      "site": "apify_coches_net",
+      "search_label": "VW T-Roc 2022-2026, 5000-33000€",
+      "date": "2026-07-06T12:07:00.728589+00:00"
+    },
+    {
+      "id": "1acd8506b2294965",
+      "url": "https://www.coches.net/volkswagen-t-roc-mas-15-tsi-110kw-150cv-dsg-5p-gasolina-2025-en-barcelona-70991761-covo.aspx",
+      "title": "VOLKSWAGEN T-Roc Mas 1.5 TSI DSG",
+      "price": 27990,
+      "site": "apify_coches_net",
+      "search_label": "VW T-Roc 2022-2026, 5000-33000€",
+      "date": "2026-07-06T12:07:00.728595+00:00"
+    }
+  ],
+  "last_run": "2026-07-06T12:07:00.728598+00:00",
   "run_history": [
     {
       "date": "2026-07-05T10:51:21.647876+00:00",
@@ -89,6 +1413,11 @@
       "date": "2026-07-06T03:47:09.265740+00:00",
       "events": [],
       "new_count": 0
+    },
+    {
+      "date": "2026-07-06T12:07:00.728598+00:00",
+      "events": [],
+      "new_count": 49
     }
   ]
 }
