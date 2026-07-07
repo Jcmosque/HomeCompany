@@ -10,7 +10,7 @@ import requests
 APIFY_BASE = "https://api.apify.com/v2"
 
 
-def run_actor_sync(token: str, actor_id: str, input_data: dict, timeout: int = 180):
+def run_actor_sync(token: str, actor_id: str, input_data: dict, timeout: int = 320):
     """
     Ejecuta un Actor de Apify y espera a que termine, devolviendo directamente
     la lista de resultados (dataset items).
@@ -23,7 +23,9 @@ def run_actor_sync(token: str, actor_id: str, input_data: dict, timeout: int = 1
 
     resp = requests.post(
         url,
-        params={"token": token},
+        # "timeout" aquí le dice a Apify cuánto puede tardar el Actor en el lado del servidor;
+        # el "timeout" del propio requests.post (más abajo) es cuánto esperamos nosotros la respuesta.
+        params={"token": token, "timeout": 280},
         json=input_data,
         timeout=timeout,
     )
