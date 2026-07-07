@@ -48,7 +48,8 @@ def run_search(session, query: str, max_price, location: str, delay: float, toke
 
     print(f"[apify:wallapop] items recibidos: {len(items)}")
     if items:
-        print(f"[apify:wallapop] ejemplo de item: {json.dumps(items[0], ensure_ascii=False)[:1000]}")
+        print(f"[apify:wallapop] claves del item: {list(items[0].keys())}")
+        print(f"[apify:wallapop] ejemplo de item COMPLETO: {json.dumps(items[0], ensure_ascii=False)}")
 
     for it in items:
         url = it.get("url") or it.get("webSlug") or it.get("link") or it.get("detailUrl")
