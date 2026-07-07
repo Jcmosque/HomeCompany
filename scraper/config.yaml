@@ -14,6 +14,16 @@ searches:
       max_items: 50
       max_pages: 3
 
+  - site: apify_wallapop
+    label: "Wallapop T-Roc <33000€"
+    query: "Volkswagen T-Roc"
+    max_price: 33000
+    params:
+      postal_code: "28522"
+      max_items: 50
+      distance: ""
+      order_by: "most_relevance"
+
 settings:
   request_delay_seconds: 3
   user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"
