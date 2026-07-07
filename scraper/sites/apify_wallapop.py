@@ -3,11 +3,6 @@ Búsqueda en Wallapop vía el Actor de Apify 'igolaizola/wallapop-scraper'.
 
 Al igual que con coches.net, este Actor resuelve por su cuenta el bloqueo
 anti-bot de Wallapop, así que solo traducimos input/output.
-
-IMPORTANTE: no conocemos aún con total certeza los nombres exactos de los
-campos que devuelve este Actor en cada resultado. Probamos varios nombres
-habituales y además IMPRIMIMOS un ejemplo completo del primer resultado en
-el log ('ejemplo de item') para poder ajustar en dos minutos si hace falta.
 """
 import json
 from ..apify_client import run_actor_sync
@@ -18,8 +13,22 @@ ACTOR_ID = "igolaizola/wallapop-scraper"
 def _extract_price(item):
     price = item.get("price")
     if isinstance(price, dict):
-        return price.get("value") or price.get("amount") or price.get("price")
+        cash = price.get("cash")
+        if isinstance(cash, dict):
+            return cash.get("amount")
+        return price.get("value") or price.get("amount")
     return price
+
+
+def _extract_url(item):
+    slug = item.get("web_slug")
+    if slug:
+        return f"https://es.wallapop.com/item/{slug}"
+    details = item.get("_details") or {}
+    share_url = details.get("share_url")
+    if share_url:
+        return share_url.split("?")[0]
+    return None
 
 
 def run_search(session, query: str, max_price, location: str, delay: float, token: str,
@@ -47,15 +56,10 @@ def run_search(session, query: str, max_price, location: str, delay: float, toke
         return results
 
     print(f"[apify:wallapop] items recibidos: {len(items)}")
-    if items:
-        print(f"[apify:wallapop] claves del item: {list(items[0].keys())}")
-        print(f"[apify:wallapop] ejemplo de item COMPLETO: {json.dumps(items[0], ensure_ascii=False)}")
 
     for it in items:
-        url = it.get("url") or it.get("webSlug") or it.get("link") or it.get("detailUrl")
-        if url and not str(url).startswith("http"):
-            url = f"https://es.wallapop.com/item/{url}"
-        title = it.get("title") or it.get("name")
+        url = _extract_url(it)
+        title = it.get("title")
         price = _extract_price(it)
 
         # Filtramos por precio máximo aquí, ya que el Actor no lo admite como parámetro de entrada
