@@ -2,9 +2,9 @@ name: Seguimiento de anuncios de coches
 
 on:
   schedule:
-    # Cada 8 horas. Cambia esta línea si quieres otra frecuencia.
-    # Formato cron: minuto hora díaDelMes mes díaDeLaSemana (hora UTC)
-    - cron: "0 */8 * * *"
+    # Cada 3 días a las 07:00 UTC (para cuidar el crédito de Apify).
+    # Cambia esta línea si quieres otra frecuencia.
+    - cron: "0 7 */3 * *"
   workflow_dispatch: {}   # permite lanzarlo manualmente desde la pestaña "Actions"
 
 permissions:
