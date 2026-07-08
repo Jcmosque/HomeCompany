@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Evolución de precios — coches de segunda mano</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+<style>
+  :root{
+    --bg: #f4f5f7;
+    --panel: #ffffff;
+    --line: #e3e6eb;
+    --ink: #1a1f27;
+    --ink-dim: #6b7280;
+    --amber: #b5720a;
+    --green: #1f9d55;
+    --red: #dc2626;
+    --blue: #2563eb;
+    --header-bg: #1f2937;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0; background:var(--bg); color:var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  }
+  .wrap{max-width:1400px; margin:0 auto; padding:24px 20px 60px;}
+
+  header.top{margin-bottom:18px;}
+  h1{font-size:24px; margin:0 0 4px; display:flex; align-items:center; gap:10px;}
+  .subtitle{color:var(--ink-dim); font-size:13.5px; margin:0;}
+  .last-run{color:var(--ink-dim); font-size:12.5px; margin-top:6px;}
+
+  .gauges{display:grid; grid-template-columns:repeat(4,1fr); gap:12px; margin:18px 0 20px;}
+  @media (max-width:700px){.gauges{grid-template-columns:repeat(2,1fr);}}
+  .gauge{background:var(--panel); border:1px solid var(--line); border-radius:8px; padding:12px 14px; position:relative; overflow:hidden;}
+  .gauge::before{content:""; position:absolute; left:0; top:0; bottom:0; width:3px;}
+  .gauge.g-amber::before{background:var(--amber);} .gauge.g-green::before{background:var(--green);}
+  .gauge.g-red::before{background:var(--red);} .gauge.g-blue::before{background:var(--blue);}
+  .gauge .label{color:var(--ink-dim); font-size:11px; text-transform:uppercase; letter-spacing:.06em;}
+  .gauge .value{font-size:24px; font-weight:700; margin-top:2px;}
+
+  .tabs{display:flex; gap:4px; margin-bottom:14px; border-bottom:1px solid var(--line);}
+  .tab{
+    font-weight:600; text-transform:uppercase; letter-spacing:.03em; font-size:13.5px;
+    color:var(--ink-dim); background:none; border:none; cursor:pointer;
+    padding:9px 14px; border-bottom:2px solid transparent;
+  }
+  .tab.active{color:var(--ink); border-bottom-color:var(--amber);}
+  .panel-view{display:none;} .panel-view.active{display:block;}
+
+  .toolbar{
+    display:flex; gap:10px; align-items:center; flex-wrap:wrap;
+    background:var(--panel); border:1px solid var(--line); border-radius:8px; padding:12px 14px; margin-bottom:14px;
+  }
+  .btn{
+    border:none; padding:8px 14px; border-radius:6px; font-size:13px; font-weight:600; cursor:pointer;
+  }
+  .btn-primary{background:var(--blue); color:#fff;}
+  .btn-secondary{background:#eef0f3; color:var(--ink);}
+  .btn:hover{filter:brightness(0.95);}
+
+  .table-scroll{
+    background:var(--panel); border:1px solid var(--line); border-radius:8px; overflow:auto; max-height:70vh;
+  }
+  table{border-collapse:collapse; width:100%; font-size:13px; min-width:900px;}
+  thead th{
+    background:var(--header-bg); color:#fff; text-align:left; font-weight:600;
+    padding:9px 10px; position:sticky; top:0; z-index:2; white-space:nowrap;
+  }
+  thead tr.filters th{
+    background:#f7f8fa; padding:6px 8px; position:sticky; top:34px; z-index:1;
+  }
+  thead tr.filters input, thead tr.filters select{
+    width:100%; padding:5px 6px; border:1px solid var(--line); border-radius:5px; font-size:12px; background:#fff; color:var(--ink);
+  }
+  tbody td{padding:10px; border-bottom:1px solid var(--line); vertical-align:top;}
+  tbody tr:hover{background:#f9fafb;}
+  .id-cell{font-family:monospace; color:var(--ink-dim); font-size:12px;}
+  .car-title{font-weight:600; font-size:13.5px;}
+  .car-meta{color:var(--ink-dim); font-size:11.5px; margin-top:2px;}
+  .site-badge{
+    display:inline-block; background:#eef2ff; color:#4338ca; border-radius:20px; padding:2px 9px; font-size:11px; font-weight:600;
+  }
+  a.ver{color:var(--blue); text-decoration:none; font-size:12.5px; white-space:nowrap;}
+  a.ver:hover{text-decoration:underline;}
+  td.price-cell{text-align:right; font-variant-numeric:tabular-nums; white-space:nowrap;}
+  td.price-cell.muted{color:#c3c8d1;}
+  td.price-cell.current{font-weight:700;}
+  .status-active{color:var(--green); font-weight:700; font-size:12px;}
+  .status-sold{color:var(--red); font-weight:700; font-size:12px;}
+  .empty{text-align:center; color:var(--ink-dim); padding:50px 20px; border:1px dashed var(--line); border-radius:8px; font-size:14px; line-height:1.6;}
+  .empty b{color:var(--ink);}
+  code{background:#f7f8fa; padding:2px 6px; border-radius:4px; font-size:12.5px;}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="top">
+    <h1>📊 Evolución de precios de coches</h1>
+    <p class="subtitle">Seguimiento temporal por anuncio, con filtros por columna</p>
+    <div class="last-run" id="lastRun">Cargando…</div>
+  </header>
+
+  <section class="gauges">
+    <div class="gauge g-blue"><div class="label">Anuncios seguidos</div><div class="value" id="statTotal">–</div></div>
+    <div class="gauge g-green"><div class="label">Bajadas de precio</div><div class="value" id="statDown">–</div></div>
+    <div class="gauge g-red"><div class="label">Vendidos / retirados</div><div class="value" id="statSold">–</div></div>
+    <div class="gauge g-amber"><div class="label">Nuevos (última pasada)</div><div class="value" id="statNew">–</div></div>
+  </section>
+
+  <div class="tabs">
+    <button class="tab active" data-view="tracking">Seguimiento</button>
+    <button class="tab" data-view="new">Nuevas ofertas</button>
+  </div>
+
+  <div class="panel-view active" id="view-tracking">
+    <div class="toolbar">
+      <button class="btn btn-secondary" onclick="clearFilters()">✕ Limpiar filtros</button>
+      <button class="btn btn-primary" onclick="exportExcel()">⬆ Exportar a Excel</button>
+    </div>
+    <div class="table-scroll">
+      <table id="trackingTable">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Coche</th>
+            <th>Fuente</th>
+            <th>URL</th>
+            <th id="dateHeaders">Sin historial aún</th>
+            <th>Último precio</th>
+            <th>Estado</th>
+          </tr>
+          <tr class="filters">
+            <th><input type="text" id="f-id" placeholder="Filtrar ID…" oninput="applyFilters()"></th>
+            <th><input type="text" id="f-title" placeholder="Buscar título/modelo…" oninput="applyFilters()"></th>
+            <th>
+              <select id="f-site" onchange="applyFilters()"><option value="">Todas</option></select>
+            </th>
+            <th>–</th>
+            <th id="dateFilterCells"></th>
+            <th>
+              <input type="number" id="f-minprice" placeholder="Min€" oninput="applyFilters()" style="margin-bottom:4px;">
+              <input type="number" id="f-maxprice" placeholder="Max€" oninput="applyFilters()">
+            </th>
+            <th>
+              <select id="f-status" onchange="applyFilters()">
+                <option value="">Todas</option>
+                <option value="active">Activo</option>
+                <option value="sold">Baja</option>
+              </select>
+            </th>
+          </tr>
+        </thead>
+        <tbody id="trackingBody"></tbody>
+      </table>
+    </div>
+    <div id="trackingEmpty"></div>
+  </div>
+
+  <div class="panel-view" id="view-new">
+    <div class="table-scroll">
+      <table>
+        <thead>
+          <tr><th>Coche</th><th>Fuente</th><th>Búsqueda</th><th>Encontrado</th><th>URL</th><th>Precio</th></tr>
+        </thead>
+        <tbody id="newBody"></tbody>
+      </table>
+    </div>
+    <div id="newEmpty"></div>
+  </div>
+
+</div>
+
+<script>
+let RAW = null;
+const MAX_DATE_COLUMNS = 8; // cuántas fechas recientes mostrar como columnas
+
+const fmtPrice = p => (p == null) ? "-" : Number(p).toLocaleString("es-ES", {maximumFractionDigits:0}) + "€";
+const fmtDateShort = iso => {
+  const d = new Date(iso);
+  return d.toLocaleDateString("es-ES", {day:"2-digit", month:"short"});
+};
+const fmtDateTime = iso => iso ? new Date(iso).toLocaleString("es-ES", {day:"2-digit",month:"2-digit",year:"2-digit",hour:"2-digit",minute:"2-digit"}) : "—";
+const escapeHtml = s => (s||"").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+
+function getDateColumns(listings){
+  const set = new Set();
+  Object.values(listings).forEach(l => (l.price_history||[]).forEach(h => set.add(h.date.slice(0,10))));
+  const all = Array.from(set).sort();
+  return all.slice(-MAX_DATE_COLUMNS);
+}
+
+function priceOnDate(listing, dateStr){
+  const entries = (listing.price_history||[]).filter(h => h.date.slice(0,10) === dateStr);
+  if(entries.length === 0) return null;
+  return entries[entries.length-1].price;
+}
+
+function buildSiteOptions(listings){
+  const sites = Array.from(new Set(Object.values(listings).map(l=>l.site))).sort();
+  const sel = document.getElementById("f-site");
+  sites.forEach(s=>{
+    const opt = document.createElement("option");
+    opt.value = s; opt.textContent = s;
+    sel.appendChild(opt);
+  });
+}
+
+function renderTrackingTable(listings, dateCols){
+  const headEl = document.getElementById("dateHeaders");
+  if(dateCols.length > 0){
+    headEl.outerHTML = dateCols.map(d=>`<th>${fmtDateShort(d)}</th>`).join("");
+  }
+  const filterEl = document.getElementById("dateFilterCells");
+  if(filterEl && dateCols.length > 0){
+    filterEl.outerHTML = dateCols.map(()=>`<th>–</th>`).join("");
+  }
+
+  const items = Object.values(listings);
+  window._allListings = items;
+  window._dateCols = dateCols;
+  renderTrackingRows(items, dateCols);
+}
+
+function renderTrackingRows(items, dateCols){
+  const body = document.getElementById("trackingBody");
+  const emptyEl = document.getElementById("trackingEmpty");
+  if(items.length === 0){
+    body.innerHTML = "";
+    emptyEl.innerHTML = `<div class="empty">No hay anuncios que coincidan con los filtros (o todavía no hay datos de seguimiento).</div>`;
+    return;
+  }
+  emptyEl.innerHTML = "";
+  const sorted = [...items].sort((a,b)=> new Date(b.last_checked) - new Date(a.last_checked));
+
+  body.innerHTML = sorted.map(l=>{
+    const dateCells = dateCols.map(d=>{
+      const p = priceOnDate(l, d);
+      return `<td class="price-cell ${p==null?'muted':''}">${p==null ? "-" : fmtPrice(p)}</td>`;
+    }).join("");
+    return `
+    <tr>
+      <td class="id-cell">${l.id}</td>
+      <td>
+        <div class="car-title">${escapeHtml(l.title || l.label || "(sin título)")}</div>
+        <div class="car-meta">${l.label ? escapeHtml(l.label) : ""}</div>
+      </td>
+      <td><span class="site-badge">${l.site}</span></td>
+      <td><a class="ver" href="${l.url}" target="_blank" rel="noopener">🔗 Ver anuncio</a></td>
+      ${dateCells}
+      <td class="price-cell current">${fmtPrice(l.current_price)}</td>
+      <td>${l.status === 'active' ? '<span class="status-active">● ACTIVO</span>' : '<span class="status-sold">✕ BAJA</span>'}</td>
+    </tr>`;
+  }).join("");
+}
+
+function applyFilters(){
+  const idF = document.getElementById("f-id").value.trim().toLowerCase();
+  const titleF = document.getElementById("f-title").value.trim().toLowerCase();
+  const siteF = document.getElementById("f-site").value;
+  const statusF = document.getElementById("f-status").value;
+  const minP = parseFloat(document.getElementById("f-minprice").value);
+  const maxP = parseFloat(document.getElementById("f-maxprice").value);
+
+  const filtered = (window._allListings||[]).filter(l=>{
+    if(idF && !l.id.toLowerCase().includes(idF)) return false;
+    if(titleF && !((l.title||"") + " " + (l.label||"")).toLowerCase().includes(titleF)) return false;
+    if(siteF && l.site !== siteF) return false;
+    if(statusF === "active" && l.status !== "active") return false;
+    if(statusF === "sold" && l.status === "active") return false;
+    if(!isNaN(minP) && (l.current_price == null || l.current_price < minP)) return false;
+    if(!isNaN(maxP) && (l.current_price == null || l.current_price > maxP)) return false;
+    return true;
+  });
+  renderTrackingRows(filtered, window._dateCols || []);
+}
+
+function clearFilters(){
+  document.getElementById("f-id").value = "";
+  document.getElementById("f-title").value = "";
+  document.getElementById("f-site").value = "";
+  document.getElementById("f-status").value = "";
+  document.getElementById("f-minprice").value = "";
+  document.getElementById("f-maxprice").value = "";
+  applyFilters();
+}
+
+function exportExcel(){
+  const rows = [["ID","Coche","Fuente","URL","Último precio","Estado", ...(window._dateCols||[]).map(fmtDateShort)]];
+  (window._allListings||[]).forEach(l=>{
+    const row = [l.id, l.title || l.label || "", l.site, l.url, l.current_price ?? "", l.status === "active" ? "Activo" : "Baja"];
+    (window._dateCols||[]).forEach(d=>{
+      const p = priceOnDate(l, d);
+      row.push(p ?? "");
+    });
+    rows.push(row);
+  });
+  const ws = XLSX.utils.aoa_to_sheet(rows);
+  const wb = XLSX.utils.book_new();
+  XLSX.utils.book_append_sheet(wb, ws, "Seguimiento");
+  XLSX.writeFile(wb, "seguimiento_coches.xlsx");
+}
+
+function renderNew(newItems){
+  const body = document.getElementById("newBody");
+  const emptyEl = document.getElementById("newEmpty");
+  if(!newItems || newItems.length === 0){
+    body.innerHTML = "";
+    emptyEl.innerHTML = `<div class="empty">No se han encontrado anuncios nuevos en la última pasada.<br>
+      Revisa que tus búsquedas en <code>scraper/config.yaml</code> tengan criterios amplios si esperabas resultados.</div>`;
+    return;
+  }
+  emptyEl.innerHTML = "";
+  const sorted = [...newItems].sort((a,b)=> new Date(b.date) - new Date(a.date));
+  body.innerHTML = sorted.map(o=>`
+    <tr>
+      <td class="car-title">${escapeHtml(o.title || "(sin título)")}</td>
+      <td><span class="site-badge">${o.site}</span></td>
+      <td>${escapeHtml(o.search_label || "—")}</td>
+      <td>${fmtDateTime(o.date)}</td>
+      <td><a class="ver" href="${o.url}" target="_blank" rel="noopener">🔗 Ver anuncio</a></td>
+      <td class="price-cell current">${fmtPrice(o.price)}</td>
+    </tr>`).join("");
+}
+
+document.querySelectorAll(".tab").forEach(tab=>{
+  tab.addEventListener("click", ()=>{
+    document.querySelectorAll(".tab").forEach(t=>t.classList.remove("active"));
+    document.querySelectorAll(".panel-view").forEach(v=>v.classList.remove("active"));
+    tab.classList.add("active");
+    document.getElementById("view-" + tab.dataset.view).classList.add("active");
+  });
+});
+
+async function load(){
+  try{
+    const res = await fetch("./data/listings.json?_=" + Date.now());
+    const data = await res.json();
+    RAW = data;
+
+    document.getElementById("lastRun").textContent = data.last_run
+      ? "Última comprobación: " + fmtDateTime(data.last_run)
+      : "Aún no se ha ejecutado ninguna comprobación";
+
+    const listings = data.listings || {};
+    const items = Object.values(listings);
+    document.getElementById("statTotal").textContent = items.length;
+    document.getElementById("statSold").textContent = items.filter(i=>i.status !== "active").length;
+
+    const lastEvents = (data.run_history && data.run_history.length)
+      ? data.run_history[data.run_history.length-1].events || [] : [];
+    document.getElementById("statDown").textContent = lastEvents.filter(e=>e.change === "price_changed").length;
+    document.getElementById("statNew").textContent = (data.new_this_run || []).length;
+
+    buildSiteOptions(listings);
+    const dateCols = getDateColumns(listings);
+    renderTrackingTable(listings, dateCols);
+    renderNew(data.new_this_run || []);
+  }catch(e){
+    document.getElementById("lastRun").textContent = "No se ha podido cargar data/listings.json";
+    console.error(e);
+  }
+}
+load();
+</script>
+</body>
+</html>
