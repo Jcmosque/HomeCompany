@@ -73,14 +73,31 @@
 
   .card{
     background:var(--panel); border:1px solid var(--panel-line); border-radius:10px;
-    padding:16px 18px; margin-bottom:12px; display:flex; gap:16px; align-items:center;
+    padding:16px 18px; margin-bottom:12px;
   }
-  @media (max-width:640px){.card{flex-wrap:wrap;}}
+  .card-top{display:flex; gap:16px; align-items:center;}
+  @media (max-width:640px){.card-top{flex-wrap:wrap;}}
   .card .info{flex:1; min-width:0;}
   .card .title{font-weight:600; font-size:15px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;}
   .card .meta{color:var(--ink-dim); font-size:12.5px; margin-top:3px;}
   .card a{color:var(--blue); text-decoration:none;}
   .card a:hover{text-decoration:underline;}
+
+  .price-cols{
+    display:flex; align-items:center; gap:8px; margin-top:14px; padding-top:14px;
+    border-top:1px solid var(--panel-line); flex-wrap:wrap;
+  }
+  .price-cols .col-label{font-size:11px; color:var(--ink-dim); text-transform:uppercase; letter-spacing:.05em; margin-right:4px;}
+  .price-col{
+    background:#0e1116; border:1px solid var(--panel-line); border-radius:8px;
+    padding:6px 12px; text-align:center; min-width:78px;
+  }
+  .price-col .d{font-size:10.5px; color:var(--ink-dim); font-family:"JetBrains Mono", monospace;}
+  .price-col .p{font-family:"JetBrains Mono", monospace; font-weight:700; font-size:14.5px; margin-top:2px;}
+  .price-col.current{border-color:var(--amber);}
+  .price-arrow{font-size:15px; color:var(--ink-dim);}
+  .price-arrow.down{color:var(--green);}
+  .price-arrow.up{color:var(--red);}
 
   .badge{
     font-family:"JetBrains Mono", monospace; font-size:11px; padding:3px 8px; border-radius:20px;
@@ -158,6 +175,28 @@ function sparkline(history){
   return `<svg class="spark" viewBox="0 0 ${w} ${h}"><polyline points="${pts}" fill="none" stroke="${color}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
 }
 
+function priceColumns(history, currentPrice){
+  if(!history || history.length === 0) return "";
+  const last3 = history.slice(-3); // hasta los 3 últimos registros
+  let html = `<div class="price-cols"><span class="col-label">Últimos precios:</span>`;
+  last3.forEach((h, i)=>{
+    const isCurrent = i === last3.length - 1;
+    html += `<div class="price-col ${isCurrent ? 'current' : ''}">
+      <div class="d">${fmtDate(h.date)}</div>
+      <div class="p">${fmtPrice(h.price)}</div>
+    </div>`;
+    if(i < last3.length - 1){
+      const next = last3[i+1].price;
+      let arrowClass = "", arrow = "→";
+      if(next < h.price){ arrowClass = "down"; arrow = "↓"; }
+      else if(next > h.price){ arrowClass = "up"; arrow = "↑"; }
+      html += `<span class="price-arrow ${arrowClass}">${arrow}</span>`;
+    }
+  });
+  html += `</div>`;
+  return html;
+}
+
 function renderTracking(listings){
   const el = document.getElementById("view-tracking");
   const items = Object.values(listings).sort((a,b)=> new Date(b.last_checked) - new Date(a.last_checked));
@@ -174,17 +213,20 @@ function renderTracking(listings){
     }
     return `
     <div class="card">
-      ${sparkline(hist)}
-      <div class="info">
-        <div class="title">${escapeHtml(it.title || it.label || it.url)}</div>
-        <div class="meta">
-          <span class="site-tag">${it.site}</span>
-          &nbsp;·&nbsp; ${it.label ? escapeHtml(it.label) + " · " : ""}visto por última vez: ${fmtDate(it.last_checked)}
-          &nbsp;·&nbsp; <a href="${it.url}" target="_blank" rel="noopener">ver anuncio ↗</a>
+      <div class="card-top">
+        ${sparkline(hist)}
+        <div class="info">
+          <div class="title">${escapeHtml(it.title || it.label || it.url)}</div>
+          <div class="meta">
+            <span class="site-tag">${it.site}</span>
+            &nbsp;·&nbsp; ${it.label ? escapeHtml(it.label) + " · " : ""}visto por última vez: ${fmtDate(it.last_checked)}
+            &nbsp;·&nbsp; <a href="${it.url}" target="_blank" rel="noopener">ver anuncio ↗</a>
+          </div>
         </div>
+        <span class="badge ${it.status === 'active' ? 'active' : 'sold'}">${it.status === 'active' ? 'Activo' : 'Vendido / retirado'}</span>
+        <div class="price ${trendClass}">${fmtPrice(it.current_price)}</div>
       </div>
-      <span class="badge ${it.status === 'active' ? 'active' : 'sold'}">${it.status === 'active' ? 'Activo' : 'Vendido / retirado'}</span>
-      <div class="price ${trendClass}">${fmtPrice(it.current_price)}</div>
+      ${priceColumns(hist, it.current_price)}
     </div>`;
   }).join("");
 }
@@ -197,16 +239,18 @@ function renderNew(newItems){
   }
   el.innerHTML = newItems.map(it=>`
     <div class="card">
-      <div class="info">
-        <div class="title">${escapeHtml(it.title || it.url)}</div>
-        <div class="meta">
-          <span class="site-tag">${it.site}</span>
-          &nbsp;·&nbsp; búsqueda: ${escapeHtml(it.search_label || "—")}
-          &nbsp;·&nbsp; encontrado: ${fmtDate(it.date)}
-          &nbsp;·&nbsp; <a href="${it.url}" target="_blank" rel="noopener">ver anuncio ↗</a>
+      <div class="card-top">
+        <div class="info">
+          <div class="title">${escapeHtml(it.title || it.url)}</div>
+          <div class="meta">
+            <span class="site-tag">${it.site}</span>
+            &nbsp;·&nbsp; búsqueda: ${escapeHtml(it.search_label || "—")}
+            &nbsp;·&nbsp; encontrado: ${fmtDate(it.date)}
+            &nbsp;·&nbsp; <a href="${it.url}" target="_blank" rel="noopener">ver anuncio ↗</a>
+          </div>
         </div>
+        <div class="price">${fmtPrice(it.price)}</div>
       </div>
-      <div class="price">${fmtPrice(it.price)}</div>
     </div>`).join("");
 }
 
