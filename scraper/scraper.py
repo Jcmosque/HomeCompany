@@ -19,7 +19,6 @@ from datetime import datetime, timezone
 import yaml
 
 from .utils import get_session
-from .sites import milanuncios, autocasion
 from .sites import apify_coches_net, apify_wallapop
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -29,8 +28,6 @@ DATA_PATH = os.path.join(BASE_DIR, "docs", "data", "listings.json")
 APIFY_TOKEN = os.environ.get("APIFY_API_TOKEN")
 
 SITE_MODULES = {
-    "milanuncios": milanuncios,
-    "autocasion": autocasion,
     "apify_coches_net": apify_coches_net,
     "apify_wallapop": apify_wallapop,
 }
@@ -150,10 +147,6 @@ def main():
                     distance=p.get("distance", ""), order_by=p.get("order_by", "most_relevance"),
                     fetch_details=p.get("fetch_details", True),
                 )
-            elif site == "milanuncios":
-                results = module.run_search(session, search.get("query", ""), search.get("max_price"), delay)
-            elif site == "autocasion":
-                results = module.run_search(session, search.get("params") or {}, delay)
             else:
                 results = []
         except Exception as e:
@@ -200,10 +193,6 @@ def SITE_NAME_FROM_URL(url: str) -> str:
         return "coches_net"
     if "wallapop" in url:
         return "wallapop"
-    if "milanuncios" in url:
-        return "milanuncios"
-    if "autocasion" in url:
-        return "autocasion"
     return "desconocido"
 
 
