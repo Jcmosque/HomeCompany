@@ -3003,7 +3003,7 @@
       "site": "apify_wallapop",
       "title": "Volkswagen T-Roc 2025",
       "first_seen": "2026-07-07T18:03:08.512661+00:00",
-      "last_checked": "2026-10-25T12:18:33.388242+00:00",
+      "last_checked": "2026-10-28T13:45:40.748564+00:00",
       "status": "active",
       "current_price": 26200,
       "price_history": [
@@ -3629,7 +3629,7 @@
       "site": "apify_coches_net",
       "title": "VOLKSWAGEN T-Roc Dark Line 1.0 TSI",
       "first_seen": "2026-07-28T09:33:24.383136+00:00",
-      "last_checked": "2026-10-25T12:17:36.569125+00:00",
+      "last_checked": "2026-10-28T13:44:54.856821+00:00",
       "status": "active",
       "current_price": 28200,
       "price_history": [
@@ -3651,7 +3651,7 @@
       "site": "apify_coches_net",
       "title": "VOLKSWAGEN T-Roc Life 1.5 TSI",
       "first_seen": "2026-07-28T09:33:24.383146+00:00",
-      "last_checked": "2026-10-25T12:17:36.569130+00:00",
+      "last_checked": "2026-10-28T13:44:54.856825+00:00",
       "status": "active",
       "current_price": 23900,
       "price_history": [
@@ -3875,7 +3875,7 @@
       "site": "apify_coches_net",
       "title": "VOLKSWAGEN T-Roc Advance Style 1.5 TSI DSG",
       "first_seen": "2026-07-28T09:33:24.383290+00:00",
-      "last_checked": "2026-10-25T12:17:36.569216+00:00",
+      "last_checked": "2026-10-28T13:44:54.856817+00:00",
       "status": "active",
       "current_price": 18490,
       "price_history": [
@@ -4289,7 +4289,7 @@
       "site": "apify_wallapop",
       "title": "Despiece Volkswagen T-Roc 2020",
       "first_seen": "2026-07-28T09:34:17.575497+00:00",
-      "last_checked": "2026-10-25T12:18:33.388210+00:00",
+      "last_checked": "2026-10-28T13:45:40.748504+00:00",
       "status": "active",
       "current_price": 1,
       "price_history": [
@@ -5411,7 +5411,7 @@
       "site": "apify_wallapop",
       "title": "Volkswagen T-Roc 2021",
       "first_seen": "2026-07-31T09:40:28.342443+00:00",
-      "last_checked": "2026-10-25T12:18:33.387998+00:00",
+      "last_checked": "2026-10-28T13:45:40.748319+00:00",
       "status": "active",
       "current_price": 14490,
       "price_history": [
@@ -9047,7 +9047,7 @@
       "site": "apify_wallapop",
       "title": "Volkswagen T-Roc 2021",
       "first_seen": "2026-08-10T08:27:28.931575+00:00",
-      "last_checked": "2026-10-25T12:18:33.387987+00:00",
+      "last_checked": "2026-10-28T13:45:40.748394+00:00",
       "status": "active",
       "current_price": 21490,
       "price_history": [
@@ -9383,7 +9383,7 @@
       "site": "apify_wallapop",
       "title": "Volkswagen T-Roc Advance 2.0 TDI 110kW (150CV) DSG",
       "first_seen": "2026-08-10T08:27:28.931738+00:00",
-      "last_checked": "2026-10-13T14:45:19.711438+00:00",
+      "last_checked": "2026-10-28T13:45:40.748552+00:00",
       "status": "active",
       "current_price": 20490,
       "price_history": [
@@ -13483,7 +13483,7 @@
       "site": "apify_coches_net",
       "title": "VOLKSWAGEN T-Roc RLine 1.5 TSI DSG",
       "first_seen": "2026-08-22T07:26:40.336338+00:00",
-      "last_checked": "2026-10-25T12:17:36.569022+00:00",
+      "last_checked": "2026-10-28T13:44:54.856844+00:00",
       "status": "active",
       "current_price": 24400,
       "price_history": [
@@ -14929,7 +14929,7 @@
       "site": "apify_coches_net",
       "title": "VOLKSWAGEN T-Roc Advance RLine 1.0 TSI",
       "first_seen": "2026-08-25T07:39:19.181310+00:00",
-      "last_checked": "2026-10-25T12:17:36.569094+00:00",
+      "last_checked": "2026-10-28T13:44:54.856828+00:00",
       "status": "active",
       "current_price": 19500,
       "price_history": [
@@ -19341,7 +19341,7 @@
       "site": "apify_coches_net",
       "title": "VOLKSWAGEN T-Roc Life 1.0 TSI",
       "first_seen": "2026-09-07T13:13:23.927801+00:00",
-      "last_checked": "2026-10-19T14:16:12.063603+00:00",
+      "last_checked": "2026-10-28T13:44:54.856795+00:00",
       "status": "active",
       "current_price": 15990,
       "price_history": [
@@ -19359,7 +19359,7 @@
       "site": "apify_coches_net",
       "title": "VOLKSWAGEN T-Roc Life 1.0 TSI",
       "first_seen": "2026-09-07T13:13:23.927809+00:00",
-      "last_checked": "2026-10-19T14:16:12.063608+00:00",
+      "last_checked": "2026-10-28T13:44:54.856800+00:00",
       "status": "active",
       "current_price": 15990,
       "price_history": [
@@ -19377,7 +19377,7 @@
       "site": "apify_coches_net",
       "title": "VOLKSWAGEN T-Roc Life 1.0 TSI",
       "first_seen": "2026-09-07T13:13:23.927816+00:00",
-      "last_checked": "2026-10-19T14:16:12.063612+00:00",
+      "last_checked": "2026-10-28T13:44:54.856803+00:00",
       "status": "active",
       "current_price": 15990,
       "price_history": [
@@ -19503,7 +19503,7 @@
       "site": "apify_coches_net",
       "title": "VOLKSWAGEN T-Roc Life 1.5 TSI DSG",
       "first_seen": "2026-09-07T13:13:23.927879+00:00",
-      "last_checked": "2026-10-25T12:17:36.569038+00:00",
+      "last_checked": "2026-10-28T13:44:54.856864+00:00",
       "status": "active",
       "current_price": 25790,
       "price_history": [
@@ -20909,7 +20909,7 @@
       "site": "apify_wallapop",
       "title": "Volkswagen T-Roc 2024 · 36.985 km · Golpe frontal",
       "first_seen": "2026-09-10T12:01:21.161139+00:00",
-      "last_checked": "2026-10-25T12:18:33.387938+00:00",
+      "last_checked": "2026-10-28T13:45:40.748293+00:00",
       "status": "active",
       "current_price": 11999,
       "price_history": [
@@ -22999,7 +22999,7 @@
       "site": "apify_wallapop",
       "title": "Volkswagen T-Roc 2023",
       "first_seen": "2026-09-16T12:23:28.215738+00:00",
-      "last_checked": "2026-10-25T12:18:33.388022+00:00",
+      "last_checked": "2026-10-28T13:45:40.748264+00:00",
       "status": "active",
       "current_price": 17999,
       "price_history": [
@@ -24583,7 +24583,7 @@
       "site": "apify_coches_net",
       "title": "VOLKSWAGEN T-Roc Life 1.5 TSI DSG",
       "first_seen": "2026-09-22T12:17:47.133474+00:00",
-      "last_checked": "2026-10-25T12:17:36.569033+00:00",
+      "last_checked": "2026-10-28T13:44:54.856860+00:00",
       "status": "active",
       "current_price": 26790,
       "price_history": [
@@ -26317,7 +26317,7 @@
       "site": "apify_wallapop",
       "title": "Volkswagen T-Roc 2020 2.0 TDI 150 CV",
       "first_seen": "2026-09-25T12:31:18.143419+00:00",
-      "last_checked": "2026-10-25T12:18:33.388016+00:00",
+      "last_checked": "2026-10-28T13:45:40.748346+00:00",
       "status": "active",
       "current_price": 16490,
       "price_history": [
@@ -26931,7 +26931,7 @@
       "site": "apify_coches_net",
       "title": "VOLKSWAGEN T-Roc Advance 1.5 TSI DSG",
       "first_seen": "2026-09-28T14:52:53.066068+00:00",
-      "last_checked": "2026-10-25T12:17:36.569011+00:00",
+      "last_checked": "2026-10-28T13:44:54.856841+00:00",
       "status": "active",
       "current_price": 21990,
       "price_history": [
@@ -27079,7 +27079,7 @@
       "site": "apify_coches_net",
       "title": "VOLKSWAGEN T-Roc Life 1.5 TSI",
       "first_seen": "2026-09-28T14:52:53.066233+00:00",
-      "last_checked": "2026-10-25T12:17:36.569016+00:00",
+      "last_checked": "2026-10-28T13:44:54.856785+00:00",
       "status": "active",
       "current_price": 17990,
       "price_history": [
@@ -27097,7 +27097,7 @@
       "site": "apify_coches_net",
       "title": "VOLKSWAGEN T-Roc Advance RLine 1.0 TSI",
       "first_seen": "2026-09-28T14:52:53.066240+00:00",
-      "last_checked": "2026-10-25T12:17:36.569089+00:00",
+      "last_checked": "2026-10-28T13:44:54.856765+00:00",
       "status": "active",
       "current_price": 19500,
       "price_history": [
@@ -27119,7 +27119,7 @@
       "site": "apify_coches_net",
       "title": "VOLKSWAGEN T-Roc RLine 2.0 TSI 4 Mot DSG",
       "first_seen": "2026-09-28T14:52:53.066247+00:00",
-      "last_checked": "2026-10-25T12:17:36.568997+00:00",
+      "last_checked": "2026-10-28T13:44:54.856838+00:00",
       "status": "active",
       "current_price": 31400,
       "price_history": [
@@ -28035,13 +28035,17 @@
       "site": "apify_coches_net",
       "title": "VOLKSWAGEN T-Roc Advance RLine 1.5 TSI DSG",
       "first_seen": "2026-10-01T14:06:55.747143+00:00",
-      "last_checked": "2026-10-01T14:06:55.747143+00:00",
+      "last_checked": "2026-10-28T13:44:54.856876+00:00",
       "status": "active",
-      "current_price": 19890,
+      "current_price": 19490,
       "price_history": [
         {
           "date": "2026-10-01T14:06:55.747143+00:00",
           "price": 19890
+        },
+        {
+          "date": "2026-10-28T13:44:54.856876+00:00",
+          "price": 19490
         }
       ],
       "from_search": "VW T-Roc 2022-2026, 5000-33000€"
@@ -28107,7 +28111,7 @@
       "site": "apify_coches_net",
       "title": "VOLKSWAGEN T-Roc Mas 1.5 TSI DSG",
       "first_seen": "2026-10-01T14:06:55.747212+00:00",
-      "last_checked": "2026-10-25T12:17:36.569120+00:00",
+      "last_checked": "2026-10-28T13:44:54.856782+00:00",
       "status": "active",
       "current_price": 26990,
       "price_history": [
@@ -28161,7 +28165,7 @@
       "site": "apify_coches_net",
       "title": "VOLKSWAGEN T-Roc Dark Line 1.5 TSI DSG",
       "first_seen": "2026-10-01T14:06:55.747344+00:00",
-      "last_checked": "2026-10-01T14:06:55.747344+00:00",
+      "last_checked": "2026-10-28T13:44:54.856751+00:00",
       "status": "active",
       "current_price": 30990,
       "price_history": [
@@ -28413,7 +28417,7 @@
       "site": "apify_wallapop",
       "title": "VW T-Roc 2021 · 120.000 km · Golpe · Chasis OK",
       "first_seen": "2026-10-01T14:07:44.584421+00:00",
-      "last_checked": "2026-10-25T12:18:33.387871+00:00",
+      "last_checked": "2026-10-28T13:45:40.748297+00:00",
       "status": "active",
       "current_price": 3999,
       "price_history": [
@@ -29343,7 +29347,7 @@
       "site": "apify_coches_net",
       "title": "VOLKSWAGEN T-Roc RLine 1.5 TSI DSG",
       "first_seen": "2026-10-04T13:00:23.146500+00:00",
-      "last_checked": "2026-10-19T14:16:12.063628+00:00",
+      "last_checked": "2026-10-28T13:44:54.856792+00:00",
       "status": "active",
       "current_price": 20900,
       "price_history": [
@@ -29451,7 +29455,7 @@
       "site": "apify_coches_net",
       "title": "VOLKSWAGEN T-Roc Life 1.0 TSI",
       "first_seen": "2026-10-04T13:00:23.146617+00:00",
-      "last_checked": "2026-10-25T12:17:36.569114+00:00",
+      "last_checked": "2026-10-28T13:44:54.856898+00:00",
       "status": "active",
       "current_price": 20990,
       "price_history": [
@@ -29567,7 +29571,7 @@
       "site": "apify_coches_net",
       "title": "VOLKSWAGEN T-Roc Life 1.0 TSI",
       "first_seen": "2026-10-04T13:00:23.146649+00:00",
-      "last_checked": "2026-10-25T12:17:36.569044+00:00",
+      "last_checked": "2026-10-28T13:44:54.856709+00:00",
       "status": "active",
       "current_price": 20990,
       "price_history": [
@@ -29629,7 +29633,7 @@
       "site": "apify_coches_net",
       "title": "VOLKSWAGEN T-Roc Life 1.5 TSI",
       "first_seen": "2026-10-04T13:00:23.146665+00:00",
-      "last_checked": "2026-10-25T12:17:36.569027+00:00",
+      "last_checked": "2026-10-28T13:44:54.856810+00:00",
       "status": "active",
       "current_price": 21950,
       "price_history": [
@@ -30871,7 +30875,7 @@
       "site": "apify_coches_net",
       "title": "VOLKSWAGEN T-Roc Mas 1.5 TSI DSG",
       "first_seen": "2026-10-07T14:09:29.743621+00:00",
-      "last_checked": "2026-10-25T12:17:36.568990+00:00",
+      "last_checked": "2026-10-28T13:44:54.856835+00:00",
       "status": "active",
       "current_price": 24900,
       "price_history": [
@@ -31851,7 +31855,7 @@
       "site": "apify_coches_net",
       "title": "VOLKSWAGEN T-Roc RLine 1.5 TSI DSG",
       "first_seen": "2026-10-10T13:14:15.073037+00:00",
-      "last_checked": "2026-10-25T12:17:36.569175+00:00",
+      "last_checked": "2026-10-28T13:44:54.856788+00:00",
       "status": "active",
       "current_price": 32990,
       "price_history": [
@@ -31923,13 +31927,17 @@
       "site": "apify_coches_net",
       "title": "VOLKSWAGEN T-Roc Advance RLine 1.0 TSI",
       "first_seen": "2026-10-10T13:14:15.073173+00:00",
-      "last_checked": "2026-10-13T14:44:45.738944+00:00",
+      "last_checked": "2026-10-28T13:44:54.856813+00:00",
       "status": "active",
-      "current_price": 19490,
+      "current_price": 19290,
       "price_history": [
         {
           "date": "2026-10-10T13:14:15.073173+00:00",
           "price": 19490
+        },
+        {
+          "date": "2026-10-28T13:44:54.856813+00:00",
+          "price": 19290
         }
       ],
       "from_search": "VW T-Roc 2022-2026, 5000-33000€"
@@ -32031,7 +32039,7 @@
       "site": "apify_coches_net",
       "title": "VOLKSWAGEN T-Roc TRoc 1.0 TSI",
       "first_seen": "2026-10-10T13:14:15.073216+00:00",
-      "last_checked": "2026-10-10T13:14:15.073216+00:00",
+      "last_checked": "2026-10-28T13:44:54.856831+00:00",
       "status": "active",
       "current_price": 18890,
       "price_history": [
@@ -33273,7 +33281,7 @@
       "site": "apify_coches_net",
       "title": "VOLKSWAGEN TRoc Cabrio Style 1.0 TSI",
       "first_seen": "2026-10-13T14:44:45.738712+00:00",
-      "last_checked": "2026-10-25T12:17:36.568957+00:00",
+      "last_checked": "2026-10-28T13:44:54.856756+00:00",
       "status": "active",
       "current_price": 26000,
       "price_history": [
@@ -34469,7 +34477,7 @@
       "site": "apify_wallapop",
       "title": "Volkswagen T-Roc 2025",
       "first_seen": "2026-10-16T12:04:19.999663+00:00",
-      "last_checked": "2026-10-22T12:44:07.331629+00:00",
+      "last_checked": "2026-10-28T13:45:40.748492+00:00",
       "status": "active",
       "current_price": 25500,
       "price_history": [
@@ -34955,13 +34963,17 @@
       "site": "apify_wallapop",
       "title": "Volkswagen T-Roc 2019",
       "first_seen": "2026-10-16T12:04:19.999810+00:00",
-      "last_checked": "2026-10-22T12:44:07.331584+00:00",
+      "last_checked": "2026-10-28T13:45:40.748463+00:00",
       "status": "active",
-      "current_price": 18900,
+      "current_price": 17900,
       "price_history": [
         {
           "date": "2026-10-16T12:04:19.999810+00:00",
           "price": 18900
+        },
+        {
+          "date": "2026-10-28T13:45:40.748463+00:00",
+          "price": 17900
         }
       ],
       "from_search": "Wallapop T-Roc <33000€"
@@ -35243,7 +35255,7 @@
       "site": "apify_wallapop",
       "title": "Volkswagen T-Roc 2019",
       "first_seen": "2026-10-16T12:04:19.999889+00:00",
-      "last_checked": "2026-10-25T12:18:33.387968+00:00",
+      "last_checked": "2026-10-28T13:45:40.748323+00:00",
       "status": "active",
       "current_price": 15990,
       "price_history": [
@@ -35607,13 +35619,17 @@
       "site": "apify_coches_net",
       "title": "VOLKSWAGEN T-Roc Advance RLine 1.0 TSI",
       "first_seen": "2026-10-19T14:16:12.063416+00:00",
-      "last_checked": "2026-10-25T12:17:36.569109+00:00",
+      "last_checked": "2026-10-28T13:44:54.856806+00:00",
       "status": "active",
-      "current_price": 21999,
+      "current_price": 19999,
       "price_history": [
         {
           "date": "2026-10-19T14:16:12.063416+00:00",
           "price": 21999
+        },
+        {
+          "date": "2026-10-28T13:44:54.856806+00:00",
+          "price": 19999
         }
       ],
       "from_search": "VW T-Roc 2022-2026, 5000-33000€"
@@ -35679,7 +35695,7 @@
       "site": "apify_coches_net",
       "title": "VOLKSWAGEN T-Roc Advance 1.0 TSI",
       "first_seen": "2026-10-19T14:16:12.063462+00:00",
-      "last_checked": "2026-10-25T12:17:36.569170+00:00",
+      "last_checked": "2026-10-28T13:44:54.856746+00:00",
       "status": "active",
       "current_price": 16800,
       "price_history": [
@@ -36255,7 +36271,7 @@
       "site": "apify_wallapop",
       "title": "Volkswagen T-Roc 2.0 tdi 116cv",
       "first_seen": "2026-10-19T14:17:07.289852+00:00",
-      "last_checked": "2026-10-25T12:18:33.387993+00:00",
+      "last_checked": "2026-10-28T13:45:40.748496+00:00",
       "status": "active",
       "current_price": 14999,
       "price_history": [
@@ -36759,7 +36775,7 @@
       "site": "apify_coches_net",
       "title": "VOLKSWAGEN T-Roc Mas 1.0 TSI",
       "first_seen": "2026-10-22T12:43:44.027591+00:00",
-      "last_checked": "2026-10-25T12:17:36.569083+00:00",
+      "last_checked": "2026-10-28T13:44:54.856853+00:00",
       "status": "active",
       "current_price": 22990,
       "price_history": [
@@ -36781,7 +36797,7 @@
       "site": "apify_coches_net",
       "title": "VOLKSWAGEN T-Roc Life 1.5 TSI DSG",
       "first_seen": "2026-10-22T12:43:44.027604+00:00",
-      "last_checked": "2026-10-25T12:17:36.569099+00:00",
+      "last_checked": "2026-10-28T13:44:54.856895+00:00",
       "status": "active",
       "current_price": 23900,
       "price_history": [
@@ -36799,7 +36815,7 @@
       "site": "apify_coches_net",
       "title": "VOLKSWAGEN T-Roc TRoc 1.0 TSI",
       "first_seen": "2026-10-22T12:43:44.027610+00:00",
-      "last_checked": "2026-10-25T12:17:36.569056+00:00",
+      "last_checked": "2026-10-28T13:44:54.856883+00:00",
       "status": "active",
       "current_price": 16985,
       "price_history": [
@@ -36817,7 +36833,7 @@
       "site": "apify_coches_net",
       "title": "VOLKSWAGEN T-Roc TRoc 1.0 TSI",
       "first_seen": "2026-10-22T12:43:44.027615+00:00",
-      "last_checked": "2026-10-25T12:17:36.569051+00:00",
+      "last_checked": "2026-10-28T13:44:54.856879+00:00",
       "status": "active",
       "current_price": 16985,
       "price_history": [
@@ -36835,7 +36851,7 @@
       "site": "apify_coches_net",
       "title": "VOLKSWAGEN T-Roc TRoc 1.0 TSI",
       "first_seen": "2026-10-22T12:43:44.027619+00:00",
-      "last_checked": "2026-10-25T12:17:36.569061+00:00",
+      "last_checked": "2026-10-28T13:44:54.856886+00:00",
       "status": "active",
       "current_price": 16985,
       "price_history": [
@@ -36853,7 +36869,7 @@
       "site": "apify_coches_net",
       "title": "VOLKSWAGEN T-Roc TRoc 1.0 TSI",
       "first_seen": "2026-10-22T12:43:44.027624+00:00",
-      "last_checked": "2026-10-25T12:17:36.569066+00:00",
+      "last_checked": "2026-10-28T13:44:54.856889+00:00",
       "status": "active",
       "current_price": 16985,
       "price_history": [
@@ -36871,7 +36887,7 @@
       "site": "apify_coches_net",
       "title": "VOLKSWAGEN T-Roc Advance RLine 1.5 TSI DSG",
       "first_seen": "2026-10-22T12:43:44.027637+00:00",
-      "last_checked": "2026-10-25T12:17:36.569079+00:00",
+      "last_checked": "2026-10-28T13:44:54.856849+00:00",
       "status": "active",
       "current_price": 28900,
       "price_history": [
@@ -37015,7 +37031,7 @@
       "site": "apify_wallapop",
       "title": "Volkswagen T-Roc 2023",
       "first_seen": "2026-10-22T12:44:07.331446+00:00",
-      "last_checked": "2026-10-25T12:18:33.387963+00:00",
+      "last_checked": "2026-10-28T13:45:40.748339+00:00",
       "status": "active",
       "current_price": 19990,
       "price_history": [
@@ -37937,7 +37953,7 @@
       "site": "apify_wallapop",
       "title": "Volkswagen T-Roc R-Line 2.0 TDI 110kW (150CV) DSG",
       "first_seen": "2026-10-22T12:44:07.331729+00:00",
-      "last_checked": "2026-10-25T12:18:33.388170+00:00",
+      "last_checked": "2026-10-28T13:45:40.748378+00:00",
       "status": "active",
       "current_price": 23990,
       "price_history": [
@@ -38135,7 +38151,7 @@
       "site": "apify_coches_net",
       "title": "VOLKSWAGEN T-Roc Advance Style 1.0 TSI",
       "first_seen": "2026-10-25T12:17:36.569003+00:00",
-      "last_checked": "2026-10-25T12:17:36.569003+00:00",
+      "last_checked": "2026-10-28T13:44:54.856857+00:00",
       "status": "active",
       "current_price": 17890,
       "price_history": [
@@ -38153,7 +38169,7 @@
       "site": "apify_coches_net",
       "title": "VOLKSWAGEN T-Roc Life 1.0 TSI",
       "first_seen": "2026-10-25T12:17:36.569071+00:00",
-      "last_checked": "2026-10-25T12:17:36.569071+00:00",
+      "last_checked": "2026-10-28T13:44:54.856892+00:00",
       "status": "active",
       "current_price": 18900,
       "price_history": [
@@ -38207,7 +38223,7 @@
       "site": "apify_wallapop",
       "title": "Moldura Inferior puerta Izquierda VW T-Roc 2GA8549",
       "first_seen": "2026-10-25T12:18:33.387890+00:00",
-      "last_checked": "2026-10-25T12:18:33.387890+00:00",
+      "last_checked": "2026-10-28T13:45:40.748315+00:00",
       "status": "active",
       "current_price": 30,
       "price_history": [
@@ -38225,7 +38241,7 @@
       "site": "apify_wallapop",
       "title": "Volkswagen T-Roc 2018",
       "first_seen": "2026-10-25T12:18:33.387902+00:00",
-      "last_checked": "2026-10-25T12:18:33.387902+00:00",
+      "last_checked": "2026-10-28T13:45:40.748363+00:00",
       "status": "active",
       "current_price": 16000,
       "price_history": [
@@ -38261,7 +38277,7 @@
       "site": "apify_wallapop",
       "title": "Cubrepedales Volkswagen T-Roc",
       "first_seen": "2026-10-25T12:18:33.387917+00:00",
-      "last_checked": "2026-10-25T12:18:33.387917+00:00",
+      "last_checked": "2026-10-28T13:45:40.748289+00:00",
       "status": "active",
       "current_price": 8,
       "price_history": [
@@ -38297,7 +38313,7 @@
       "site": "apify_wallapop",
       "title": "Volkswagen T-Roc 2025",
       "first_seen": "2026-10-25T12:18:33.387931+00:00",
-      "last_checked": "2026-10-25T12:18:33.387931+00:00",
+      "last_checked": "2026-10-28T13:45:40.748336+00:00",
       "status": "active",
       "current_price": 29900,
       "price_history": [
@@ -38315,7 +38331,7 @@
       "site": "apify_wallapop",
       "title": "Despiece Volkswagen T-Roc 2018",
       "first_seen": "2026-10-25T12:18:33.387944+00:00",
-      "last_checked": "2026-10-25T12:18:33.387944+00:00",
+      "last_checked": "2026-10-28T13:45:40.748280+00:00",
       "status": "active",
       "current_price": 1,
       "price_history": [
@@ -38333,13 +38349,17 @@
       "site": "apify_wallapop",
       "title": "Faro Izquierdo Volkswagen VW T-Roc 2GA",
       "first_seen": "2026-10-25T12:18:33.387973+00:00",
-      "last_checked": "2026-10-25T12:18:33.387973+00:00",
+      "last_checked": "2026-10-28T13:45:40.748306+00:00",
       "status": "active",
-      "current_price": 110,
+      "current_price": 95,
       "price_history": [
         {
           "date": "2026-10-25T12:18:33.387973+00:00",
           "price": 110
+        },
+        {
+          "date": "2026-10-28T13:45:40.748306+00:00",
+          "price": 95
         }
       ],
       "from_search": "Wallapop T-Roc <33000€"
@@ -38495,7 +38515,7 @@
       "site": "apify_wallapop",
       "title": "Volkswagen T-Roc 2020",
       "first_seen": "2026-10-25T12:18:33.388083+00:00",
-      "last_checked": "2026-10-25T12:18:33.388083+00:00",
+      "last_checked": "2026-10-28T13:45:40.748524+00:00",
       "status": "active",
       "current_price": 13990,
       "price_history": [
@@ -38585,7 +38605,7 @@
       "site": "apify_wallapop",
       "title": "CABLEADO ELECTRICO VOLKSWAGEN T-ROC ADVANCE",
       "first_seen": "2026-10-25T12:18:33.388121+00:00",
-      "last_checked": "2026-10-25T12:18:33.388121+00:00",
+      "last_checked": "2026-10-28T13:45:40.748568+00:00",
       "status": "active",
       "current_price": 102,
       "price_history": [
@@ -38639,7 +38659,7 @@
       "site": "apify_wallapop",
       "title": "Volkswagen T-Roc Sport 1.6 TDI 85kW (115CV)",
       "first_seen": "2026-10-25T12:18:33.388156+00:00",
-      "last_checked": "2026-10-25T12:18:33.388156+00:00",
+      "last_checked": "2026-10-28T13:45:40.748374+00:00",
       "status": "active",
       "current_price": 199,
       "price_history": [
@@ -38945,7 +38965,7 @@
       "site": "apify_wallapop",
       "title": "Volkswagen T-Roc Advance Style 2.0 TDI 110 kW (150 CV)",
       "first_seen": "2026-10-25T12:18:33.388347+00:00",
-      "last_checked": "2026-10-25T12:18:33.388347+00:00",
+      "last_checked": "2026-10-28T13:45:40.748406+00:00",
       "status": "active",
       "current_price": 13490,
       "price_history": [
@@ -38991,479 +39011,1820 @@
         }
       ],
       "from_search": "Wallapop T-Roc <33000€"
+    },
+    "9c55674db2b8598f": {
+      "id": "9c55674db2b8598f",
+      "url": "https://www.coches.net/volkswagen-t-roc-life-10-tsi-81kw-110cv-5p-gasolina-2024-en-albacete-71221468-covo.aspx",
+      "label": "[Búsqueda: VW T-Roc 2022-2026, 5000-33000€]",
+      "site": "apify_coches_net",
+      "title": "VOLKSWAGEN T-Roc Life 1.0 TSI",
+      "first_seen": "2026-10-28T13:44:54.856736+00:00",
+      "last_checked": "2026-10-28T13:44:54.856736+00:00",
+      "status": "active",
+      "current_price": 18850,
+      "price_history": [
+        {
+          "date": "2026-10-28T13:44:54.856736+00:00",
+          "price": 18850
+        }
+      ],
+      "from_search": "VW T-Roc 2022-2026, 5000-33000€"
+    },
+    "c0c0d17644df5085": {
+      "id": "c0c0d17644df5085",
+      "url": "https://www.coches.net/volkswagen-t-roc-life-10-tsi-81kw-110cv-5p-gasolina-2024-en-malaga-71807825-covo.aspx",
+      "label": "[Búsqueda: VW T-Roc 2022-2026, 5000-33000€]",
+      "site": "apify_coches_net",
+      "title": "VOLKSWAGEN T-Roc Life 1.0 TSI",
+      "first_seen": "2026-10-28T13:44:54.856760+00:00",
+      "last_checked": "2026-10-28T13:44:54.856760+00:00",
+      "status": "active",
+      "current_price": 17800,
+      "price_history": [
+        {
+          "date": "2026-10-28T13:44:54.856760+00:00",
+          "price": 17800
+        }
+      ],
+      "from_search": "VW T-Roc 2022-2026, 5000-33000€"
+    },
+    "cc57786eea883283": {
+      "id": "cc57786eea883283",
+      "url": "https://www.coches.net/volkswagen-t-roc-life-10-tsi-81kw-110cv-5p-gasolina-2023-en-sta-c-tenerife-71841176-covo.aspx",
+      "label": "[Búsqueda: VW T-Roc 2022-2026, 5000-33000€]",
+      "site": "apify_coches_net",
+      "title": "VOLKSWAGEN T-Roc Life 1.0 TSI",
+      "first_seen": "2026-10-28T13:44:54.856769+00:00",
+      "last_checked": "2026-10-28T13:44:54.856769+00:00",
+      "status": "active",
+      "current_price": 16985,
+      "price_history": [
+        {
+          "date": "2026-10-28T13:44:54.856769+00:00",
+          "price": 16985
+        }
+      ],
+      "from_search": "VW T-Roc 2022-2026, 5000-33000€"
+    },
+    "b72d1d8683fc5d5d": {
+      "id": "b72d1d8683fc5d5d",
+      "url": "https://www.coches.net/volkswagen-t-roc-life-10-tsi-81kw-110cv-5p-gasolina-2023-en-las-palmas-71841014-covo.aspx",
+      "label": "[Búsqueda: VW T-Roc 2022-2026, 5000-33000€]",
+      "site": "apify_coches_net",
+      "title": "VOLKSWAGEN T-Roc Life 1.0 TSI",
+      "first_seen": "2026-10-28T13:44:54.856774+00:00",
+      "last_checked": "2026-10-28T13:44:54.856774+00:00",
+      "status": "active",
+      "current_price": 16985,
+      "price_history": [
+        {
+          "date": "2026-10-28T13:44:54.856774+00:00",
+          "price": 16985
+        }
+      ],
+      "from_search": "VW T-Roc 2022-2026, 5000-33000€"
+    },
+    "6172f10918858c46": {
+      "id": "6172f10918858c46",
+      "url": "https://www.coches.net/volkswagen-t-roc-life-10-tsi-81kw-110cv-5p-gasolina-2024-en-murcia-71848324-covo.aspx",
+      "label": "[Búsqueda: VW T-Roc 2022-2026, 5000-33000€]",
+      "site": "apify_coches_net",
+      "title": "VOLKSWAGEN T-Roc Life 1.0 TSI",
+      "first_seen": "2026-10-28T13:44:54.856778+00:00",
+      "last_checked": "2026-10-28T13:44:54.856778+00:00",
+      "status": "active",
+      "current_price": 23699,
+      "price_history": [
+        {
+          "date": "2026-10-28T13:44:54.856778+00:00",
+          "price": 23699
+        }
+      ],
+      "from_search": "VW T-Roc 2022-2026, 5000-33000€"
+    },
+    "4afc878312a1cd6e": {
+      "id": "4afc878312a1cd6e",
+      "url": "https://www.coches.net/volkswagen-t-roc-life-10-tsi-81kw-110cv-5p-gasolina-2022-en-madrid-71800886-covo.aspx",
+      "label": "[Búsqueda: VW T-Roc 2022-2026, 5000-33000€]",
+      "site": "apify_coches_net",
+      "title": "VOLKSWAGEN T-Roc Life 1.0 TSI",
+      "first_seen": "2026-10-28T13:44:54.856868+00:00",
+      "last_checked": "2026-10-28T13:44:54.856868+00:00",
+      "status": "active",
+      "current_price": 21990,
+      "price_history": [
+        {
+          "date": "2026-10-28T13:44:54.856868+00:00",
+          "price": 21990
+        }
+      ],
+      "from_search": "VW T-Roc 2022-2026, 5000-33000€"
+    },
+    "04f83122f431b7d1": {
+      "id": "04f83122f431b7d1",
+      "url": "https://www.coches.net/volkswagen-t-roc-rline-20-tsi-140kw-190cv-4-mot-dsg-5p-gasolina-2022-en-girona-71357927-covo.aspx",
+      "label": "[Búsqueda: VW T-Roc 2022-2026, 5000-33000€]",
+      "site": "apify_coches_net",
+      "title": "VOLKSWAGEN T-Roc RLine 2.0 TSI 4 Mot DSG",
+      "first_seen": "2026-10-28T13:44:54.856872+00:00",
+      "last_checked": "2026-10-28T13:44:54.856872+00:00",
+      "status": "active",
+      "current_price": 28500,
+      "price_history": [
+        {
+          "date": "2026-10-28T13:44:54.856872+00:00",
+          "price": 28500
+        }
+      ],
+      "from_search": "VW T-Roc 2022-2026, 5000-33000€"
+    },
+    "7272d193423ca260": {
+      "id": "7272d193423ca260",
+      "url": "https://www.coches.net/volkswagen-t-roc-rline-15-tsi-110kw-150cv-dsg-5p-gasolina-2022-en-barcelona-71850596-covo.aspx",
+      "label": "[Búsqueda: VW T-Roc 2022-2026, 5000-33000€]",
+      "site": "apify_coches_net",
+      "title": "VOLKSWAGEN T-Roc RLine 1.5 TSI DSG",
+      "first_seen": "2026-10-28T13:44:54.856902+00:00",
+      "last_checked": "2026-10-28T13:44:54.856902+00:00",
+      "status": "active",
+      "current_price": 22490,
+      "price_history": [
+        {
+          "date": "2026-10-28T13:44:54.856902+00:00",
+          "price": 22490
+        }
+      ],
+      "from_search": "VW T-Roc 2022-2026, 5000-33000€"
+    },
+    "5c66cdcce5077233": {
+      "id": "5c66cdcce5077233",
+      "url": "https://www.coches.net/volkswagen-t-roc-life-15-tsi-110kw-150cv-5p-gasolina-2023-en-madrid-71850377-covo.aspx",
+      "label": "[Búsqueda: VW T-Roc 2022-2026, 5000-33000€]",
+      "site": "apify_coches_net",
+      "title": "VOLKSWAGEN T-Roc Life 1.5 TSI",
+      "first_seen": "2026-10-28T13:44:54.856909+00:00",
+      "last_checked": "2026-10-28T13:44:54.856909+00:00",
+      "status": "active",
+      "current_price": 20350,
+      "price_history": [
+        {
+          "date": "2026-10-28T13:44:54.856909+00:00",
+          "price": 20350
+        }
+      ],
+      "from_search": "VW T-Roc 2022-2026, 5000-33000€"
+    },
+    "bf51983bd9ccc3eb": {
+      "id": "bf51983bd9ccc3eb",
+      "url": "https://www.coches.net/volkswagen-t-roc-mas-15-tsi-110kw-150cv-dsg-5p-gasolina-2025-en-madrid-71847653-covo.aspx",
+      "label": "[Búsqueda: VW T-Roc 2022-2026, 5000-33000€]",
+      "site": "apify_coches_net",
+      "title": "VOLKSWAGEN T-Roc Mas 1.5 TSI DSG",
+      "first_seen": "2026-10-28T13:44:54.856913+00:00",
+      "last_checked": "2026-10-28T13:44:54.856913+00:00",
+      "status": "active",
+      "current_price": 23490,
+      "price_history": [
+        {
+          "date": "2026-10-28T13:44:54.856913+00:00",
+          "price": 23490
+        }
+      ],
+      "from_search": "VW T-Roc 2022-2026, 5000-33000€"
+    },
+    "7612847de9cc7fad": {
+      "id": "7612847de9cc7fad",
+      "url": "https://www.coches.net/volkswagen-t-roc-mas-15-tsi-110kw-150cv-dsg-5p-gasolina-2025-en-madrid-71845083-covo.aspx",
+      "label": "[Búsqueda: VW T-Roc 2022-2026, 5000-33000€]",
+      "site": "apify_coches_net",
+      "title": "VOLKSWAGEN T-Roc Mas 1.5 TSI DSG",
+      "first_seen": "2026-10-28T13:44:54.856917+00:00",
+      "last_checked": "2026-10-28T13:44:54.856917+00:00",
+      "status": "active",
+      "current_price": 23490,
+      "price_history": [
+        {
+          "date": "2026-10-28T13:44:54.856917+00:00",
+          "price": 23490
+        }
+      ],
+      "from_search": "VW T-Roc 2022-2026, 5000-33000€"
+    },
+    "0f133714d37b8973": {
+      "id": "0f133714d37b8973",
+      "url": "https://www.coches.net/volkswagen-t-roc-advance-rline-15-tsi-110kw-150cv-5p-gasolina-2022-en-valencia-71840985-covo.aspx",
+      "label": "[Búsqueda: VW T-Roc 2022-2026, 5000-33000€]",
+      "site": "apify_coches_net",
+      "title": "VOLKSWAGEN T-Roc Advance RLine 1.5 TSI",
+      "first_seen": "2026-10-28T13:44:54.856921+00:00",
+      "last_checked": "2026-10-28T13:44:54.856921+00:00",
+      "status": "active",
+      "current_price": 19490,
+      "price_history": [
+        {
+          "date": "2026-10-28T13:44:54.856921+00:00",
+          "price": 19490
+        }
+      ],
+      "from_search": "VW T-Roc 2022-2026, 5000-33000€"
+    },
+    "2e8b023d3798154f": {
+      "id": "2e8b023d3798154f",
+      "url": "https://www.coches.net/volkswagen-t-roc-life-10-tsi-81kw-110cv-5p-gasolina-2024-en-barcelona-71847390-covo.aspx",
+      "label": "[Búsqueda: VW T-Roc 2022-2026, 5000-33000€]",
+      "site": "apify_coches_net",
+      "title": "VOLKSWAGEN T-Roc Life 1.0 TSI",
+      "first_seen": "2026-10-28T13:44:54.856925+00:00",
+      "last_checked": "2026-10-28T13:44:54.856925+00:00",
+      "status": "active",
+      "current_price": 20990,
+      "price_history": [
+        {
+          "date": "2026-10-28T13:44:54.856925+00:00",
+          "price": 20990
+        }
+      ],
+      "from_search": "VW T-Roc 2022-2026, 5000-33000€"
+    },
+    "c35559b006ffbbe5": {
+      "id": "c35559b006ffbbe5",
+      "url": "https://es.wallapop.com/item/rueda-de-repuesto-seat-arona-ateca-t-roc-1317833301",
+      "label": "[Búsqueda: Wallapop T-Roc <33000€]",
+      "site": "apify_wallapop",
+      "title": "Rueda de repuesto Seat Arona, Ateca, T-Roc",
+      "first_seen": "2026-10-28T13:45:40.748219+00:00",
+      "last_checked": "2026-10-28T13:45:40.748219+00:00",
+      "status": "active",
+      "current_price": 80,
+      "price_history": [
+        {
+          "date": "2026-10-28T13:45:40.748219+00:00",
+          "price": 80
+        }
+      ],
+      "from_search": "Wallapop T-Roc <33000€"
+    },
+    "98076ac055ec61bc": {
+      "id": "98076ac055ec61bc",
+      "url": "https://es.wallapop.com/item/panel-de-control-climatizacion-vw-golf-polo-t-roc-1318103619",
+      "label": "[Búsqueda: Wallapop T-Roc <33000€]",
+      "site": "apify_wallapop",
+      "title": "Panel de Control Climatización VW Golf/Polo/T-Roc",
+      "first_seen": "2026-10-28T13:45:40.748243+00:00",
+      "last_checked": "2026-10-28T13:45:40.748243+00:00",
+      "status": "active",
+      "current_price": 60,
+      "price_history": [
+        {
+          "date": "2026-10-28T13:45:40.748243+00:00",
+          "price": 60
+        }
+      ],
+      "from_search": "Wallapop T-Roc <33000€"
+    },
+    "1acdd10c10a32f0a": {
+      "id": "1acdd10c10a32f0a",
+      "url": "https://es.wallapop.com/item/climatizador-volkswagen-golf-t-roc-touran-1318102277",
+      "label": "[Búsqueda: Wallapop T-Roc <33000€]",
+      "site": "apify_wallapop",
+      "title": "Climatizador Volkswagen Golf, T-Roc, Touran",
+      "first_seen": "2026-10-28T13:45:40.748270+00:00",
+      "last_checked": "2026-10-28T13:45:40.748270+00:00",
+      "status": "active",
+      "current_price": 110,
+      "price_history": [
+        {
+          "date": "2026-10-28T13:45:40.748270+00:00",
+          "price": 110
+        }
+      ],
+      "from_search": "Wallapop T-Roc <33000€"
+    },
+    "115af3535f0d0ab5": {
+      "id": "115af3535f0d0ab5",
+      "url": "https://es.wallapop.com/item/volkswagen-t-roc-2022-1317672309",
+      "label": "[Búsqueda: Wallapop T-Roc <33000€]",
+      "site": "apify_wallapop",
+      "title": "Volkswagen T-Roc 2022",
+      "first_seen": "2026-10-28T13:45:40.748275+00:00",
+      "last_checked": "2026-10-28T13:45:40.748275+00:00",
+      "status": "active",
+      "current_price": 24000,
+      "price_history": [
+        {
+          "date": "2026-10-28T13:45:40.748275+00:00",
+          "price": 24000
+        }
+      ],
+      "from_search": "Wallapop T-Roc <33000€"
+    },
+    "225a0dea6f59a47d": {
+      "id": "225a0dea6f59a47d",
+      "url": "https://es.wallapop.com/item/volkswagen-t-roc-2022-1317930423",
+      "label": "[Búsqueda: Wallapop T-Roc <33000€]",
+      "site": "apify_wallapop",
+      "title": "Volkswagen T-Roc 2022",
+      "first_seen": "2026-10-28T13:45:40.748285+00:00",
+      "last_checked": "2026-10-28T13:45:40.748285+00:00",
+      "status": "active",
+      "current_price": 18500,
+      "price_history": [
+        {
+          "date": "2026-10-28T13:45:40.748285+00:00",
+          "price": 18500
+        }
+      ],
+      "from_search": "Wallapop T-Roc <33000€"
+    },
+    "c7df49f2cda63bfc": {
+      "id": "c7df49f2cda63bfc",
+      "url": "https://es.wallapop.com/item/jantes-vw-t-roc-18-5x112-com-pneus-225-50-r18-1317491589",
+      "label": "[Búsqueda: Wallapop T-Roc <33000€]",
+      "site": "apify_wallapop",
+      "title": "Rines VW T-Roc 18 5x112 con Neumáticos 225/50 R18",
+      "first_seen": "2026-10-28T13:45:40.748301+00:00",
+      "last_checked": "2026-10-28T13:45:40.748301+00:00",
+      "status": "active",
+      "current_price": 600,
+      "price_history": [
+        {
+          "date": "2026-10-28T13:45:40.748301+00:00",
+          "price": 600
+        }
+      ],
+      "from_search": "Wallapop T-Roc <33000€"
+    },
+    "ff8b2445e55c71cd": {
+      "id": "ff8b2445e55c71cd",
+      "url": "https://es.wallapop.com/item/centralita-faro-volkswagen-t-roc-2023-1318047489",
+      "label": "[Búsqueda: Wallapop T-Roc <33000€]",
+      "site": "apify_wallapop",
+      "title": "Centralita Faro Volkswagen T-Roc 2023",
+      "first_seen": "2026-10-28T13:45:40.748310+00:00",
+      "last_checked": "2026-10-28T13:45:40.748310+00:00",
+      "status": "active",
+      "current_price": 150,
+      "price_history": [
+        {
+          "date": "2026-10-28T13:45:40.748310+00:00",
+          "price": 150
+        }
+      ],
+      "from_search": "Wallapop T-Roc <33000€"
+    },
+    "3ee8ed20937596be": {
+      "id": "3ee8ed20937596be",
+      "url": "https://es.wallapop.com/item/cortavientos-volkswagen-t-roc-cabrio-1317737423",
+      "label": "[Búsqueda: Wallapop T-Roc <33000€]",
+      "site": "apify_wallapop",
+      "title": "Cortavientos Volkswagen T-Roc Cabrio",
+      "first_seen": "2026-10-28T13:45:40.748326+00:00",
+      "last_checked": "2026-10-28T13:45:40.748326+00:00",
+      "status": "active",
+      "current_price": 200,
+      "price_history": [
+        {
+          "date": "2026-10-28T13:45:40.748326+00:00",
+          "price": 200
+        }
+      ],
+      "from_search": "Wallapop T-Roc <33000€"
+    },
+    "161a05df5ef8f9ee": {
+      "id": "161a05df5ef8f9ee",
+      "url": "https://es.wallapop.com/item/5wa907511b-motor-trampilla-volkswagen-t-roc-16745-1318093600",
+      "label": "[Búsqueda: Wallapop T-Roc <33000€]",
+      "site": "apify_wallapop",
+      "title": "5wa907511b motor trampilla volkswagen t-roc 16745",
+      "first_seen": "2026-10-28T13:45:40.748331+00:00",
+      "last_checked": "2026-10-28T13:45:40.748331+00:00",
+      "status": "active",
+      "current_price": 38.57,
+      "price_history": [
+        {
+          "date": "2026-10-28T13:45:40.748331+00:00",
+          "price": 38.57
+        }
+      ],
+      "from_search": "Wallapop T-Roc <33000€"
+    },
+    "a2b3ea53a311638e": {
+      "id": "a2b3ea53a311638e",
+      "url": "https://es.wallapop.com/item/5g0955711d-motor-limpia-volkswagen-t-roc-158970-1318058575",
+      "label": "[Búsqueda: Wallapop T-Roc <33000€]",
+      "site": "apify_wallapop",
+      "title": "5g0955711d motor limpia volkswagen t-roc 158970",
+      "first_seen": "2026-10-28T13:45:40.748342+00:00",
+      "last_checked": "2026-10-28T13:45:40.748342+00:00",
+      "status": "active",
+      "current_price": 58.01,
+      "price_history": [
+        {
+          "date": "2026-10-28T13:45:40.748342+00:00",
+          "price": 58.01
+        }
+      ],
+      "from_search": "Wallapop T-Roc <33000€"
+    },
+    "48aae4457d68ce2e": {
+      "id": "48aae4457d68ce2e",
+      "url": "https://es.wallapop.com/item/aireador-volkswagen-t-roc-a11-09-2017-1317618253",
+      "label": "[Búsqueda: Wallapop T-Roc <33000€]",
+      "site": "apify_wallapop",
+      "title": "AIREADOR Volkswagen T-Roc (A11)(09.2017->)",
+      "first_seen": "2026-10-28T13:45:40.748350+00:00",
+      "last_checked": "2026-10-28T13:45:40.748350+00:00",
+      "status": "active",
+      "current_price": 24.2,
+      "price_history": [
+        {
+          "date": "2026-10-28T13:45:40.748350+00:00",
+          "price": 24.2
+        }
+      ],
+      "from_search": "Wallapop T-Roc <33000€"
+    },
+    "a36c6569008d3247": {
+      "id": "a36c6569008d3247",
+      "url": "https://es.wallapop.com/item/retrovisor-volkswagen-t-roc-1317882539",
+      "label": "[Búsqueda: Wallapop T-Roc <33000€]",
+      "site": "apify_wallapop",
+      "title": "Retrovisor Volkswagen T-Roc",
+      "first_seen": "2026-10-28T13:45:40.748355+00:00",
+      "last_checked": "2026-10-28T13:45:40.748355+00:00",
+      "status": "active",
+      "current_price": 130,
+      "price_history": [
+        {
+          "date": "2026-10-28T13:45:40.748355+00:00",
+          "price": 130
+        }
+      ],
+      "from_search": "Wallapop T-Roc <33000€"
+    },
+    "33c6f87168365933": {
+      "id": "33c6f87168365933",
+      "url": "https://es.wallapop.com/item/bisagra-8x0831403e-volkswagen-t-roc-advance-15363-1317479861",
+      "label": "[Búsqueda: Wallapop T-Roc <33000€]",
+      "site": "apify_wallapop",
+      "title": "Bisagra 8x0831403e volkswagen t-roc advance 15363",
+      "first_seen": "2026-10-28T13:45:40.748359+00:00",
+      "last_checked": "2026-10-28T13:45:40.748359+00:00",
+      "status": "active",
+      "current_price": 13.56,
+      "price_history": [
+        {
+          "date": "2026-10-28T13:45:40.748359+00:00",
+          "price": 13.56
+        }
+      ],
+      "from_search": "Wallapop T-Roc <33000€"
+    },
+    "f3c2fcc976e58917": {
+      "id": "f3c2fcc976e58917",
+      "url": "https://es.wallapop.com/item/despiece-completo-volkswagen-t-roc-2018-t-roc-i-1317271918",
+      "label": "[Búsqueda: Wallapop T-Roc <33000€]",
+      "site": "apify_wallapop",
+      "title": "Despiece completo Volkswagen T-Roc ~2018 T-Roc I",
+      "first_seen": "2026-10-28T13:45:40.748366+00:00",
+      "last_checked": "2026-10-28T13:45:40.748366+00:00",
+      "status": "active",
+      "current_price": 93,
+      "price_history": [
+        {
+          "date": "2026-10-28T13:45:40.748366+00:00",
+          "price": 93
+        }
+      ],
+      "from_search": "Wallapop T-Roc <33000€"
+    },
+    "49a7755c888afc4c": {
+      "id": "49a7755c888afc4c",
+      "url": "https://es.wallapop.com/item/cubierta-gunhyi-impermeable-para-vw-t-roc-tiguan-1317605982",
+      "label": "[Búsqueda: Wallapop T-Roc <33000€]",
+      "site": "apify_wallapop",
+      "title": "Cubierta GUNHYI Impermeable para VW T-Roc Tiguan",
+      "first_seen": "2026-10-28T13:45:40.748370+00:00",
+      "last_checked": "2026-10-28T13:45:40.748370+00:00",
+      "status": "active",
+      "current_price": 48.95,
+      "price_history": [
+        {
+          "date": "2026-10-28T13:45:40.748370+00:00",
+          "price": 48.95
+        }
+      ],
+      "from_search": "Wallapop T-Roc <33000€"
+    },
+    "ee046b5fa6c136e9": {
+      "id": "ee046b5fa6c136e9",
+      "url": "https://es.wallapop.com/item/articulacion-limpia-delantera-volkswagen-t-roc-a11-09-2017-1317973147",
+      "label": "[Búsqueda: Wallapop T-Roc <33000€]",
+      "site": "apify_wallapop",
+      "title": "ARTICULACION LIMPIA DELANTERA Volkswagen T-Roc (A11)(09.2017->)",
+      "first_seen": "2026-10-28T13:45:40.748381+00:00",
+      "last_checked": "2026-10-28T13:45:40.748381+00:00",
+      "status": "active",
+      "current_price": 48.4,
+      "price_history": [
+        {
+          "date": "2026-10-28T13:45:40.748381+00:00",
+          "price": 48.4
+        }
+      ],
+      "from_search": "Wallapop T-Roc <33000€"
+    },
+    "149b6ed3ad11c5ee": {
+      "id": "149b6ed3ad11c5ee",
+      "url": "https://es.wallapop.com/item/volkswagen-t-roc-1311172971",
+      "label": "[Búsqueda: Wallapop T-Roc <33000€]",
+      "site": "apify_wallapop",
+      "title": "Volkswagen T-Roc",
+      "first_seen": "2026-10-28T13:45:40.748385+00:00",
+      "last_checked": "2026-10-28T13:45:40.748385+00:00",
+      "status": "active",
+      "current_price": 14990,
+      "price_history": [
+        {
+          "date": "2026-10-28T13:45:40.748385+00:00",
+          "price": 14990
+        }
+      ],
+      "from_search": "Wallapop T-Roc <33000€"
+    },
+    "7ba7426b32bbb709": {
+      "id": "7ba7426b32bbb709",
+      "url": "https://es.wallapop.com/item/1173779-reposabrazos-2ga864207-volkswagen-t-roc-1317899550",
+      "label": "[Búsqueda: Wallapop T-Roc <33000€]",
+      "site": "apify_wallapop",
+      "title": "1173779 reposabrazos 2ga864207 volkswagen t-roc",
+      "first_seen": "2026-10-28T13:45:40.748390+00:00",
+      "last_checked": "2026-10-28T13:45:40.748390+00:00",
+      "status": "active",
+      "current_price": 76.16,
+      "price_history": [
+        {
+          "date": "2026-10-28T13:45:40.748390+00:00",
+          "price": 76.16
+        }
+      ],
+      "from_search": "Wallapop T-Roc <33000€"
+    },
+    "a399b18cf0a9a5e3": {
+      "id": "a399b18cf0a9a5e3",
+      "url": "https://es.wallapop.com/item/5q1819021h-ventilador-volkswagen-t-roc-16449-1317683851",
+      "label": "[Búsqueda: Wallapop T-Roc <33000€]",
+      "site": "apify_wallapop",
+      "title": "5q1819021h ventilador volkswagen t-roc 16449",
+      "first_seen": "2026-10-28T13:45:40.748398+00:00",
+      "last_checked": "2026-10-28T13:45:40.748398+00:00",
+      "status": "active",
+      "current_price": 63.57,
+      "price_history": [
+        {
+          "date": "2026-10-28T13:45:40.748398+00:00",
+          "price": 63.57
+        }
+      ],
+      "from_search": "Wallapop T-Roc <33000€"
+    },
+    "135153d7346cf7d7": {
+      "id": "135153d7346cf7d7",
+      "url": "https://es.wallapop.com/item/anillo-airbag-volkswagen-t-roc-a11-09-2017-1317973163",
+      "label": "[Búsqueda: Wallapop T-Roc <33000€]",
+      "site": "apify_wallapop",
+      "title": "ANILLO AIRBAG Volkswagen T-Roc (A11)(09.2017->)",
+      "first_seen": "2026-10-28T13:45:40.748402+00:00",
+      "last_checked": "2026-10-28T13:45:40.748402+00:00",
+      "status": "active",
+      "current_price": 72.6,
+      "price_history": [
+        {
+          "date": "2026-10-28T13:45:40.748402+00:00",
+          "price": 72.6
+        }
+      ],
+      "from_search": "Wallapop T-Roc <33000€"
+    },
+    "68b6b26050048ab0": {
+      "id": "68b6b26050048ab0",
+      "url": "https://es.wallapop.com/item/volkswagen-8x0831403e-bisagra-t-roc-advance-15361-1317479374",
+      "label": "[Búsqueda: Wallapop T-Roc <33000€]",
+      "site": "apify_wallapop",
+      "title": "Volkswagen 8x0831403e bisagra t-roc advance 15361",
+      "first_seen": "2026-10-28T13:45:40.748410+00:00",
+      "last_checked": "2026-10-28T13:45:40.748410+00:00",
+      "status": "active",
+      "current_price": 13.56,
+      "price_history": [
+        {
+          "date": "2026-10-28T13:45:40.748410+00:00",
+          "price": 13.56
+        }
+      ],
+      "from_search": "Wallapop T-Roc <33000€"
+    },
+    "74c45b99ff4e8b34": {
+      "id": "74c45b99ff4e8b34",
+      "url": "https://es.wallapop.com/item/159105-2ga819203-rejilla-volkswagen-t-roc-a11-d11-1318057469",
+      "label": "[Búsqueda: Wallapop T-Roc <33000€]",
+      "site": "apify_wallapop",
+      "title": "159105 2ga819203 rejilla volkswagen t-roc a11 d11",
+      "first_seen": "2026-10-28T13:45:40.748414+00:00",
+      "last_checked": "2026-10-28T13:45:40.748414+00:00",
+      "status": "active",
+      "current_price": 106.41,
+      "price_history": [
+        {
+          "date": "2026-10-28T13:45:40.748414+00:00",
+          "price": 106.41
+        }
+      ],
+      "from_search": "Wallapop T-Roc <33000€"
+    },
+    "3cd672a977fd1ab1": {
+      "id": "3cd672a977fd1ab1",
+      "url": "https://es.wallapop.com/item/maneta-exterior-trasera-izquierda-volkswagen-t-roc-a11-09-2017-1317611941",
+      "label": "[Búsqueda: Wallapop T-Roc <33000€]",
+      "site": "apify_wallapop",
+      "title": "MANETA EXTERIOR TRASERA IZQUIERDA Volkswagen T-Roc (A11)(09.2017->)",
+      "first_seen": "2026-10-28T13:45:40.748418+00:00",
+      "last_checked": "2026-10-28T13:45:40.748418+00:00",
+      "status": "active",
+      "current_price": 31.09,
+      "price_history": [
+        {
+          "date": "2026-10-28T13:45:40.748418+00:00",
+          "price": 31.09
+        }
+      ],
+      "from_search": "Wallapop T-Roc <33000€"
+    },
+    "2dc62cb2d31271a5": {
+      "id": "2dc62cb2d31271a5",
+      "url": "https://es.wallapop.com/item/piloto-central-volkswagen-5g6945087a-t-roc-159271-1318060204",
+      "label": "[Búsqueda: Wallapop T-Roc <33000€]",
+      "site": "apify_wallapop",
+      "title": "Piloto central volkswagen 5g6945087a t-roc 159271",
+      "first_seen": "2026-10-28T13:45:40.748421+00:00",
+      "last_checked": "2026-10-28T13:45:40.748421+00:00",
+      "status": "active",
+      "current_price": 70.11,
+      "price_history": [
+        {
+          "date": "2026-10-28T13:45:40.748421+00:00",
+          "price": 70.11
+        }
+      ],
+      "from_search": "Wallapop T-Roc <33000€"
+    },
+    "8acb3f1e2e0ca291": {
+      "id": "8acb3f1e2e0ca291",
+      "url": "https://es.wallapop.com/item/maneta-exterior-trasera-derecha-volkswagen-t-roc-a11-09-2017-1317612030",
+      "label": "[Búsqueda: Wallapop T-Roc <33000€]",
+      "site": "apify_wallapop",
+      "title": "MANETA EXTERIOR TRASERA DERECHA Volkswagen T-Roc (A11)(09.2017->)",
+      "first_seen": "2026-10-28T13:45:40.748426+00:00",
+      "last_checked": "2026-10-28T13:45:40.748426+00:00",
+      "status": "active",
+      "current_price": 31.01,
+      "price_history": [
+        {
+          "date": "2026-10-28T13:45:40.748426+00:00",
+          "price": 31.01
+        }
+      ],
+      "from_search": "Wallapop T-Roc <33000€"
+    },
+    "f031c42bf36d17d4": {
+      "id": "f031c42bf36d17d4",
+      "url": "https://es.wallapop.com/item/volkswagen-t-roc-2020-1318052166",
+      "label": "[Búsqueda: Wallapop T-Roc <33000€]",
+      "site": "apify_wallapop",
+      "title": "Volkswagen T-Roc 2020",
+      "first_seen": "2026-10-28T13:45:40.748430+00:00",
+      "last_checked": "2026-10-28T13:45:40.748430+00:00",
+      "status": "active",
+      "current_price": 22500,
+      "price_history": [
+        {
+          "date": "2026-10-28T13:45:40.748430+00:00",
+          "price": 22500
+        }
+      ],
+      "from_search": "Wallapop T-Roc <33000€"
+    },
+    "48611bbd5140cfbe": {
+      "id": "48611bbd5140cfbe",
+      "url": "https://es.wallapop.com/item/gomas-contorno-volkswagen-t-roc-advance-1-12166-1317317869",
+      "label": "[Búsqueda: Wallapop T-Roc <33000€]",
+      "site": "apify_wallapop",
+      "title": "Gomas contorno volkswagen t-roc advance 1 12166",
+      "first_seen": "2026-10-28T13:45:40.748435+00:00",
+      "last_checked": "2026-10-28T13:45:40.748435+00:00",
+      "status": "active",
+      "current_price": 43.57,
+      "price_history": [
+        {
+          "date": "2026-10-28T13:45:40.748435+00:00",
+          "price": 43.57
+        }
+      ],
+      "from_search": "Wallapop T-Roc <33000€"
+    },
+    "c139eb114a48b1e8": {
+      "id": "c139eb114a48b1e8",
+      "url": "https://es.wallapop.com/item/maneta-exterior-delantera-derecha-volkswagen-t-roc-a11-09-2017-1317610416",
+      "label": "[Búsqueda: Wallapop T-Roc <33000€]",
+      "site": "apify_wallapop",
+      "title": "MANETA EXTERIOR DELANTERA DERECHA Volkswagen T-Roc (A11)(09.2017->)",
+      "first_seen": "2026-10-28T13:45:40.748439+00:00",
+      "last_checked": "2026-10-28T13:45:40.748439+00:00",
+      "status": "active",
+      "current_price": 33.35,
+      "price_history": [
+        {
+          "date": "2026-10-28T13:45:40.748439+00:00",
+          "price": 33.35
+        }
+      ],
+      "from_search": "Wallapop T-Roc <33000€"
+    },
+    "abb3ee69a6d299ba": {
+      "id": "abb3ee69a6d299ba",
+      "url": "https://es.wallapop.com/item/158991-tubos-aire-5q0816721ab-volkswagen-t-roc-a11-1317950989",
+      "label": "[Búsqueda: Wallapop T-Roc <33000€]",
+      "site": "apify_wallapop",
+      "title": "158991 tubos aire 5q0816721ab volkswagen t-roc a11",
+      "first_seen": "2026-10-28T13:45:40.748443+00:00",
+      "last_checked": "2026-10-28T13:45:40.748443+00:00",
+      "status": "active",
+      "current_price": 100.36,
+      "price_history": [
+        {
+          "date": "2026-10-28T13:45:40.748443+00:00",
+          "price": 100.36
+        }
+      ],
+      "from_search": "Wallapop T-Roc <33000€"
+    },
+    "df9189b664d07292": {
+      "id": "df9189b664d07292",
+      "url": "https://es.wallapop.com/item/volkswagen-12164-gomas-contorno-puerta-t-roc-dark-1317316846",
+      "label": "[Búsqueda: Wallapop T-Roc <33000€]",
+      "site": "apify_wallapop",
+      "title": "Volkswagen 12164 gomas contorno puerta t-roc dark",
+      "first_seen": "2026-10-28T13:45:40.748447+00:00",
+      "last_checked": "2026-10-28T13:45:40.748447+00:00",
+      "status": "active",
+      "current_price": 43.57,
+      "price_history": [
+        {
+          "date": "2026-10-28T13:45:40.748447+00:00",
+          "price": 43.57
+        }
+      ],
+      "from_search": "Wallapop T-Roc <33000€"
+    },
+    "9bc333c9ce01fe65": {
+      "id": "9bc333c9ce01fe65",
+      "url": "https://es.wallapop.com/item/13516-2ga858365-moldura-volkswagen-t-roc-advance-1-1317404517",
+      "label": "[Búsqueda: Wallapop T-Roc <33000€]",
+      "site": "apify_wallapop",
+      "title": "13516 2ga858365 moldura volkswagen t-roc advance 1",
+      "first_seen": "2026-10-28T13:45:40.748451+00:00",
+      "last_checked": "2026-10-28T13:45:40.748451+00:00",
+      "status": "active",
+      "current_price": 38.57,
+      "price_history": [
+        {
+          "date": "2026-10-28T13:45:40.748451+00:00",
+          "price": 38.57
+        }
+      ],
+      "from_search": "Wallapop T-Roc <33000€"
+    },
+    "5980ff9383b7b0ad": {
+      "id": "5980ff9383b7b0ad",
+      "url": "https://es.wallapop.com/item/aletas-izquierda-y-derecha-para-vw-t-roc-1316849589",
+      "label": "[Búsqueda: Wallapop T-Roc <33000€]",
+      "site": "apify_wallapop",
+      "title": "Aletas Izquierda y Derecha para VW T-Roc",
+      "first_seen": "2026-10-28T13:45:40.748455+00:00",
+      "last_checked": "2026-10-28T13:45:40.748455+00:00",
+      "status": "active",
+      "current_price": 80,
+      "price_history": [
+        {
+          "date": "2026-10-28T13:45:40.748455+00:00",
+          "price": 80
+        }
+      ],
+      "from_search": "Wallapop T-Roc <33000€"
+    },
+    "8e1f6cb5bf6fe9a1": {
+      "id": "8e1f6cb5bf6fe9a1",
+      "url": "https://es.wallapop.com/item/estriberas-laterales-para-volkswagen-t-roc-1317411956",
+      "label": "[Búsqueda: Wallapop T-Roc <33000€]",
+      "site": "apify_wallapop",
+      "title": "ESTRIBERAS LATERALES PARA VOLKSWAGEN T-ROC",
+      "first_seen": "2026-10-28T13:45:40.748459+00:00",
+      "last_checked": "2026-10-28T13:45:40.748459+00:00",
+      "status": "active",
+      "current_price": 299,
+      "price_history": [
+        {
+          "date": "2026-10-28T13:45:40.748459+00:00",
+          "price": 299
+        }
+      ],
+      "from_search": "Wallapop T-Roc <33000€"
+    },
+    "329e14839bd26e89": {
+      "id": "329e14839bd26e89",
+      "url": "https://es.wallapop.com/item/12109-maneta-exterior-volkswagen-t-roc-dark-1-16v-1317270358",
+      "label": "[Búsqueda: Wallapop T-Roc <33000€]",
+      "site": "apify_wallapop",
+      "title": "12109 maneta exterior volkswagen t-roc dark 1 16v",
+      "first_seen": "2026-10-28T13:45:40.748468+00:00",
+      "last_checked": "2026-10-28T13:45:40.748468+00:00",
+      "status": "active",
+      "current_price": 23.57,
+      "price_history": [
+        {
+          "date": "2026-10-28T13:45:40.748468+00:00",
+          "price": 23.57
+        }
+      ],
+      "from_search": "Wallapop T-Roc <33000€"
+    },
+    "e3c11efa6d891d76": {
+      "id": "e3c11efa6d891d76",
+      "url": "https://es.wallapop.com/item/retrovisor-izquierdo-volkswagen-t-roc-a11-09-2017-1317972404",
+      "label": "[Búsqueda: Wallapop T-Roc <33000€]",
+      "site": "apify_wallapop",
+      "title": "RETROVISOR IZQUIERDO Volkswagen T-Roc (A11)(09.2017->)",
+      "first_seen": "2026-10-28T13:45:40.748472+00:00",
+      "last_checked": "2026-10-28T13:45:40.748472+00:00",
+      "status": "active",
+      "current_price": 209.18,
+      "price_history": [
+        {
+          "date": "2026-10-28T13:45:40.748472+00:00",
+          "price": 209.18
+        }
+      ],
+      "from_search": "Wallapop T-Roc <33000€"
+    },
+    "596312b2c635ce3e": {
+      "id": "596312b2c635ce3e",
+      "url": "https://es.wallapop.com/item/mangueta-delantera-izquierda-volkswagen-t-roc-a11-09-2017-1317972587",
+      "label": "[Búsqueda: Wallapop T-Roc <33000€]",
+      "site": "apify_wallapop",
+      "title": "MANGUETA DELANTERA IZQUIERDA Volkswagen T-Roc (A11)(09.2017->)",
+      "first_seen": "2026-10-28T13:45:40.748476+00:00",
+      "last_checked": "2026-10-28T13:45:40.748476+00:00",
+      "status": "active",
+      "current_price": 198.7,
+      "price_history": [
+        {
+          "date": "2026-10-28T13:45:40.748476+00:00",
+          "price": 198.7
+        }
+      ],
+      "from_search": "Wallapop T-Roc <33000€"
+    },
+    "d36443a8ae010de6": {
+      "id": "d36443a8ae010de6",
+      "url": "https://es.wallapop.com/item/mangueta-delantera-derecha-volkswagen-t-roc-a11-09-2017-1317972624",
+      "label": "[Búsqueda: Wallapop T-Roc <33000€]",
+      "site": "apify_wallapop",
+      "title": "MANGUETA DELANTERA DERECHA Volkswagen T-Roc (A11)(09.2017->)",
+      "first_seen": "2026-10-28T13:45:40.748480+00:00",
+      "last_checked": "2026-10-28T13:45:40.748480+00:00",
+      "status": "active",
+      "current_price": 195.58,
+      "price_history": [
+        {
+          "date": "2026-10-28T13:45:40.748480+00:00",
+          "price": 195.58
+        }
+      ],
+      "from_search": "Wallapop T-Roc <33000€"
+    },
+    "2261fc50cc18c60d": {
+      "id": "2261fc50cc18c60d",
+      "url": "https://es.wallapop.com/item/1163104-pase-de-rueda-trasero-volkswagen-t-roc-a11-1317572652",
+      "label": "[Búsqueda: Wallapop T-Roc <33000€]",
+      "site": "apify_wallapop",
+      "title": "1163104 pase de rueda trasero volkswagen t-roc a11",
+      "first_seen": "2026-10-28T13:45:40.748484+00:00",
+      "last_checked": "2026-10-28T13:45:40.748484+00:00",
+      "status": "active",
+      "current_price": 64.06,
+      "price_history": [
+        {
+          "date": "2026-10-28T13:45:40.748484+00:00",
+          "price": 64.06
+        }
+      ],
+      "from_search": "Wallapop T-Roc <33000€"
+    },
+    "d49f6e55195614a6": {
+      "id": "d49f6e55195614a6",
+      "url": "https://es.wallapop.com/item/volkswagen-t-roc-1-5-tsi-act-life-1318071433",
+      "label": "[Búsqueda: Wallapop T-Roc <33000€]",
+      "site": "apify_wallapop",
+      "title": "Volkswagen T-Roc 1.5 TSI ACT Life",
+      "first_seen": "2026-10-28T13:45:40.748488+00:00",
+      "last_checked": "2026-10-28T13:45:40.748488+00:00",
+      "status": "active",
+      "current_price": 27999,
+      "price_history": [
+        {
+          "date": "2026-10-28T13:45:40.748488+00:00",
+          "price": 27999
+        }
+      ],
+      "from_search": "Wallapop T-Roc <33000€"
+    },
+    "0a52ad6025ef3398": {
+      "id": "0a52ad6025ef3398",
+      "url": "https://es.wallapop.com/item/volkswagen-t-roc-r-2-0-tsi-221kw-300cv-4motion-dsg-1289526471",
+      "label": "[Búsqueda: Wallapop T-Roc <33000€]",
+      "site": "apify_wallapop",
+      "title": "Volkswagen T-Roc R 2.0 TSI 221kW (300CV) 4Motion DSG",
+      "first_seen": "2026-10-28T13:45:40.748499+00:00",
+      "last_checked": "2026-10-28T13:45:40.748499+00:00",
+      "status": "active",
+      "current_price": 26890,
+      "price_history": [
+        {
+          "date": "2026-10-28T13:45:40.748499+00:00",
+          "price": 26890
+        }
+      ],
+      "from_search": "Wallapop T-Roc <33000€"
+    },
+    "b6acbe01a119becf": {
+      "id": "b6acbe01a119becf",
+      "url": "https://es.wallapop.com/item/18511-04c1330620-caja-de-mariposa-volkswagen-t-roc-1317632536",
+      "label": "[Búsqueda: Wallapop T-Roc <33000€]",
+      "site": "apify_wallapop",
+      "title": "18511 04c1330620 caja de mariposa volkswagen t-roc",
+      "first_seen": "2026-10-28T13:45:40.748507+00:00",
+      "last_checked": "2026-10-28T13:45:40.748507+00:00",
+      "status": "active",
+      "current_price": 103.57,
+      "price_history": [
+        {
+          "date": "2026-10-28T13:45:40.748507+00:00",
+          "price": 103.57
+        }
+      ],
+      "from_search": "Wallapop T-Roc <33000€"
+    },
+    "1d9cb59199d78b17": {
+      "id": "1d9cb59199d78b17",
+      "url": "https://es.wallapop.com/item/volkswagen-t-roc-sport-1-5-tsi-110-kw-150-cv-dsg-1318048276",
+      "label": "[Búsqueda: Wallapop T-Roc <33000€]",
+      "site": "apify_wallapop",
+      "title": "Volkswagen T-Roc Sport 1.5 TSI 110 kW (150 CV) DSG",
+      "first_seen": "2026-10-28T13:45:40.748511+00:00",
+      "last_checked": "2026-10-28T13:45:40.748511+00:00",
+      "status": "active",
+      "current_price": 21173,
+      "price_history": [
+        {
+          "date": "2026-10-28T13:45:40.748511+00:00",
+          "price": 21173
+        }
+      ],
+      "from_search": "Wallapop T-Roc <33000€"
+    },
+    "993694daba24edde": {
+      "id": "993694daba24edde",
+      "url": "https://es.wallapop.com/item/45830180-cerradura-volkswagen-t-roc-advance-14417-1317134591",
+      "label": "[Búsqueda: Wallapop T-Roc <33000€]",
+      "site": "apify_wallapop",
+      "title": "45830180 cerradura volkswagen t-roc advance 14417",
+      "first_seen": "2026-10-28T13:45:40.748515+00:00",
+      "last_checked": "2026-10-28T13:45:40.748515+00:00",
+      "status": "active",
+      "current_price": 68.57,
+      "price_history": [
+        {
+          "date": "2026-10-28T13:45:40.748515+00:00",
+          "price": 68.57
+        }
+      ],
+      "from_search": "Wallapop T-Roc <33000€"
+    },
+    "dd34fa445f319e05": {
+      "id": "dd34fa445f319e05",
+      "url": "https://es.wallapop.com/item/1650533-abs-volkswagen-t-roc-d11-1318001473",
+      "label": "[Búsqueda: Wallapop T-Roc <33000€]",
+      "site": "apify_wallapop",
+      "title": "[1650533] ABS VOLKSWAGEN T-ROC (D11)",
+      "first_seen": "2026-10-28T13:45:40.748520+00:00",
+      "last_checked": "2026-10-28T13:45:40.748520+00:00",
+      "status": "active",
+      "current_price": 143,
+      "price_history": [
+        {
+          "date": "2026-10-28T13:45:40.748520+00:00",
+          "price": 143
+        }
+      ],
+      "from_search": "Wallapop T-Roc <33000€"
+    },
+    "32542d903157b41d": {
+      "id": "32542d903157b41d",
+      "url": "https://es.wallapop.com/item/tubos-volkswagen-5q0816741b-5wa816743a-t-roc-1317959779",
+      "label": "[Búsqueda: Wallapop T-Roc <33000€]",
+      "site": "apify_wallapop",
+      "title": "Tubos volkswagen 5q0816741b 5wa816743a t-roc",
+      "first_seen": "2026-10-28T13:45:40.748528+00:00",
+      "last_checked": "2026-10-28T13:45:40.748528+00:00",
+      "status": "active",
+      "current_price": 100.36,
+      "price_history": [
+        {
+          "date": "2026-10-28T13:45:40.748528+00:00",
+          "price": 100.36
+        }
+      ],
+      "from_search": "Wallapop T-Roc <33000€"
+    },
+    "1dd7f9326756a567": {
+      "id": "1dd7f9326756a567",
+      "url": "https://es.wallapop.com/item/columna-direccion-volkswagen-t-roc-a11-09-2017-1317972658",
+      "label": "[Búsqueda: Wallapop T-Roc <33000€]",
+      "site": "apify_wallapop",
+      "title": "COLUMNA DIRECCION Volkswagen T-Roc (A11)(09.2017->)",
+      "first_seen": "2026-10-28T13:45:40.748532+00:00",
+      "last_checked": "2026-10-28T13:45:40.748532+00:00",
+      "status": "active",
+      "current_price": 194.81,
+      "price_history": [
+        {
+          "date": "2026-10-28T13:45:40.748532+00:00",
+          "price": 194.81
+        }
+      ],
+      "from_search": "Wallapop T-Roc <33000€"
+    },
+    "ab6cb4cbcbe99f07": {
+      "id": "ab6cb4cbcbe99f07",
+      "url": "https://es.wallapop.com/item/anillo-volkswagen-5q1953569-t-roc-advance-477411-1317623504",
+      "label": "[Búsqueda: Wallapop T-Roc <33000€]",
+      "site": "apify_wallapop",
+      "title": "Anillo volkswagen 5q1953569 t-roc advance 477411",
+      "first_seen": "2026-10-28T13:45:40.748536+00:00",
+      "last_checked": "2026-10-28T13:45:40.748536+00:00",
+      "status": "active",
+      "current_price": 76.16,
+      "price_history": [
+        {
+          "date": "2026-10-28T13:45:40.748536+00:00",
+          "price": 76.16
+        }
+      ],
+      "from_search": "Wallapop T-Roc <33000€"
+    },
+    "c0ab011b26686e63": {
+      "id": "c0ab011b26686e63",
+      "url": "https://es.wallapop.com/item/transmision-volkswagen-1163765-5q0407271bt-t-roc-1317533788",
+      "label": "[Búsqueda: Wallapop T-Roc <33000€]",
+      "site": "apify_wallapop",
+      "title": "Transmisión volkswagen 1163765 5q0407271bt t-roc",
+      "first_seen": "2026-10-28T13:45:40.748540+00:00",
+      "last_checked": "2026-10-28T13:45:40.748540+00:00",
+      "status": "active",
+      "current_price": 83.74,
+      "price_history": [
+        {
+          "date": "2026-10-28T13:45:40.748540+00:00",
+          "price": 83.74
+        }
+      ],
+      "from_search": "Wallapop T-Roc <33000€"
+    },
+    "63c9ca6c93cd092f": {
+      "id": "63c9ca6c93cd092f",
+      "url": "https://es.wallapop.com/item/motor-completo-volkswagen-t-roc-2-0-tdi-dtr-1317618318",
+      "label": "[Búsqueda: Wallapop T-Roc <33000€]",
+      "site": "apify_wallapop",
+      "title": "Motor Completo Volkswagen T-Roc 2.0 TDI DTR",
+      "first_seen": "2026-10-28T13:45:40.748544+00:00",
+      "last_checked": "2026-10-28T13:45:40.748544+00:00",
+      "status": "active",
+      "current_price": 2240,
+      "price_history": [
+        {
+          "date": "2026-10-28T13:45:40.748544+00:00",
+          "price": 2240
+        }
+      ],
+      "from_search": "Wallapop T-Roc <33000€"
+    },
+    "4710996a4ba851f6": {
+      "id": "4710996a4ba851f6",
+      "url": "https://es.wallapop.com/item/volkswagen-t-roc-advance-1-0-tsi-81kw-110cv-1318080296",
+      "label": "[Búsqueda: Wallapop T-Roc <33000€]",
+      "site": "apify_wallapop",
+      "title": "Volkswagen T-Roc Advance 1.0 TSI 81kW (110CV)",
+      "first_seen": "2026-10-28T13:45:40.748548+00:00",
+      "last_checked": "2026-10-28T13:45:40.748548+00:00",
+      "status": "active",
+      "current_price": 13990,
+      "price_history": [
+        {
+          "date": "2026-10-28T13:45:40.748548+00:00",
+          "price": 13990
+        }
+      ],
+      "from_search": "Wallapop T-Roc <33000€"
+    },
+    "5108134e0c79bb46": {
+      "id": "5108134e0c79bb46",
+      "url": "https://es.wallapop.com/item/despiece-completo-volkswagen-t-roc-2021-t-roc-i-1317272072",
+      "label": "[Búsqueda: Wallapop T-Roc <33000€]",
+      "site": "apify_wallapop",
+      "title": "Despiece completo Volkswagen T-Roc ~2021 T-Roc I",
+      "first_seen": "2026-10-28T13:45:40.748555+00:00",
+      "last_checked": "2026-10-28T13:45:40.748555+00:00",
+      "status": "active",
+      "current_price": 82,
+      "price_history": [
+        {
+          "date": "2026-10-28T13:45:40.748555+00:00",
+          "price": 82
+        }
+      ],
+      "from_search": "Wallapop T-Roc <33000€"
+    },
+    "41ba4b0f1edbfc0d": {
+      "id": "41ba4b0f1edbfc0d",
+      "url": "https://es.wallapop.com/item/volkswagen-t-roc-advance-style-1-5-tsi-110kw-150cv-1292963313",
+      "label": "[Búsqueda: Wallapop T-Roc <33000€]",
+      "site": "apify_wallapop",
+      "title": "Volkswagen T-Roc Advance Style 1.5 TSI 110kW (150CV)",
+      "first_seen": "2026-10-28T13:45:40.748560+00:00",
+      "last_checked": "2026-10-28T13:45:40.748560+00:00",
+      "status": "active",
+      "current_price": 13490,
+      "price_history": [
+        {
+          "date": "2026-10-28T13:45:40.748560+00:00",
+          "price": 13490
+        }
+      ],
+      "from_search": "Wallapop T-Roc <33000€"
+    },
+    "b8f0c23276bdfd28": {
+      "id": "b8f0c23276bdfd28",
+      "url": "https://es.wallapop.com/item/alfombra-maletero-volkswagen-t-roc-a11-09-2017-1317618154",
+      "label": "[Búsqueda: Wallapop T-Roc <33000€]",
+      "site": "apify_wallapop",
+      "title": "ALFOMBRA MALETERO Volkswagen T-Roc (A11)(09.2017->)",
+      "first_seen": "2026-10-28T13:45:40.748571+00:00",
+      "last_checked": "2026-10-28T13:45:40.748571+00:00",
+      "status": "active",
+      "current_price": 121,
+      "price_history": [
+        {
+          "date": "2026-10-28T13:45:40.748571+00:00",
+          "price": 121
+        }
+      ],
+      "from_search": "Wallapop T-Roc <33000€"
+    },
+    "b067c81f25ebd602": {
+      "id": "b067c81f25ebd602",
+      "url": "https://es.wallapop.com/item/kit-airbag-salpicadero-cinturones-vw-t-roc-1317718648",
+      "label": "[Búsqueda: Wallapop T-Roc <33000€]",
+      "site": "apify_wallapop",
+      "title": "Kit airbag, salpicadero, cinturones VW T-Roc",
+      "first_seen": "2026-10-28T13:45:40.748575+00:00",
+      "last_checked": "2026-10-28T13:45:40.748575+00:00",
+      "status": "active",
+      "current_price": 1,
+      "price_history": [
+        {
+          "date": "2026-10-28T13:45:40.748575+00:00",
+          "price": 1
+        }
+      ],
+      "from_search": "Wallapop T-Roc <33000€"
     }
   },
   "new_this_run": [
     {
-      "id": "441055c949874eda",
-      "url": "https://www.coches.net/volkswagen-t-roc-life-15-tsi-110kw-150cv-dsg-5p-gasolina-2025-en-leon-71444601-covo.aspx",
-      "title": "VOLKSWAGEN T-Roc Life 1.5 TSI DSG",
-      "price": 26800,
-      "site": "apify_coches_net",
-      "search_label": "VW T-Roc 2022-2026, 5000-33000€",
-      "date": "2026-10-25T12:17:36.568949+00:00"
-    },
-    {
-      "id": "d3a8a54b9b866b32",
-      "url": "https://www.coches.net/volkswagen-t-roc-life-15-tsi-110kw-150cv-5p-gasolina-2022-en-madrid-71740569-covo.aspx",
-      "title": "VOLKSWAGEN T-Roc Life 1.5 TSI",
-      "price": 22990,
-      "site": "apify_coches_net",
-      "search_label": "VW T-Roc 2022-2026, 5000-33000€",
-      "date": "2026-10-25T12:17:36.568969+00:00"
-    },
-    {
-      "id": "e3c2bdcf8ba75df8",
-      "url": "https://www.coches.net/volkswagen-t-roc-life-10-tsi-81kw-110cv-5p-gasolina-2023-en-murcia-71799411-covo.aspx",
+      "id": "9c55674db2b8598f",
+      "url": "https://www.coches.net/volkswagen-t-roc-life-10-tsi-81kw-110cv-5p-gasolina-2024-en-albacete-71221468-covo.aspx",
       "title": "VOLKSWAGEN T-Roc Life 1.0 TSI",
-      "price": 20900,
+      "price": 18850,
       "site": "apify_coches_net",
       "search_label": "VW T-Roc 2022-2026, 5000-33000€",
-      "date": "2026-10-25T12:17:36.568977+00:00"
+      "date": "2026-10-28T13:44:54.856741+00:00"
     },
     {
-      "id": "9b6235d339d64da2",
-      "url": "https://www.coches.net/volkswagen-t-roc-rline-15-tsi-110kw-150cv-dsg-5p-gasolina-2023-en-barcelona-71617735-covo.aspx",
+      "id": "c0c0d17644df5085",
+      "url": "https://www.coches.net/volkswagen-t-roc-life-10-tsi-81kw-110cv-5p-gasolina-2024-en-malaga-71807825-covo.aspx",
+      "title": "VOLKSWAGEN T-Roc Life 1.0 TSI",
+      "price": 17800,
+      "site": "apify_coches_net",
+      "search_label": "VW T-Roc 2022-2026, 5000-33000€",
+      "date": "2026-10-28T13:44:54.856762+00:00"
+    },
+    {
+      "id": "cc57786eea883283",
+      "url": "https://www.coches.net/volkswagen-t-roc-life-10-tsi-81kw-110cv-5p-gasolina-2023-en-sta-c-tenerife-71841176-covo.aspx",
+      "title": "VOLKSWAGEN T-Roc Life 1.0 TSI",
+      "price": 16985,
+      "site": "apify_coches_net",
+      "search_label": "VW T-Roc 2022-2026, 5000-33000€",
+      "date": "2026-10-28T13:44:54.856772+00:00"
+    },
+    {
+      "id": "b72d1d8683fc5d5d",
+      "url": "https://www.coches.net/volkswagen-t-roc-life-10-tsi-81kw-110cv-5p-gasolina-2023-en-las-palmas-71841014-covo.aspx",
+      "title": "VOLKSWAGEN T-Roc Life 1.0 TSI",
+      "price": 16985,
+      "site": "apify_coches_net",
+      "search_label": "VW T-Roc 2022-2026, 5000-33000€",
+      "date": "2026-10-28T13:44:54.856775+00:00"
+    },
+    {
+      "id": "6172f10918858c46",
+      "url": "https://www.coches.net/volkswagen-t-roc-life-10-tsi-81kw-110cv-5p-gasolina-2024-en-murcia-71848324-covo.aspx",
+      "title": "VOLKSWAGEN T-Roc Life 1.0 TSI",
+      "price": 23699,
+      "site": "apify_coches_net",
+      "search_label": "VW T-Roc 2022-2026, 5000-33000€",
+      "date": "2026-10-28T13:44:54.856779+00:00"
+    },
+    {
+      "id": "4afc878312a1cd6e",
+      "url": "https://www.coches.net/volkswagen-t-roc-life-10-tsi-81kw-110cv-5p-gasolina-2022-en-madrid-71800886-covo.aspx",
+      "title": "VOLKSWAGEN T-Roc Life 1.0 TSI",
+      "price": 21990,
+      "site": "apify_coches_net",
+      "search_label": "VW T-Roc 2022-2026, 5000-33000€",
+      "date": "2026-10-28T13:44:54.856869+00:00"
+    },
+    {
+      "id": "04f83122f431b7d1",
+      "url": "https://www.coches.net/volkswagen-t-roc-rline-20-tsi-140kw-190cv-4-mot-dsg-5p-gasolina-2022-en-girona-71357927-covo.aspx",
+      "title": "VOLKSWAGEN T-Roc RLine 2.0 TSI 4 Mot DSG",
+      "price": 28500,
+      "site": "apify_coches_net",
+      "search_label": "VW T-Roc 2022-2026, 5000-33000€",
+      "date": "2026-10-28T13:44:54.856873+00:00"
+    },
+    {
+      "id": "7272d193423ca260",
+      "url": "https://www.coches.net/volkswagen-t-roc-rline-15-tsi-110kw-150cv-dsg-5p-gasolina-2022-en-barcelona-71850596-covo.aspx",
       "title": "VOLKSWAGEN T-Roc RLine 1.5 TSI DSG",
-      "price": 24790,
+      "price": 22490,
       "site": "apify_coches_net",
       "search_label": "VW T-Roc 2022-2026, 5000-33000€",
-      "date": "2026-10-25T12:17:36.568985+00:00"
+      "date": "2026-10-28T13:44:54.856906+00:00"
     },
     {
-      "id": "3df8be67afe5fb4a",
-      "url": "https://www.coches.net/volkswagen-t-roc-advance-style-10-tsi-81kw-110cv-5p-gasolina-2022-en-malaga-71733324-covo.aspx",
-      "title": "VOLKSWAGEN T-Roc Advance Style 1.0 TSI",
-      "price": 17890,
+      "id": "5c66cdcce5077233",
+      "url": "https://www.coches.net/volkswagen-t-roc-life-15-tsi-110kw-150cv-5p-gasolina-2023-en-madrid-71850377-covo.aspx",
+      "title": "VOLKSWAGEN T-Roc Life 1.5 TSI",
+      "price": 20350,
       "site": "apify_coches_net",
       "search_label": "VW T-Roc 2022-2026, 5000-33000€",
-      "date": "2026-10-25T12:17:36.569006+00:00"
+      "date": "2026-10-28T13:44:54.856911+00:00"
     },
     {
-      "id": "ce64d9561d0ca06c",
-      "url": "https://www.coches.net/volkswagen-t-roc-life-10-tsi-81kw-110cv-5p-gasolina-2023-en-barcelona-71751323-covo.aspx",
+      "id": "bf51983bd9ccc3eb",
+      "url": "https://www.coches.net/volkswagen-t-roc-mas-15-tsi-110kw-150cv-dsg-5p-gasolina-2025-en-madrid-71847653-covo.aspx",
+      "title": "VOLKSWAGEN T-Roc Mas 1.5 TSI DSG",
+      "price": 23490,
+      "site": "apify_coches_net",
+      "search_label": "VW T-Roc 2022-2026, 5000-33000€",
+      "date": "2026-10-28T13:44:54.856915+00:00"
+    },
+    {
+      "id": "7612847de9cc7fad",
+      "url": "https://www.coches.net/volkswagen-t-roc-mas-15-tsi-110kw-150cv-dsg-5p-gasolina-2025-en-madrid-71845083-covo.aspx",
+      "title": "VOLKSWAGEN T-Roc Mas 1.5 TSI DSG",
+      "price": 23490,
+      "site": "apify_coches_net",
+      "search_label": "VW T-Roc 2022-2026, 5000-33000€",
+      "date": "2026-10-28T13:44:54.856919+00:00"
+    },
+    {
+      "id": "0f133714d37b8973",
+      "url": "https://www.coches.net/volkswagen-t-roc-advance-rline-15-tsi-110kw-150cv-5p-gasolina-2022-en-valencia-71840985-covo.aspx",
+      "title": "VOLKSWAGEN T-Roc Advance RLine 1.5 TSI",
+      "price": 19490,
+      "site": "apify_coches_net",
+      "search_label": "VW T-Roc 2022-2026, 5000-33000€",
+      "date": "2026-10-28T13:44:54.856923+00:00"
+    },
+    {
+      "id": "2e8b023d3798154f",
+      "url": "https://www.coches.net/volkswagen-t-roc-life-10-tsi-81kw-110cv-5p-gasolina-2024-en-barcelona-71847390-covo.aspx",
       "title": "VOLKSWAGEN T-Roc Life 1.0 TSI",
-      "price": 18900,
+      "price": 20990,
       "site": "apify_coches_net",
       "search_label": "VW T-Roc 2022-2026, 5000-33000€",
-      "date": "2026-10-25T12:17:36.569074+00:00"
+      "date": "2026-10-28T13:44:54.856927+00:00"
     },
     {
-      "id": "564a0819dc7c2967",
-      "url": "https://www.coches.net/volkswagen-t-roc-advance-rline-10-tsi-81kw-110cv-5p-gasolina-2022-en-madrid-71821495-covo.aspx",
-      "title": "VOLKSWAGEN T-Roc Advance RLine 1.0 TSI",
-      "price": 16990,
-      "site": "apify_coches_net",
-      "search_label": "VW T-Roc 2022-2026, 5000-33000€",
-      "date": "2026-10-25T12:17:36.569202+00:00"
-    },
-    {
-      "id": "5d5b10a20cefcff3",
-      "url": "https://www.coches.net/volkswagen-t-roc-life-10-tsi-81kw-110cv-5p-gasolina-2024-en-jaen-71819978-covo.aspx",
-      "title": "VOLKSWAGEN T-Roc Life 1.0 TSI",
-      "price": 21900,
-      "site": "apify_coches_net",
-      "search_label": "VW T-Roc 2022-2026, 5000-33000€",
-      "date": "2026-10-25T12:17:36.569229+00:00"
-    },
-    {
-      "id": "1ee00f2eaad4f60f",
-      "url": "https://es.wallapop.com/item/moldura-inferior-puerta-izquierda-vw-t-roc-2ga8549-1316863979",
-      "title": "Moldura Inferior puerta Izquierda VW T-Roc 2GA8549",
-      "price": 30,
-      "site": "apify_wallapop",
-      "search_label": "Wallapop T-Roc <33000€",
-      "date": "2026-10-25T12:18:33.387896+00:00"
-    },
-    {
-      "id": "edcfdf81ec33cd60",
-      "url": "https://es.wallapop.com/item/volkswagen-t-roc-2018-1316919484",
-      "title": "Volkswagen T-Roc 2018",
-      "price": 16000,
-      "site": "apify_wallapop",
-      "search_label": "Wallapop T-Roc <33000€",
-      "date": "2026-10-25T12:18:33.387905+00:00"
-    },
-    {
-      "id": "cddf053c6eb4cf04",
-      "url": "https://es.wallapop.com/item/radar-frontal-de-volkswagen-t-roc-1316561250",
-      "title": "Radar frontal de Volkswagen T-roc",
+      "id": "c35559b006ffbbe5",
+      "url": "https://es.wallapop.com/item/rueda-de-repuesto-seat-arona-ateca-t-roc-1317833301",
+      "title": "Rueda de repuesto Seat Arona, Ateca, T-Roc",
       "price": 80,
       "site": "apify_wallapop",
       "search_label": "Wallapop T-Roc <33000€",
-      "date": "2026-10-25T12:18:33.387913+00:00"
+      "date": "2026-10-28T13:45:40.748239+00:00"
     },
     {
-      "id": "8f55f12b39d29413",
-      "url": "https://es.wallapop.com/item/cubrepedales-volkswagen-t-roc-1316656031",
-      "title": "Cubrepedales Volkswagen T-Roc",
-      "price": 8,
+      "id": "98076ac055ec61bc",
+      "url": "https://es.wallapop.com/item/panel-de-control-climatizacion-vw-golf-polo-t-roc-1318103619",
+      "title": "Panel de Control Climatización VW Golf/Polo/T-Roc",
+      "price": 60,
       "site": "apify_wallapop",
       "search_label": "Wallapop T-Roc <33000€",
-      "date": "2026-10-25T12:18:33.387920+00:00"
+      "date": "2026-10-28T13:45:40.748246+00:00"
     },
     {
-      "id": "418a765d7f0e34d6",
-      "url": "https://es.wallapop.com/item/volkswagen-t-roc-dark-line-2-0-tdi-150-cv-dsg-1316278072",
-      "title": "VOLKSWAGEN T-ROC DARK LINE 2.0 TDI 150 CV DSG",
-      "price": 22990,
-      "site": "apify_wallapop",
-      "search_label": "Wallapop T-Roc <33000€",
-      "date": "2026-10-25T12:18:33.387927+00:00"
-    },
-    {
-      "id": "b79440f864d34182",
-      "url": "https://es.wallapop.com/item/volkswagen-t-roc-2025-1316968419",
-      "title": "Volkswagen T-Roc 2025",
-      "price": 29900,
-      "site": "apify_wallapop",
-      "search_label": "Wallapop T-Roc <33000€",
-      "date": "2026-10-25T12:18:33.387934+00:00"
-    },
-    {
-      "id": "db8944b9278c0646",
-      "url": "https://es.wallapop.com/item/despiece-volkswagen-t-roc-2018-1316309805",
-      "title": "Despiece Volkswagen T-Roc 2018",
-      "price": 1,
-      "site": "apify_wallapop",
-      "search_label": "Wallapop T-Roc <33000€",
-      "date": "2026-10-25T12:18:33.387947+00:00"
-    },
-    {
-      "id": "149e19cbc520211e",
-      "url": "https://es.wallapop.com/item/faro-izquierdo-volkswagen-vw-t-roc-2ga-1316455917",
-      "title": "Faro Izquierdo Volkswagen VW T-Roc 2GA",
+      "id": "1acdd10c10a32f0a",
+      "url": "https://es.wallapop.com/item/climatizador-volkswagen-golf-t-roc-touran-1318102277",
+      "title": "Climatizador Volkswagen Golf, T-Roc, Touran",
       "price": 110,
       "site": "apify_wallapop",
       "search_label": "Wallapop T-Roc <33000€",
-      "date": "2026-10-25T12:18:33.387976+00:00"
+      "date": "2026-10-28T13:45:40.748272+00:00"
     },
     {
-      "id": "a93bb8857a2cbd01",
-      "url": "https://es.wallapop.com/item/escapes-originales-vw-t-roc-r-golf-8-r-1316435883",
-      "title": "Escapes originales VW T-Roc R / Golf 8 R",
-      "price": 850,
+      "id": "115af3535f0d0ab5",
+      "url": "https://es.wallapop.com/item/volkswagen-t-roc-2022-1317672309",
+      "title": "Volkswagen T-Roc 2022",
+      "price": 24000,
       "site": "apify_wallapop",
       "search_label": "Wallapop T-Roc <33000€",
-      "date": "2026-10-25T12:18:33.387983+00:00"
+      "date": "2026-10-28T13:45:40.748277+00:00"
     },
     {
-      "id": "e6a53f98a581609a",
-      "url": "https://es.wallapop.com/item/retrovisor-volkswagen-t-roc-1316765060",
+      "id": "225a0dea6f59a47d",
+      "url": "https://es.wallapop.com/item/volkswagen-t-roc-2022-1317930423",
+      "title": "Volkswagen T-Roc 2022",
+      "price": 18500,
+      "site": "apify_wallapop",
+      "search_label": "Wallapop T-Roc <33000€",
+      "date": "2026-10-28T13:45:40.748286+00:00"
+    },
+    {
+      "id": "c7df49f2cda63bfc",
+      "url": "https://es.wallapop.com/item/jantes-vw-t-roc-18-5x112-com-pneus-225-50-r18-1317491589",
+      "title": "Rines VW T-Roc 18 5x112 con Neumáticos 225/50 R18",
+      "price": 600,
+      "site": "apify_wallapop",
+      "search_label": "Wallapop T-Roc <33000€",
+      "date": "2026-10-28T13:45:40.748303+00:00"
+    },
+    {
+      "id": "ff8b2445e55c71cd",
+      "url": "https://es.wallapop.com/item/centralita-faro-volkswagen-t-roc-2023-1318047489",
+      "title": "Centralita Faro Volkswagen T-Roc 2023",
+      "price": 150,
+      "site": "apify_wallapop",
+      "search_label": "Wallapop T-Roc <33000€",
+      "date": "2026-10-28T13:45:40.748312+00:00"
+    },
+    {
+      "id": "3ee8ed20937596be",
+      "url": "https://es.wallapop.com/item/cortavientos-volkswagen-t-roc-cabrio-1317737423",
+      "title": "Cortavientos Volkswagen T-Roc Cabrio",
+      "price": 200,
+      "site": "apify_wallapop",
+      "search_label": "Wallapop T-Roc <33000€",
+      "date": "2026-10-28T13:45:40.748328+00:00"
+    },
+    {
+      "id": "161a05df5ef8f9ee",
+      "url": "https://es.wallapop.com/item/5wa907511b-motor-trampilla-volkswagen-t-roc-16745-1318093600",
+      "title": "5wa907511b motor trampilla volkswagen t-roc 16745",
+      "price": 38.57,
+      "site": "apify_wallapop",
+      "search_label": "Wallapop T-Roc <33000€",
+      "date": "2026-10-28T13:45:40.748333+00:00"
+    },
+    {
+      "id": "a2b3ea53a311638e",
+      "url": "https://es.wallapop.com/item/5g0955711d-motor-limpia-volkswagen-t-roc-158970-1318058575",
+      "title": "5g0955711d motor limpia volkswagen t-roc 158970",
+      "price": 58.01,
+      "site": "apify_wallapop",
+      "search_label": "Wallapop T-Roc <33000€",
+      "date": "2026-10-28T13:45:40.748343+00:00"
+    },
+    {
+      "id": "48aae4457d68ce2e",
+      "url": "https://es.wallapop.com/item/aireador-volkswagen-t-roc-a11-09-2017-1317618253",
+      "title": "AIREADOR Volkswagen T-Roc (A11)(09.2017->)",
+      "price": 24.2,
+      "site": "apify_wallapop",
+      "search_label": "Wallapop T-Roc <33000€",
+      "date": "2026-10-28T13:45:40.748352+00:00"
+    },
+    {
+      "id": "a36c6569008d3247",
+      "url": "https://es.wallapop.com/item/retrovisor-volkswagen-t-roc-1317882539",
       "title": "Retrovisor Volkswagen T-Roc",
       "price": 130,
       "site": "apify_wallapop",
       "search_label": "Wallapop T-Roc <33000€",
-      "date": "2026-10-25T12:18:33.388012+00:00"
+      "date": "2026-10-28T13:45:40.748356+00:00"
     },
     {
-      "id": "fb8d4d7608b8896f",
-      "url": "https://es.wallapop.com/item/amortiguadores-maletero-porton-volkswagen-t-roc-a11-09-2017-1316866442",
-      "title": "AMORTIGUADORES MALETERO / PORTON Volkswagen T-Roc (A11)(09.2017->)",
-      "price": 45.94,
+      "id": "33c6f87168365933",
+      "url": "https://es.wallapop.com/item/bisagra-8x0831403e-volkswagen-t-roc-advance-15363-1317479861",
+      "title": "Bisagra 8x0831403e volkswagen t-roc advance 15363",
+      "price": 13.56,
       "site": "apify_wallapop",
       "search_label": "Wallapop T-Roc <33000€",
-      "date": "2026-10-25T12:18:33.388030+00:00"
+      "date": "2026-10-28T13:45:40.748360+00:00"
     },
     {
-      "id": "86b05c759263fb5c",
-      "url": "https://es.wallapop.com/item/brazo-limpia-delantero-izquierdo-volkswagen-t-roc-a11-09-2017-1316871431",
-      "title": "BRAZO LIMPIA DELANTERO IZQUIERDO Volkswagen T-Roc (A11)(09.2017->)",
-      "price": 39.32,
+      "id": "f3c2fcc976e58917",
+      "url": "https://es.wallapop.com/item/despiece-completo-volkswagen-t-roc-2018-t-roc-i-1317271918",
+      "title": "Despiece completo Volkswagen T-Roc ~2018 T-Roc I",
+      "price": 93,
       "site": "apify_wallapop",
       "search_label": "Wallapop T-Roc <33000€",
-      "date": "2026-10-25T12:18:33.388047+00:00"
+      "date": "2026-10-28T13:45:40.748367+00:00"
     },
     {
-      "id": "96e90eb5ce31339b",
-      "url": "https://es.wallapop.com/item/soporte-2ga807394-volkswagen-t-roc-advance-1-15511-1316581945",
-      "title": "Soporte 2ga807394 volkswagen t-roc advance 1 15511",
-      "price": 28.55,
+      "id": "49a7755c888afc4c",
+      "url": "https://es.wallapop.com/item/cubierta-gunhyi-impermeable-para-vw-t-roc-tiguan-1317605982",
+      "title": "Cubierta GUNHYI Impermeable para VW T-Roc Tiguan",
+      "price": 48.95,
       "site": "apify_wallapop",
       "search_label": "Wallapop T-Roc <33000€",
-      "date": "2026-10-25T12:18:33.388053+00:00"
+      "date": "2026-10-28T13:45:40.748371+00:00"
     },
     {
-      "id": "f79e86d79bd78fb1",
-      "url": "https://es.wallapop.com/item/brazo-limpia-delantero-derecho-volkswagen-t-roc-a11-09-2017-1316872664",
-      "title": "BRAZO LIMPIA DELANTERO DERECHO Volkswagen T-Roc (A11)(09.2017->)",
-      "price": 37.81,
+      "id": "ee046b5fa6c136e9",
+      "url": "https://es.wallapop.com/item/articulacion-limpia-delantera-volkswagen-t-roc-a11-09-2017-1317973147",
+      "title": "ARTICULACION LIMPIA DELANTERA Volkswagen T-Roc (A11)(09.2017->)",
+      "price": 48.4,
       "site": "apify_wallapop",
       "search_label": "Wallapop T-Roc <33000€",
-      "date": "2026-10-25T12:18:33.388065+00:00"
+      "date": "2026-10-28T13:45:40.748383+00:00"
     },
     {
-      "id": "e1c61090c74ed143",
-      "url": "https://es.wallapop.com/item/volkswagen-15216-molduras-traseras-2ga867288-t-roc-1316883832",
-      "title": "Volkswagen 15216 molduras traseras 2ga867288 t-roc",
-      "price": 33.56,
+      "id": "149b6ed3ad11c5ee",
+      "url": "https://es.wallapop.com/item/volkswagen-t-roc-1311172971",
+      "title": "Volkswagen T-Roc",
+      "price": 14990,
       "site": "apify_wallapop",
       "search_label": "Wallapop T-Roc <33000€",
-      "date": "2026-10-25T12:18:33.388071+00:00"
+      "date": "2026-10-28T13:45:40.748387+00:00"
     },
     {
-      "id": "5285dfbdd4c7acc6",
-      "url": "https://es.wallapop.com/item/5q0199555-5q0199117-soporte-volkswagen-t-roc-10071-1316880119",
-      "title": "5q0199555 5q0199117 soporte volkswagen t-roc 10071",
-      "price": 43.57,
+      "id": "7ba7426b32bbb709",
+      "url": "https://es.wallapop.com/item/1173779-reposabrazos-2ga864207-volkswagen-t-roc-1317899550",
+      "title": "1173779 reposabrazos 2ga864207 volkswagen t-roc",
+      "price": 76.16,
       "site": "apify_wallapop",
       "search_label": "Wallapop T-Roc <33000€",
-      "date": "2026-10-25T12:18:33.388079+00:00"
+      "date": "2026-10-28T13:45:40.748391+00:00"
     },
     {
-      "id": "f21c4dd5d8c93cdc",
-      "url": "https://es.wallapop.com/item/volkswagen-t-roc-2020-1316592702",
-      "title": "Volkswagen T-Roc 2020",
-      "price": 13990,
-      "site": "apify_wallapop",
-      "search_label": "Wallapop T-Roc <33000€",
-      "date": "2026-10-25T12:18:33.388085+00:00"
-    },
-    {
-      "id": "0c75824d5a5c41c8",
-      "url": "https://es.wallapop.com/item/pomo-palanca-cambio-volkswagen-t-roc-advance-1316896102",
-      "title": "POMO PALANCA CAMBIO VOLKSWAGEN T-ROC Advance",
-      "price": 89,
-      "site": "apify_wallapop",
-      "search_label": "Wallapop T-Roc <33000€",
-      "date": "2026-10-25T12:18:33.388092+00:00"
-    },
-    {
-      "id": "24fa765d10c083af",
-      "url": "https://es.wallapop.com/item/volkswagen-2ga867287b-molduras-t-roc-dark-1-15213-1316883576",
-      "title": "Volkswagen 2ga867287b molduras t-roc dark 1 15213",
-      "price": 33.56,
-      "site": "apify_wallapop",
-      "search_label": "Wallapop T-Roc <33000€",
-      "date": "2026-10-25T12:18:33.388099+00:00"
-    },
-    {
-      "id": "f8dc58fa3af61c4b",
-      "url": "https://es.wallapop.com/item/volkswagen-346-modulo-electronico-5q4959593k-t-roc-1316727792",
-      "title": "Volkswagen 346 módulo electronico 5q4959593k t-roc",
-      "price": 53.56,
-      "site": "apify_wallapop",
-      "search_label": "Wallapop T-Roc <33000€",
-      "date": "2026-10-25T12:18:33.388106+00:00"
-    },
-    {
-      "id": "f05352f2d5563296",
-      "url": "https://es.wallapop.com/item/volkswagen-343-modulo-3q0907530ac-t-roc-advance-1-1316724948",
-      "title": "Volkswagen 343 módulo 3q0907530ac t-roc advance 1",
-      "price": 58.57,
-      "site": "apify_wallapop",
-      "search_label": "Wallapop T-Roc <33000€",
-      "date": "2026-10-25T12:18:33.388112+00:00"
-    },
-    {
-      "id": "d1e366a0e2c301d2",
-      "url": "https://es.wallapop.com/item/cableado-electrico-volkswagen-t-roc-advance-1316889211",
-      "title": "CABLEADO ELECTRICO VOLKSWAGEN T-ROC ADVANCE",
-      "price": 102,
-      "site": "apify_wallapop",
-      "search_label": "Wallapop T-Roc <33000€",
-      "date": "2026-10-25T12:18:33.388127+00:00"
-    },
-    {
-      "id": "e9d781f968eb9f0a",
-      "url": "https://es.wallapop.com/item/344-5q0906093-modulo-electronico-volkswagen-t-roc-1316725499",
-      "title": "344 5q0906093 módulo electronico volkswagen t-roc",
-      "price": 48.56,
-      "site": "apify_wallapop",
-      "search_label": "Wallapop T-Roc <33000€",
-      "date": "2026-10-25T12:18:33.388134+00:00"
-    },
-    {
-      "id": "9ff73353a8e6217a",
-      "url": "https://es.wallapop.com/item/refuerzo-paragolpes-trasero-volkswagen-t-roc-a11-09-2017-1316874791",
-      "title": "REFUERZO PARAGOLPES TRASERO Volkswagen T-Roc (A11)(09.2017->)",
-      "price": 121,
-      "site": "apify_wallapop",
-      "search_label": "Wallapop T-Roc <33000€",
-      "date": "2026-10-25T12:18:33.388141+00:00"
-    },
-    {
-      "id": "c495284030c30f94",
-      "url": "https://es.wallapop.com/item/volkswagen-t-roc-sport-1-6-tdi-85kw-115cv-1315224395",
-      "title": "Volkswagen T-Roc Sport 1.6 TDI 85kW (115CV)",
-      "price": 199,
-      "site": "apify_wallapop",
-      "search_label": "Wallapop T-Roc <33000€",
-      "date": "2026-10-25T12:18:33.388159+00:00"
-    },
-    {
-      "id": "b9a29b72d33b3d0e",
-      "url": "https://es.wallapop.com/item/molduras-traseras-volkswagen-2ga863459-t-roc-15215-1316906998",
-      "title": "Molduras traseras volkswagen 2ga863459 t-roc 15215",
+      "id": "a399b18cf0a9a5e3",
+      "url": "https://es.wallapop.com/item/5q1819021h-ventilador-volkswagen-t-roc-16449-1317683851",
+      "title": "5q1819021h ventilador volkswagen t-roc 16449",
       "price": 63.57,
       "site": "apify_wallapop",
       "search_label": "Wallapop T-Roc <33000€",
-      "date": "2026-10-25T12:18:33.388165+00:00"
+      "date": "2026-10-28T13:45:40.748400+00:00"
     },
     {
-      "id": "b331d3081790f201",
-      "url": "https://es.wallapop.com/item/1175742-radiador-5q0121251ec-volkswagen-t-roc-a11-1316918447",
-      "title": "1175742 radiador 5q0121251ec volkswagen t-roc a11",
-      "price": 124.56,
+      "id": "135153d7346cf7d7",
+      "url": "https://es.wallapop.com/item/anillo-airbag-volkswagen-t-roc-a11-09-2017-1317973163",
+      "title": "ANILLO AIRBAG Volkswagen T-Roc (A11)(09.2017->)",
+      "price": 72.6,
       "site": "apify_wallapop",
       "search_label": "Wallapop T-Roc <33000€",
-      "date": "2026-10-25T12:18:33.388177+00:00"
+      "date": "2026-10-28T13:45:40.748403+00:00"
     },
     {
-      "id": "32a6f7b813503383",
-      "url": "https://es.wallapop.com/item/radiador-agua-volkswagen-t-roc-d11-r-line-1316891678",
-      "title": "RADIADOR AGUA VOLKSWAGEN T-ROC (D11) R-LINE",
-      "price": 89,
+      "id": "68b6b26050048ab0",
+      "url": "https://es.wallapop.com/item/volkswagen-8x0831403e-bisagra-t-roc-advance-15361-1317479374",
+      "title": "Volkswagen 8x0831403e bisagra t-roc advance 15361",
+      "price": 13.56,
       "site": "apify_wallapop",
       "search_label": "Wallapop T-Roc <33000€",
-      "date": "2026-10-25T12:18:33.388184+00:00"
+      "date": "2026-10-28T13:45:40.748412+00:00"
     },
     {
-      "id": "6d96a520581d038f",
-      "url": "https://es.wallapop.com/item/radiador-agua-volkswagen-t-roc-d11-r-line-1316886643",
-      "title": "RADIADOR AGUA VOLKSWAGEN T-ROC (D11) R-LINE",
-      "price": 102,
+      "id": "74c45b99ff4e8b34",
+      "url": "https://es.wallapop.com/item/159105-2ga819203-rejilla-volkswagen-t-roc-a11-d11-1318057469",
+      "title": "159105 2ga819203 rejilla volkswagen t-roc a11 d11",
+      "price": 106.41,
       "site": "apify_wallapop",
       "search_label": "Wallapop T-Roc <33000€",
-      "date": "2026-10-25T12:18:33.388196+00:00"
+      "date": "2026-10-28T13:45:40.748415+00:00"
     },
     {
-      "id": "f07795c673f2cdcd",
-      "url": "https://es.wallapop.com/item/retrovisor-volkswagen-2ga857933d-t-roc-dark-14842-1316759988",
-      "title": "Retrovisor volkswagen 2ga857933d t-roc dark 14842",
-      "price": 153.57,
+      "id": "3cd672a977fd1ab1",
+      "url": "https://es.wallapop.com/item/maneta-exterior-trasera-izquierda-volkswagen-t-roc-a11-09-2017-1317611941",
+      "title": "MANETA EXTERIOR TRASERA IZQUIERDA Volkswagen T-Roc (A11)(09.2017->)",
+      "price": 31.09,
       "site": "apify_wallapop",
       "search_label": "Wallapop T-Roc <33000€",
-      "date": "2026-10-25T12:18:33.388218+00:00"
+      "date": "2026-10-28T13:45:40.748419+00:00"
     },
     {
-      "id": "f96587caeef53e78",
-      "url": "https://es.wallapop.com/item/volkswagen-1175743-condensador-5q0816411bg-t-roc-1316428519",
-      "title": "Volkswagen 1175743 condensador 5q0816411bg t-roc",
-      "price": 148.76,
+      "id": "2dc62cb2d31271a5",
+      "url": "https://es.wallapop.com/item/piloto-central-volkswagen-5g6945087a-t-roc-159271-1318060204",
+      "title": "Piloto central volkswagen 5g6945087a t-roc 159271",
+      "price": 70.11,
       "site": "apify_wallapop",
       "search_label": "Wallapop T-Roc <33000€",
-      "date": "2026-10-25T12:18:33.388225+00:00"
+      "date": "2026-10-28T13:45:40.748423+00:00"
     },
     {
-      "id": "a036783258bcdd96",
-      "url": "https://es.wallapop.com/item/volkswagen-t-roc-life-2-0-tdi-85kw-115cv-1315332197",
-      "title": "Volkswagen T-Roc Life 2.0 TDI 85kW (115CV)",
-      "price": 19900,
+      "id": "8acb3f1e2e0ca291",
+      "url": "https://es.wallapop.com/item/maneta-exterior-trasera-derecha-volkswagen-t-roc-a11-09-2017-1317612030",
+      "title": "MANETA EXTERIOR TRASERA DERECHA Volkswagen T-Roc (A11)(09.2017->)",
+      "price": 31.01,
       "site": "apify_wallapop",
       "search_label": "Wallapop T-Roc <33000€",
-      "date": "2026-10-25T12:18:33.388238+00:00"
+      "date": "2026-10-28T13:45:40.748428+00:00"
     },
     {
-      "id": "c2411ebda488b8c8",
-      "url": "https://es.wallapop.com/item/volkswagen-342-5q0937084de-modulo-t-roc-advance-1-1316722672",
-      "title": "Volkswagen 342 5q0937084de módulo t-roc advance 1",
+      "id": "f031c42bf36d17d4",
+      "url": "https://es.wallapop.com/item/volkswagen-t-roc-2020-1318052166",
+      "title": "Volkswagen T-Roc 2020",
+      "price": 22500,
+      "site": "apify_wallapop",
+      "search_label": "Wallapop T-Roc <33000€",
+      "date": "2026-10-28T13:45:40.748432+00:00"
+    },
+    {
+      "id": "48611bbd5140cfbe",
+      "url": "https://es.wallapop.com/item/gomas-contorno-volkswagen-t-roc-advance-1-12166-1317317869",
+      "title": "Gomas contorno volkswagen t-roc advance 1 12166",
+      "price": 43.57,
+      "site": "apify_wallapop",
+      "search_label": "Wallapop T-Roc <33000€",
+      "date": "2026-10-28T13:45:40.748436+00:00"
+    },
+    {
+      "id": "c139eb114a48b1e8",
+      "url": "https://es.wallapop.com/item/maneta-exterior-delantera-derecha-volkswagen-t-roc-a11-09-2017-1317610416",
+      "title": "MANETA EXTERIOR DELANTERA DERECHA Volkswagen T-Roc (A11)(09.2017->)",
+      "price": 33.35,
+      "site": "apify_wallapop",
+      "search_label": "Wallapop T-Roc <33000€",
+      "date": "2026-10-28T13:45:40.748441+00:00"
+    },
+    {
+      "id": "abb3ee69a6d299ba",
+      "url": "https://es.wallapop.com/item/158991-tubos-aire-5q0816721ab-volkswagen-t-roc-a11-1317950989",
+      "title": "158991 tubos aire 5q0816721ab volkswagen t-roc a11",
+      "price": 100.36,
+      "site": "apify_wallapop",
+      "search_label": "Wallapop T-Roc <33000€",
+      "date": "2026-10-28T13:45:40.748445+00:00"
+    },
+    {
+      "id": "df9189b664d07292",
+      "url": "https://es.wallapop.com/item/volkswagen-12164-gomas-contorno-puerta-t-roc-dark-1317316846",
+      "title": "Volkswagen 12164 gomas contorno puerta t-roc dark",
+      "price": 43.57,
+      "site": "apify_wallapop",
+      "search_label": "Wallapop T-Roc <33000€",
+      "date": "2026-10-28T13:45:40.748449+00:00"
+    },
+    {
+      "id": "9bc333c9ce01fe65",
+      "url": "https://es.wallapop.com/item/13516-2ga858365-moldura-volkswagen-t-roc-advance-1-1317404517",
+      "title": "13516 2ga858365 moldura volkswagen t-roc advance 1",
+      "price": 38.57,
+      "site": "apify_wallapop",
+      "search_label": "Wallapop T-Roc <33000€",
+      "date": "2026-10-28T13:45:40.748453+00:00"
+    },
+    {
+      "id": "5980ff9383b7b0ad",
+      "url": "https://es.wallapop.com/item/aletas-izquierda-y-derecha-para-vw-t-roc-1316849589",
+      "title": "Aletas Izquierda y Derecha para VW T-Roc",
+      "price": 80,
+      "site": "apify_wallapop",
+      "search_label": "Wallapop T-Roc <33000€",
+      "date": "2026-10-28T13:45:40.748457+00:00"
+    },
+    {
+      "id": "8e1f6cb5bf6fe9a1",
+      "url": "https://es.wallapop.com/item/estriberas-laterales-para-volkswagen-t-roc-1317411956",
+      "title": "ESTRIBERAS LATERALES PARA VOLKSWAGEN T-ROC",
+      "price": 299,
+      "site": "apify_wallapop",
+      "search_label": "Wallapop T-Roc <33000€",
+      "date": "2026-10-28T13:45:40.748461+00:00"
+    },
+    {
+      "id": "329e14839bd26e89",
+      "url": "https://es.wallapop.com/item/12109-maneta-exterior-volkswagen-t-roc-dark-1-16v-1317270358",
+      "title": "12109 maneta exterior volkswagen t-roc dark 1 16v",
+      "price": 23.57,
+      "site": "apify_wallapop",
+      "search_label": "Wallapop T-Roc <33000€",
+      "date": "2026-10-28T13:45:40.748469+00:00"
+    },
+    {
+      "id": "e3c11efa6d891d76",
+      "url": "https://es.wallapop.com/item/retrovisor-izquierdo-volkswagen-t-roc-a11-09-2017-1317972404",
+      "title": "RETROVISOR IZQUIERDO Volkswagen T-Roc (A11)(09.2017->)",
+      "price": 209.18,
+      "site": "apify_wallapop",
+      "search_label": "Wallapop T-Roc <33000€",
+      "date": "2026-10-28T13:45:40.748473+00:00"
+    },
+    {
+      "id": "596312b2c635ce3e",
+      "url": "https://es.wallapop.com/item/mangueta-delantera-izquierda-volkswagen-t-roc-a11-09-2017-1317972587",
+      "title": "MANGUETA DELANTERA IZQUIERDA Volkswagen T-Roc (A11)(09.2017->)",
+      "price": 198.7,
+      "site": "apify_wallapop",
+      "search_label": "Wallapop T-Roc <33000€",
+      "date": "2026-10-28T13:45:40.748477+00:00"
+    },
+    {
+      "id": "d36443a8ae010de6",
+      "url": "https://es.wallapop.com/item/mangueta-delantera-derecha-volkswagen-t-roc-a11-09-2017-1317972624",
+      "title": "MANGUETA DELANTERA DERECHA Volkswagen T-Roc (A11)(09.2017->)",
+      "price": 195.58,
+      "site": "apify_wallapop",
+      "search_label": "Wallapop T-Roc <33000€",
+      "date": "2026-10-28T13:45:40.748481+00:00"
+    },
+    {
+      "id": "2261fc50cc18c60d",
+      "url": "https://es.wallapop.com/item/1163104-pase-de-rueda-trasero-volkswagen-t-roc-a11-1317572652",
+      "title": "1163104 pase de rueda trasero volkswagen t-roc a11",
+      "price": 64.06,
+      "site": "apify_wallapop",
+      "search_label": "Wallapop T-Roc <33000€",
+      "date": "2026-10-28T13:45:40.748485+00:00"
+    },
+    {
+      "id": "d49f6e55195614a6",
+      "url": "https://es.wallapop.com/item/volkswagen-t-roc-1-5-tsi-act-life-1318071433",
+      "title": "Volkswagen T-Roc 1.5 TSI ACT Life",
+      "price": 27999,
+      "site": "apify_wallapop",
+      "search_label": "Wallapop T-Roc <33000€",
+      "date": "2026-10-28T13:45:40.748490+00:00"
+    },
+    {
+      "id": "0a52ad6025ef3398",
+      "url": "https://es.wallapop.com/item/volkswagen-t-roc-r-2-0-tsi-221kw-300cv-4motion-dsg-1289526471",
+      "title": "Volkswagen T-Roc R 2.0 TSI 221kW (300CV) 4Motion DSG",
+      "price": 26890,
+      "site": "apify_wallapop",
+      "search_label": "Wallapop T-Roc <33000€",
+      "date": "2026-10-28T13:45:40.748501+00:00"
+    },
+    {
+      "id": "b6acbe01a119becf",
+      "url": "https://es.wallapop.com/item/18511-04c1330620-caja-de-mariposa-volkswagen-t-roc-1317632536",
+      "title": "18511 04c1330620 caja de mariposa volkswagen t-roc",
       "price": 103.57,
       "site": "apify_wallapop",
       "search_label": "Wallapop T-Roc <33000€",
-      "date": "2026-10-25T12:18:33.388250+00:00"
+      "date": "2026-10-28T13:45:40.748509+00:00"
     },
     {
-      "id": "c76125c0e94c949c",
-      "url": "https://es.wallapop.com/item/volkswagen-t-roc-advance-r-line-1-5-tsi-110kw-150cv-1313859084",
-      "title": "Volkswagen T-Roc Advance R-Line 1.5 TSI 110kW (150CV)",
-      "price": 19990,
+      "id": "1d9cb59199d78b17",
+      "url": "https://es.wallapop.com/item/volkswagen-t-roc-sport-1-5-tsi-110-kw-150-cv-dsg-1318048276",
+      "title": "Volkswagen T-Roc Sport 1.5 TSI 110 kW (150 CV) DSG",
+      "price": 21173,
       "site": "apify_wallapop",
       "search_label": "Wallapop T-Roc <33000€",
-      "date": "2026-10-25T12:18:33.388261+00:00"
+      "date": "2026-10-28T13:45:40.748513+00:00"
     },
     {
-      "id": "a3f86ef954df9637",
-      "url": "https://es.wallapop.com/item/cristal-retrovisor-derecho-termico-convexo-con-angulo-muerto-para-volkswagen-t-roc-2017-1315876911",
-      "title": "Cristal Retrovisor Derecho Termico, Convexo, Con Angulo Muerto para Volkswagen T-ROC 2017",
-      "price": 51,
+      "id": "993694daba24edde",
+      "url": "https://es.wallapop.com/item/45830180-cerradura-volkswagen-t-roc-advance-14417-1317134591",
+      "title": "45830180 cerradura volkswagen t-roc advance 14417",
+      "price": 68.57,
       "site": "apify_wallapop",
       "search_label": "Wallapop T-Roc <33000€",
-      "date": "2026-10-25T12:18:33.388272+00:00"
+      "date": "2026-10-28T13:45:40.748517+00:00"
     },
     {
-      "id": "7c1895b19ebc8abf",
-      "url": "https://es.wallapop.com/item/volkswagen-15212-2ga867762-molduras-traseras-t-roc-1316883382",
-      "title": "Volkswagen 15212 2ga867762 molduras traseras t-roc",
-      "price": 103.56,
+      "id": "dd34fa445f319e05",
+      "url": "https://es.wallapop.com/item/1650533-abs-volkswagen-t-roc-d11-1318001473",
+      "title": "[1650533] ABS VOLKSWAGEN T-ROC (D11)",
+      "price": 143,
       "site": "apify_wallapop",
       "search_label": "Wallapop T-Roc <33000€",
-      "date": "2026-10-25T12:18:33.388279+00:00"
+      "date": "2026-10-28T13:45:40.748521+00:00"
     },
     {
-      "id": "c2060ff62b3daff5",
-      "url": "https://es.wallapop.com/item/faro-antiniebla-derecho-para-volkswagen-tiguan-tiguan-allspace-t-roc-1316675492",
-      "title": "FARO ANTINIEBLA DERECHO PARA VOLKSWAGEN TIGUAN / TIGUAN ALLSPACE / T-ROC",
-      "price": 56,
+      "id": "32542d903157b41d",
+      "url": "https://es.wallapop.com/item/tubos-volkswagen-5q0816741b-5wa816743a-t-roc-1317959779",
+      "title": "Tubos volkswagen 5q0816741b 5wa816743a t-roc",
+      "price": 100.36,
       "site": "apify_wallapop",
       "search_label": "Wallapop T-Roc <33000€",
-      "date": "2026-10-25T12:18:33.388312+00:00"
+      "date": "2026-10-28T13:45:40.748529+00:00"
     },
     {
-      "id": "dce9c9c3e32047cd",
-      "url": "https://es.wallapop.com/item/volkswagen-t-roc-style-1-5-tsi-110kw-150cv-dsg-cabrio-1311210439",
-      "title": "Volkswagen T-Roc Style 1.5 TSI 110kW (150cv) DSG Cabrio",
-      "price": 25890,
+      "id": "1dd7f9326756a567",
+      "url": "https://es.wallapop.com/item/columna-direccion-volkswagen-t-roc-a11-09-2017-1317972658",
+      "title": "COLUMNA DIRECCION Volkswagen T-Roc (A11)(09.2017->)",
+      "price": 194.81,
       "site": "apify_wallapop",
       "search_label": "Wallapop T-Roc <33000€",
-      "date": "2026-10-25T12:18:33.388318+00:00"
+      "date": "2026-10-28T13:45:40.748533+00:00"
     },
     {
-      "id": "ba9145eb12e3c743",
-      "url": "https://es.wallapop.com/item/1163873-5q0816411bg-condensador-volkswagen-t-roc-1316396444",
-      "title": "1163873 5q0816411bg condensador volkswagen t-roc",
-      "price": 148.76,
+      "id": "ab6cb4cbcbe99f07",
+      "url": "https://es.wallapop.com/item/anillo-volkswagen-5q1953569-t-roc-advance-477411-1317623504",
+      "title": "Anillo volkswagen 5q1953569 t-roc advance 477411",
+      "price": 76.16,
       "site": "apify_wallapop",
       "search_label": "Wallapop T-Roc <33000€",
-      "date": "2026-10-25T12:18:33.388325+00:00"
+      "date": "2026-10-28T13:45:40.748538+00:00"
     },
     {
-      "id": "16ae6f7c0ba33034",
-      "url": "https://es.wallapop.com/item/abs-volkswagen-t-roc-2022-5q0614517gb-1316306463",
-      "title": "ABS Volkswagen T-roc 2022 5Q0614517GB",
-      "price": 125.01,
+      "id": "c0ab011b26686e63",
+      "url": "https://es.wallapop.com/item/transmision-volkswagen-1163765-5q0407271bt-t-roc-1317533788",
+      "title": "Transmisión volkswagen 1163765 5q0407271bt t-roc",
+      "price": 83.74,
       "site": "apify_wallapop",
       "search_label": "Wallapop T-Roc <33000€",
-      "date": "2026-10-25T12:18:33.388332+00:00"
+      "date": "2026-10-28T13:45:40.748542+00:00"
     },
     {
-      "id": "94804ed39cc2304a",
-      "url": "https://es.wallapop.com/item/volkswagen-t-roc-advance-style-1-5-tsi-110-kw-150-cv-1315858677",
-      "title": "Volkswagen T-Roc Advance Style 1.5 TSI 110 kW (150 CV)",
-      "price": 17000,
+      "id": "63c9ca6c93cd092f",
+      "url": "https://es.wallapop.com/item/motor-completo-volkswagen-t-roc-2-0-tdi-dtr-1317618318",
+      "title": "Motor Completo Volkswagen T-Roc 2.0 TDI DTR",
+      "price": 2240,
       "site": "apify_wallapop",
       "search_label": "Wallapop T-Roc <33000€",
-      "date": "2026-10-25T12:18:33.388343+00:00"
+      "date": "2026-10-28T13:45:40.748546+00:00"
     },
     {
-      "id": "d54bd7eaa2526cc9",
-      "url": "https://es.wallapop.com/item/volkswagen-t-roc-advance-style-2-0-tdi-110-kw-150-cv-1304787775",
-      "title": "Volkswagen T-Roc Advance Style 2.0 TDI 110 kW (150 CV)",
+      "id": "4710996a4ba851f6",
+      "url": "https://es.wallapop.com/item/volkswagen-t-roc-advance-1-0-tsi-81kw-110cv-1318080296",
+      "title": "Volkswagen T-Roc Advance 1.0 TSI 81kW (110CV)",
+      "price": 13990,
+      "site": "apify_wallapop",
+      "search_label": "Wallapop T-Roc <33000€",
+      "date": "2026-10-28T13:45:40.748550+00:00"
+    },
+    {
+      "id": "5108134e0c79bb46",
+      "url": "https://es.wallapop.com/item/despiece-completo-volkswagen-t-roc-2021-t-roc-i-1317272072",
+      "title": "Despiece completo Volkswagen T-Roc ~2021 T-Roc I",
+      "price": 82,
+      "site": "apify_wallapop",
+      "search_label": "Wallapop T-Roc <33000€",
+      "date": "2026-10-28T13:45:40.748557+00:00"
+    },
+    {
+      "id": "41ba4b0f1edbfc0d",
+      "url": "https://es.wallapop.com/item/volkswagen-t-roc-advance-style-1-5-tsi-110kw-150cv-1292963313",
+      "title": "Volkswagen T-Roc Advance Style 1.5 TSI 110kW (150CV)",
       "price": 13490,
       "site": "apify_wallapop",
       "search_label": "Wallapop T-Roc <33000€",
-      "date": "2026-10-25T12:18:33.388350+00:00"
+      "date": "2026-10-28T13:45:40.748561+00:00"
     },
     {
-      "id": "38ab47fe466eb4b0",
-      "url": "https://es.wallapop.com/item/volkswagen-puerta-trasera-derecha-t-roc-548572-1316457477",
-      "title": "Volkswagen puerta trasera derecha t-roc 548572",
-      "price": 605,
+      "id": "b8f0c23276bdfd28",
+      "url": "https://es.wallapop.com/item/alfombra-maletero-volkswagen-t-roc-a11-09-2017-1317618154",
+      "title": "ALFOMBRA MALETERO Volkswagen T-Roc (A11)(09.2017->)",
+      "price": 121,
       "site": "apify_wallapop",
       "search_label": "Wallapop T-Roc <33000€",
-      "date": "2026-10-25T12:18:33.388357+00:00"
+      "date": "2026-10-28T13:45:40.748573+00:00"
     },
     {
-      "id": "c6902933a4a8dd06",
-      "url": "https://es.wallapop.com/item/caja-reles-volkswagen-5q0937615c-t-roc-advance-756-1316619893",
-      "title": "Caja relés volkswagen 5q0937615c t-roc advance 756",
-      "price": 58.56,
+      "id": "b067c81f25ebd602",
+      "url": "https://es.wallapop.com/item/kit-airbag-salpicadero-cinturones-vw-t-roc-1317718648",
+      "title": "Kit airbag, salpicadero, cinturones VW T-Roc",
+      "price": 1,
       "site": "apify_wallapop",
       "search_label": "Wallapop T-Roc <33000€",
-      "date": "2026-10-25T12:18:33.388374+00:00"
+      "date": "2026-10-28T13:45:40.748577+00:00"
     }
   ],
-  "last_run": "2026-10-25T12:18:33.388393+00:00",
+  "last_run": "2026-10-28T13:45:40.748596+00:00",
   "run_history": [
     {
       "date": "2026-07-05T10:51:21.647876+00:00",
@@ -39764,6 +41125,11 @@
       "date": "2026-10-25T12:18:33.388393+00:00",
       "events": [],
       "new_count": 52
+    },
+    {
+      "date": "2026-10-28T13:45:40.748596+00:00",
+      "events": [],
+      "new_count": 67
     }
   ]
 }
